@@ -1,0 +1,23 @@
+Welcome to CandyRoms
+===================
+
+
+Getting Started
+---------------
+
+To get started with CandySiX, you'll need to get familiar with
+[Git and Repo](http://source.android.com/download/using-repo).
+
+Please take note that we have two main line branches depending on
+which hardware base your phone is working.
+
+To initialize your local repository using the Candy6 trees, use this command:
+
+
+	repo init -u git://github.com/CandySiX-Testing/candy.git -b c6
+
+
+
+Then sync up with this command:
+
+	repo sync
