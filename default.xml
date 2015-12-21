@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/" />
-         
+           fetch="https://android.googlesource.com" />
+
   <remote  name="candy"
            fetch="https://github.com/CandySiX-Testing"
            revision="c6" />
@@ -10,7 +11,7 @@
   <remote  name="cd"
            fetch="https://github.com/CandyDevices"
            revision="c6" />
-           
+
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod"
            revision="cm-13.0" />
@@ -29,172 +30,14 @@
   <default revision="refs/tags/android-6.0.1_r3"
            remote="aosp"
            sync-j="4" />
-           
-<!-- Start Candy repos -->
-  <project path="build" name="build" remote="candy" >
+
+  <project path="build" name="build" groups="pdk" remote="candy" />
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="art" name="art" remote="candy"  />
-  <project path="bionic" name="bionic" remote="candy" />
-  <project path="candy" name="candy" remote="candy" />
-  <project path="device/qcom/common" name="device_qcom_common" remote="candy" />
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="candy" />
-  <project path="external/busybox" name="external_busybox" remote="candy" />
-  <project path="external/connectivity" name="external_connectivity" remote="candy" />
-  <project path="external/sepolicy" name="external_sepolicy" remote="candy" />
-  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="candy" />
-  <project path="frameworks/av" name="frameworks_av" remote="candy" />
-  <project path="frameworks/base" name="frameworks_base" remote="candy" />
-  <project path="frameworks/native" name="frameworks_native" remote="candy" />
-  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="candy" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="candy" />
-  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="candy" />
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="candy" revision="mm6.0" />
-  <project path="hardware/qcom/audio-caf/msm8660" name="hardware_qcom_audio" remote="candy" revision="c6-caf-8660" />
-  <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="candy" revision="c6" />
-  <project path="hardware/qcom/display" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="candy" />
-  <project path="hardware/qcom/display-caf/msm8660" name="hardware_qcom_display" remote="candy" revision="c6-caf-8660" />
-  <project path="hardware/qcom/media-caf/msm8660" name="hardware_qcom_media" remote="candy" revision="c6-caf-8660" />
-  <project path="hardware/qcom/msm8994" name="hardware_qcom_msm8994" remote="candy" groups="qcom_msm8994" />
-  <project path="hardware/ril" name="hardware_ril" remote="candy" />
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs" remote="candy" />
-  <project path="packages/apps/BluetoothExt" name="packages_apps_BluetoothExt" groups="pdk-cw-fs" remote="candy" />
-  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="candy" revision="c6" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="candy" />
-  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="candy" />
-  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="candy" />
-  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-fs" remote="candy" />
-  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="candy" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="candy" />
-  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="candy" />
-  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="candy" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="candy" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="candy" />
-  <project path="system/bt" name="system_bt" remote="candy" />
-  <project path="system/core" name="system_core" remote="candy" />
-  <project path="system/extras" name="system_extras" remote="candy" />
-  <project path="system/media" name="system_media" remote="candy" revision="c6" />
-  <project path="system/vold" name="system_vold" remote="candy" />
-  <project path="vendor/candy" name="vendor_candy" remote="candy" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="candy" />
-  <project path="external/android-visualizer" name="android_external_android-visualizer" remote="candy" />
-  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="candy" />
-  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="candy" />
-  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="candy" />
-  <project path="external/apache-http" name="android_external_apache-http" remote="candy" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="candy" />
-  <project path="external/exfat" name="android_external_exfat" remote="candy" />
-  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="candy" />
-  <project path="external/fuse" name="android_external_fuse" remote="candy" />
-  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="candy" />
-  <project path="external/okhttp" name="android_external_okhttp" remote="candy" />
-  <project path="external/skia" name="android_external_skia" remote="candy" />
-  <project path="frameworks/opt/bluetooth" name="frameworks_opt_bluetooth" remote="candy" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="candy" />
-  <project path="frameworks/opt/hardware" name="frameworks_opt_hardware" remote="candy" />
-  <project path="frameworks/opt/datetimepicker" name="frameworks_opt_datetimepicker" remote="candy" />
-  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="candy" />
-  <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="candy" />
-  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="candy" />
-  <project path="hardware/cyanogen" name="hardware_cyanogen" remote="candy" />
-  <project path="hardware/intel/common/libmix" name="hardware_intel_common_libmix" remote="candy" />
-  <project path="hardware/intel/common/libstagefrighthw" name="hardware_intel_common_libstagefrighthw" remote="candy" />
-  <project path="hardware/intel/common/libva" name="hardware_intel_common_libva" remote="candy" />
-  <project path="hardware/intel/common/omx-components" name="hardware_intel_common_omx-components" remote="candy" />
-  <project path="hardware/intel/common/utils" name="hardware_intel_common_utils" remote="candy" />
-  <project path="hardware/intel/common/wrs_omxil_core" name="hardware_intel_common_wrs_omxil_core" remote="candy" />
-  <project path="hardware/intel/img/hwcomposer" name="hardware_intel_img_hwcomposer" remote="candy" />
-  <project path="hardware/intel/img/psb_video" name="hardware_intel_img_psb_video" remote="candy" />
-  <project path="hardware/invensense" name="hardware_invensense" remote="candy" />
-  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="candy" />
-  <project path="hardware/ril-caf" name="hardware_ril" remote="Slim" revision="mm6.0-caf" />
-  <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="candy" />
-  <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" remote="Slim" revision="mm6.0-caf" />
-  <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="candy" />
-  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="candy" /> 
-  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="candy" />
-  <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" remote="Slim" revision="mm6.0-caf" />
-  <project path="hardware/samsung_slsi/exynos5" name="hardware_samsung_slsi_exynos5" remote="candy" />
-  <project path="hardware/ti/omap3" name="hardware_ti_omap3" remote="candy" />
-  <project path="hardware/ti/omap4" name="hardware_ti_omap4" remote="candy" />
-  <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="candy" />
-  <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="candy" />
-  <project path="hardware/ti/wpan" name="hardware_ti_wpan" remote="candy" />
-  <project path="libcore" name="android_libcore" remote="candy" />
-  <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="candy" />
-  <project path="packages/apps/BasicSmsReceiver" name="packages_apps_BasicSmsReceiver" remote="candy" />
-  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="candy" />
-  <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="candy" />
-  <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="candy" />
-  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="candy" />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="candy" />
-  <project path="packages/apps/Email" name="packages_apps_Email" remote="candy" />
-  <project path="packages/apps/Exchange" name="packages_apps_Exchange" remote="candy" />
-  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="candy" />
-  <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="candy" />
-  <project path="packages/apps/Stk" name="packages_apps_Stk" remote="candy" />
-  <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="candy" />
-  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="candy" />
-  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="candy" />
-  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="candy" />
-  <project path="packages/services/Mms" name="packages_services_Mms" remote="candy" />
-  <project path="system/extras/su" name="android_system_extras_su" remote="candy" />
-  <project path="system/keymaster" name="android_system_keymaster" remote="candy" />
-  <project path="system/netd" name="android_system_netd" remote="candy" />
-  <project path="system/security" name="android_system_security" remote="candy" />
-<!-- End Candy repos -->
-
-<!-- Start CM repos -->
-  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="cm" revision="cm-13.0" />
-  <project path="external/tinycompress" name="android_external_tinycompress" remote="cm" revision="cm-13.0" />
-  <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="cm" />
-  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="cm" />
-  <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-13.0-caf-8916" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-13.0-caf-8960" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-13.0-caf-8974" />
-  <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-13.0-caf-8994" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-13.0-caf-8996" />
-  <project path="hardware/qcom/display-caf/apq8084" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="cm" revision="cm-13.0-caf-8084" />
-  <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="cm" revision="cm-13.0-caf-8916" />
-  <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="cm" revision="cm-13.0-caf-8960" />
-  <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="cm" revision="cm-13.0-caf-8974" />
-  <project path="hardware/qcom/display-caf/msm8994" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="cm" revision="cm-13.0-caf-8994" />
-  <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="cm" revision="cm-13.0-caf-8996" />
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="cm"  />
-  <project path="hardware/qcom/media/default" name="android_hardware_qcom_media" groups="qcom" remote="cm" />
-  <project path="hardware/qcom/media-caf/apq8084" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-13.0-caf-8084" />
-  <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-13.0-caf-8916" />
-  <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-13.0-caf-8960" />
-  <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-13.0-caf-8974" />
-  <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-13.0-caf-8994" />
-  <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-13.0-caf-8996" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="cm" />
-  <project path="system/qcom" name="android_system_qcom" remote="cm" revision="cm-13.0" />
-  <!-- ffmpeg -->
-  <project path="external/ffmpeg" name="android_external_ffmpeg" remote="cm" revision="cm-13.0" />
-  <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="cm" revision="cm-13.0" />
-  <!-- CAF repos -->
-  <project path="vendor/qcom/opensource/display-frameworks" name="android_vendor_qcom_opensource_display-frameworks" remote="cm" />
-  <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="cm" />
-<!-- End CM repos -->
-
-<!-- Start Slim Repos -->
-  <!--Power Hal -->
-  <project path="hardware/cm" name="hardware_cm" remote="Slim" revision="mm6.0" />
-
-  <!-- Slim toolchain gcc and linaro -->
-  <project path="prebuilt" name="android_prebuilt" remote="Slim" revision="mm6.0" />
-
-  <!-- SamsungServiceMode -->
-  <project path="packages/apps/SamsungServiceMode" name="packages_apps_SamsungServiceMode" remote="Slim" revision="mm6.0" />
-
-  <!-- qrngd -->
-  <project path="external/qrngd" name="android_external_qrngd" remote="Slim" revision="mm6.0" />
-<!-- End Slim repos -->
-
-<!-- Start AOSP repos -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
+  <project path="art" name="platform/art" groups="pdk" />
+  <project path="bionic" name="platform/bionic" groups="pdk" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" />
@@ -229,6 +72,7 @@
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/apache-commons-math" name="platform/external/apache-commons-math" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/apache-http" name="platform/external/apache-http" groups="pdk" />
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs,pdk-fs" />
@@ -255,6 +99,7 @@
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs,pdk-fs" />
@@ -265,6 +110,7 @@
   <project path="external/esd" name="platform/external/esd" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/fio" name="platform/external/fio" groups="pdk-fs" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
@@ -321,6 +167,8 @@
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" />
+  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="pdk" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
@@ -371,6 +219,7 @@
   <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" />
   <project path="external/oauth" name="platform/external/oauth" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/okhttp" name="platform/external/okhttp" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/openfst" name="platform/external/openfst" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/openssh" name="platform/external/openssh" groups="pdk-cw-fs,pdk-fs" />
@@ -388,7 +237,9 @@
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
+  <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
+  <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" />
@@ -413,11 +264,14 @@
   <project path="external/vogar" name="platform/external/vogar" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="candy" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -426,18 +280,25 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
+  <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/inputconnectioncommon" name="platform/frameworks/opt/inputconnectioncommon" groups="pdk-fs" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" />
+  <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
+  <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
@@ -447,59 +308,118 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
+  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
+  <project path="hardware/intel/common/libmix" name="platform/hardware/intel/common/libmix" groups="intel" />
+  <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel" />
+  <project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" groups="intel" />
   <project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" groups="intel" />
+  <project path="hardware/intel/common/omx-components" name="platform/hardware/intel/common/omx-components" groups="intel" />
+  <project path="hardware/intel/common/utils" name="platform/hardware/intel/common/utils" groups="intel" />
+  <project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" groups="intel" />
+  <project path="hardware/intel/img/hwcomposer" name="platform/hardware/intel/img/hwcomposer" groups="intel" />
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
-  <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" /> 
+  <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
+  <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" />
+  <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
   <project path="hardware/mediatek" name="platform/hardware/mediatek" groups="mediatek,mediatek_wear" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
+  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" />
+  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
+  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
+  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk,qcom,qcom_display" />
+  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" />
+  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster" />
+  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="pdk,qcom_msm8x74" />
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom" />
+  <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
+  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
+  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
+  <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
+  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
+  <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
+  <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" groups="pdk-fs"/>
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
+  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />
+  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
+  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" groups="pdk-fs" />
+  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" groups="pdk-fs"/>
+  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="candy" />
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
+  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" groups="pdk-fs" />
   <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" groups="pdk-fs" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
+  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
+  <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" groups="pdk-fs" remote="candy" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
+  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk-fs" />
+  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
+  <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
+  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
-  <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
-  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
+  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
+  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
+  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs"/>
+  <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
+  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
+  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="candy" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
+  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="apps_stk,pdk-fs" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" />
   <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" groups="pdk-fs" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="generic_fs" />
+  <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" />
   <project path="packages/experimental" name="platform/packages/experimental" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="candy" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" groups="pdk-fs" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" groups="pdk-fs" />
   <project path="packages/providers/BookmarkProvider" name="platform/packages/providers/BookmarkProvider" groups="pdk-fs" />
-  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs" />
+  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" groups="pdk-fs" />
-  <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
+  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="candy" />
+  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" />
+  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" groups="pdk-fs" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" groups="pdk-fs" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" groups="pdk-fs" />
+  <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="candy" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="candy" >
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" groups="pdk-fs" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" groups="pdk-fs" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" groups="pdk-fs" />
@@ -536,13 +456,21 @@
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" />
-  <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs" />
-  <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs" />
+  <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs,pdk-fs" />
+  <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
+  <project path="system/bt" name="platform/system/bt" groups="pdk" />
+  <project path="system/core" name="system_core" groups="pdk" remote="candy" />
+  <project path="system/extras" name="system_extras" groups="pdk" remote="candy" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
+  <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
+  <project path="system/media" name="platform/system/media" groups="pdk" />
+  <project path="system/netd" name="platform/system/netd" groups="pdk" />
+  <project path="system/security" name="platform/system/security" groups="pdk" />
+  <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -557,6 +485,58 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-<!-- End AOSP repos -->
- 
+
+  <!-- Custom projects -->
+  <project path="hardware/qcom/audio-caf/msm8660" name="Candy6/hardware_qcom_audio" remote="github" revision="c6-caf-8660" />
+
+  <!-- CandyRoms vendor -->
+  <project path="vendor/candy" name="vendor_candy" remote="candy" />
+
+  <!-- External -->
+  <project path="external/busybox" name="external_busybox" remote="candy" />
+  <project path="external/android-visualizer" name="external_android-visualizer" remote="candy" />
+  <project path="external/google" name="android_external_google" remote="cm" revision="cm-13.0" />
+
+  <!-- Apps -->
+  <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="Slim" revision="mm6.0" />
+  <project path="packages/apps/Eleven" name="packages_apps_Eleven" remote="candy" />
+  <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="candy" />
+
+  <!-- Start CM repos -->
+
+  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="cm" revision="cm-13.0" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="cm" revision="cm-13.0" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="cm" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="cm" />
+  <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-13.0-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-13.0-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-13.0-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-13.0-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-13.0-caf-8996" />
+  <project path="hardware/qcom/display-caf/apq8084" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="cm" revision="cm-13.0-caf-8084" />
+  <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="cm" revision="cm-13.0-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="cm" revision="cm-13.0-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="cm" revision="cm-13.0-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="cm" revision="cm-13.0-caf-8994" />
+  <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="cm" revision="cm-13.0-caf-8996" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="cm"  />
+  <project path="hardware/qcom/media/default" name="android_hardware_qcom_media" groups="qcom" remote="cm" />
+  <project path="hardware/qcom/media-caf/apq8084" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-13.0-caf-8084" />
+  <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-13.0-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-13.0-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-13.0-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-13.0-caf-8994" />
+  <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-13.0-caf-8996" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="cm" />
+  <project path="system/qcom" name="android_system_qcom" remote="cm" revision="cm-13.0" />
+  <!-- ffmpeg -->
+  <project path="external/ffmpeg" name="android_external_ffmpeg" remote="cm" revision="cm-13.0" />
+  <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="cm" revision="cm-13.0" />
+  <!-- CAF repos -->
+  <project path="vendor/qcom/opensource/display-frameworks" name="android_vendor_qcom_opensource_display-frameworks" remote="cm" />
+  <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="cm" />
+
+  <!-- End CM repos -->
+
 </manifest>
