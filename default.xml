@@ -494,13 +494,11 @@
 
   <!-- External -->
   <project path="external/busybox" name="external_busybox" remote="candy" />
-  <project path="external/android-visualizer" name="external_android-visualizer" remote="candy" />
+  <project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" revision="cm-13.0" />
   <project path="external/google" name="android_external_google" remote="cm" revision="cm-13.0" />
 
   <!-- Apps -->
   <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="Slim" revision="mm6.0" />
-  <project path="packages/apps/Eleven" name="packages_apps_Eleven" remote="candy" />
-  <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="candy" />
 
   <!-- Start CM repos -->
 
