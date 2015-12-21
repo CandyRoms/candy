@@ -310,6 +310,7 @@
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" remote="candy" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" />
+  <project path="hardware/cyanogen" name="hardware_cyanogen" remote="Slim" revision="mm6.0" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
@@ -468,7 +469,7 @@
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="system_media" remote="candy" revision="c6" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="cm" revision="cm-13.0" />
-  <project path="system/security" name="platform/system/security" groups="pdk" />
+  <project path="system/security" name="android_system_security" groups="pdk" remote="cm" revision="cm-13.0" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="candy" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
