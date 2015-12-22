@@ -486,6 +486,8 @@
   <project path="hardware/qcom/display-caf/msm8660" name="Candy6/hardware_qcom_display" remote="github" revision="c6-caf-8660" />
   <project path="hardware/qcom/media-caf/msm8660" name="Candy6/hardware_qcom_media" remote="github" revision="c6-caf-8660" />
   <project path="hardware/qcom/msm8994" name="Candy6/hardware_qcom_msm8994" remote="github" groups="qcom_msm8994" />
+  <project path="device/qcom/common" name="device_qcom_common" remote="candy" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="candy" />
 
   <!-- CandyRoms vendor -->
   <project path="vendor/candy" name="vendor_candy" remote="candy" />
