@@ -307,7 +307,7 @@
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" groups="pdk" remote="candy" />
-  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" />
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="cm" revision="cm-13.0" />
   <project path="hardware/cyanogen" name="hardware_cyanogen" remote="Slim" revision="mm6.0" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
@@ -485,7 +485,7 @@
   <!-- Custom projects -->
   <project path="hardware/qcom/display-caf/msm8660" name="Candy6/hardware_qcom_display" remote="github" revision="c6-caf-8660" />
   <project path="hardware/qcom/media-caf/msm8660" name="Candy6/hardware_qcom_media" remote="github" revision="c6-caf-8660" />
-  <project path="hardware/qcom/msm8994" name="Candy6/hardware_qcom_msm8994" remote="github" groups="qcom_msm8994" />
+  <project path="hardware/qcom/msm8994" name="Candy6/hardware_qcom_msm8994" remote="github" groups="qcom_msm8994" revision="c6" />
   <project path="device/qcom/common" name="device_qcom_common" remote="candy" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="candy" />
 
