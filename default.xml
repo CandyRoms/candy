@@ -313,7 +313,7 @@
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
   <project path="hardware/intel/common/libmix" name="hardware_intel_common_libmix" groups="intel" remote="Slim" revision="mm6.0" />
-  <project path="hardware/intel/common/libstagefrighthw" name="hardware_intel_common_libstagefrighthw" groups="intel" remote="Slim" />
+  <project path="hardware/intel/common/libstagefrighthw" name="hardware_intel_common_libstagefrighthw" groups="intel" remote="Slim" revision="mm6.0" />
   <project path="hardware/intel/common/libva" name="hardware_intel_common_libva" remote="Slim" revision="mm6.0" />
   <project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" groups="intel" />
   <project path="hardware/intel/common/omx-components" name="hardware_intel_common_omx-components" remote="Slim" revision="mm6.0" />
@@ -323,14 +323,14 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
   <project path="hardware/intel/img/psb_video" name="hardware_intel_img_psb_video" remote="Slim" revision="mm6.0" />
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" />
-  <project path="hardware/invensense" name="hardware_invensense" remote="cm" revision="cm-13.0" />
+  <project path="hardware/invensense" name="android_hardware_invensense" remote="cm" revision="cm-13.0" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="candy" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="Slim" revision="mm6.0" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
   <project path="hardware/mediatek" name="platform/hardware/mediatek" groups="mediatek,mediatek_wear" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
-  <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="cm" revision="cm-13.0" />
-  <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" remote="cm" revision="cm-13.0-caf" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-13.0" />
+  <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" remote="cm" revision="cm-13.0-caf" />
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="candy" revision="c6" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
