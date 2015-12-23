@@ -195,7 +195,6 @@
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lzma" name="platform/external/lzma" groups="pdk" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/lz4" name="CandySiX-Testing/external_lz4" remote="candy" revision="c6" />
   <project path="external/markdown" name="platform/external/markdown" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" />
   <project path="external/mesa3d" name="platform/external/mesa3d" groups="pdk-cw-fs,pdk-fs" />
@@ -487,6 +486,7 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- Custom projects -->
+  <project path="external/lz4" name="external_lz4" remote="candy" revision="c6" />
   <project path="hardware/qcom/display-caf/msm8660" name="Candy6/hardware_qcom_display" remote="github" revision="c6-caf-8660" />
   <project path="hardware/qcom/media-caf/msm8660" name="Candy6/hardware_qcom_media" remote="github" revision="c6-caf-8660" />
   <project path="hardware/qcom/msm8994" name="Candy6/hardware_qcom_msm8994" remote="github" groups="qcom_msm8994" revision="c6" />
