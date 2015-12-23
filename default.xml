@@ -463,6 +463,7 @@
   <project path="system/bt" name="system_bt" groups="pdk" remote="candy" />
   <project path="system/core" name="system_core" groups="pdk" remote="candy" />
   <project path="system/extras" name="system_extras" groups="pdk" remote="candy" />
+  <project path="system/extras/su" name="android_system_extras_su" remote="cm" revision="cm-13.0" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="system_media" remote="candy" revision="c6" />
