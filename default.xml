@@ -36,6 +36,7 @@
   </project>
 
   <!-- Candy projects -->
+  <project path="bionic" name="bionic" groups="pdk" remote="candy" revision="c6" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="candy" revision="c6" />
   <project path="candy" name="candy" remote="candy" />
   <project path="device/qcom/common" name="device_qcom_common" remote="candy" />
@@ -144,7 +145,6 @@
   <!-- Aosp projects -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
-  <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" />
