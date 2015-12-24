@@ -97,7 +97,6 @@
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="cm" revision="cm-13.0" />
   <project path="hardware/cyanogen" name="android_hardware_cyanogen" remote="cm" revision="cm-13.0" />
   <project path="hardware/intel/common/libmix" name="android_hardware_intel_common_libmix" groups="intel" remote="cm" revision="cm-13.0" />
-  <project path="hardware/intel/common/libstagefrighthw" name="android_hardware_intel_common_libstagefrighthw" groups="intel" remote="cm" revision="cm-13.0" />
   <project path="hardware/intel/common/libva" name="android_hardware_intel_common_libva" remote="cm" revision="cm-13.0" />
   <project path="hardware/intel/common/omx-components" name="android_hardware_intel_common_omx-components" remote="cm" revision="cm-13.0" />
   <project path="hardware/intel/common/utils" name="android_hardware_intel_common_utils" remote="cm" revision="cm-13.0" />
@@ -124,7 +123,6 @@
   <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-13.0-caf-8994" />
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-13.0-caf-8996" />
   <project path="hardware/qcom/media/default" name="android_hardware_qcom_media" groups="qcom" remote="cm" />
-  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-13.0" /> 
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" remote="cm" revision="cm-13.0-caf" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-13.0" />
   <project path="libcore" name="android_libcore" remote="cm" revision="cm-13.0" />
@@ -136,6 +134,8 @@
   <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="cm" />
 
   <!-- Slim -->
+  <project path="hardware/intel/common/libstagefrighthw" name="hardware_intel_common_libstagefrighthw" groups="intel" remote="Slim" revision="mm6.0" />
+  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="Slim" revision="mm6.0" /> 
   <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="Slim" revision="mm6.0" />
 
   <!-- Aosp projects -->
