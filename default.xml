@@ -97,9 +97,6 @@
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="cm" revision="cm-13.0" />
   <project path="hardware/cyanogen" name="android_hardware_cyanogen" remote="cm" revision="cm-13.0" />
   <project path="hardware/intel/common/libmix" name="android_hardware_intel_common_libmix" groups="intel" remote="cm" revision="cm-13.0" />
-  <project path="hardware/intel/common/libva" name="android_hardware_intel_common_libva" remote="cm" revision="cm-13.0" />
-  <project path="hardware/intel/common/omx-components" name="android_hardware_intel_common_omx-components" remote="cm" revision="cm-13.0" />
-  <project path="hardware/intel/common/utils" name="android_hardware_intel_common_utils" remote="cm" revision="cm-13.0" />
   <project path="hardware/intel/img/hwcomposer" name="android_hardware_intel_img_hwcomposer" remote="cm" revision="cm-13.0" />
   <project path="hardware/intel/img/psb_video" name="android_hardware_intel_img_psb_video" remote="cm" revision="cm-13.0" />
   <project path="hardware/invensense" name="android_hardware_invensense" remote="cm" revision="cm-13.0" />
@@ -135,6 +132,9 @@
 
   <!-- Slim -->
   <project path="hardware/intel/common/libstagefrighthw" name="hardware_intel_common_libstagefrighthw" groups="intel" remote="Slim" revision="mm6.0" />
+  <project path="hardware/intel/common/libva" name="hardware_intel_common_libva" remote="Slim" revision="mm6.0" />
+  <project path="hardware/intel/common/omx-components" name="hardware_intel_common_omx-components" remote="Slim" revision="mm6.0" />
+  <project path="hardware/intel/common/utils" name="hardware_intel_common_utils" remote="Slim" revision="mm6.0" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="Slim" revision="mm6.0" /> 
   <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="Slim" revision="mm6.0" />
 
