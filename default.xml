@@ -95,16 +95,16 @@
   <project path="external/tinycompress" name="android_external_tinycompress" remote="cm" revision="cm-13.0" />
   <project path="external/yaffs2" name="android_external_yaffs2" groups="pdk" remote="cm" revision="cm-13.0" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="cm" revision="cm-13.0" />
-  <project path="hardware/cyanogen" name="hardware_cyanogen" remote="cm" revision="cm-13.0" />
-  <project path="hardware/intel/common/libmix" name="hardware_intel_common_libmix" groups="intel" remote="cm" revision="cm-13.0" />
-  <project path="hardware/intel/common/libstagefrighthw" name="hardware_intel_common_libstagefrighthw" groups="intel" remote="cm" revision="cm-13.0" />
-  <project path="hardware/intel/common/libva" name="hardware_intel_common_libva" remote="cm" revision="cm-13.0" />
-  <project path="hardware/intel/common/omx-components" name="hardware_intel_common_omx-components" remote="cm" revision="cm-13.0" />
-  <project path="hardware/intel/common/utils" name="hardware_intel_common_utils" remote="cm" revision="cm-13.0" />
-  <project path="hardware/intel/img/hwcomposer" name="hardware_intel_img_hwcomposer" remote="cm" revision="cm-13.0" />
-  <project path="hardware/intel/img/psb_video" name="hardware_intel_img_psb_video" remote="cm" revision="cm-13.0" />
+  <project path="hardware/cyanogen" name="android_hardware_cyanogen" remote="cm" revision="cm-13.0" />
+  <project path="hardware/intel/common/libmix" name="android_hardware_intel_common_libmix" groups="intel" remote="cm" revision="cm-13.0" />
+  <project path="hardware/intel/common/libstagefrighthw" name="android_hardware_intel_common_libstagefrighthw" groups="intel" remote="cm" revision="cm-13.0" />
+  <project path="hardware/intel/common/libva" name="android_hardware_intel_common_libva" remote="cm" revision="cm-13.0" />
+  <project path="hardware/intel/common/omx-components" name="android_hardware_intel_common_omx-components" remote="cm" revision="cm-13.0" />
+  <project path="hardware/intel/common/utils" name="android_hardware_intel_common_utils" remote="cm" revision="cm-13.0" />
+  <project path="hardware/intel/img/hwcomposer" name="android_hardware_intel_img_hwcomposer" remote="cm" revision="cm-13.0" />
+  <project path="hardware/intel/img/psb_video" name="android_hardware_intel_img_psb_video" remote="cm" revision="cm-13.0" />
   <project path="hardware/invensense" name="android_hardware_invensense" remote="cm" revision="cm-13.0" />
-  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="cm" revision="cm-13.0" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="cm-13.0" />
   <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-13.0-caf-8916" />
   <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-13.0-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-13.0-caf-8994" />
@@ -124,7 +124,7 @@
   <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-13.0-caf-8994" />
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-13.0-caf-8996" />
   <project path="hardware/qcom/media/default" name="android_hardware_qcom_media" groups="qcom" remote="cm" />
-  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="cm" revision="cm-13.0" /> 
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-13.0" /> 
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" remote="cm" revision="cm-13.0-caf" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-13.0" />
   <project path="libcore" name="android_libcore" remote="cm" revision="cm-13.0" />
