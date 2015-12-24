@@ -37,7 +37,7 @@
 
   <!-- Candy projects -->
   <project path="bionic" name="bionic" groups="pdk" remote="candy" revision="c6" />
-  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="candy" revision="c6" />
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="Slim" revision="mm6.0" />
   <project path="candy" name="candy" remote="candy" />
   <project path="device/qcom/common" name="device_qcom_common" remote="candy" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="candy" />
