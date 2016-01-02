@@ -87,6 +87,7 @@
 
   <!-- Start CM repos -->
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" revision="cm-13.0" />
+  <project path="external/connectivity" name="android_external_connectivity"  remote="cm" revision="cm-13.0" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="cm" revision="cm-13.0" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" remote="cm" revision="cm-13.0" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" remote="cm" revision="cm-13.0" />
