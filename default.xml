@@ -42,6 +42,7 @@
   <project path="device/qcom/common" name="device_qcom_common" remote="candy" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="candy" />
   <project path="external/busybox" name="external_busybox" remote="candy" />
+  <project path="external/guava" name="external_guava" groups="pdk-cw-fs,pdk-fs" remote="candy" />
   <project path="external/lz4" name="external_lz4" remote="candy" revision="c6" />
   <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="candy" revision="c6" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="candy" />
@@ -237,7 +238,6 @@
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" groups="pdk-fs" />
   <project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk-fs" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
-  <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" />
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk-fs" />
