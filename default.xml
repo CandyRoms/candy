@@ -42,6 +42,7 @@
   <project path="device/qcom/common" name="device_qcom_common" remote="candy" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="candy" />
   <project path="external/busybox" name="external_busybox" remote="candy" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" groups="pdk" remote="candy" />
   <project path="external/guava" name="external_guava" groups="pdk-cw-fs,pdk-fs" remote="candy" />
   <project path="external/lz4" name="external_lz4" remote="candy" revision="c6" />
   <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="candy" revision="c6" />
@@ -371,7 +372,6 @@
   <project path="external/vogar" name="platform/external/vogar" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
