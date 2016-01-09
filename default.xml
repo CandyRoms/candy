@@ -42,7 +42,6 @@
   <project path="device/qcom/common" name="device_qcom_common" remote="candy" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="candy" />
   <project path="external/busybox" name="external_busybox" remote="candy" />
-  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" groups="pdk" remote="candy" />
   <project path="external/guava" name="external_guava" groups="pdk-cw-fs,pdk-fs" remote="candy" />
   <project path="external/lz4" name="external_lz4" remote="candy" revision="c6" />
   <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="candy" revision="c6" />
@@ -101,6 +100,7 @@
   <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="cm" revision="cm-13.0" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="cm" revision="cm-13.0" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="cm" revision="cm-13.0" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="cm" revision="cm-13.0" />
   <project path="external/yaffs2" name="android_external_yaffs2" groups="pdk" remote="cm" revision="cm-13.0" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="cm" revision="cm-13.0" />
   <project path="hardware/cyanogen" name="android_hardware_cyanogen" remote="cm" revision="cm-13.0" />
