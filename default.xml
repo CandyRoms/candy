@@ -139,7 +139,6 @@
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="cm" revision="cm-13.0" />
   <project path="system/qcom" name="android_system_qcom" remote="cm" revision="cm-13.0" />
   <project path="system/security" name="android_system_security" groups="pdk" remote="cm" revision="cm-13.0" />
-  <project path="vendor/qcom/opensource/display-frameworks" name="android_vendor_qcom_opensource_display-frameworks" remote="cm" />
   <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="cm" />
 
   <!-- Slim -->
