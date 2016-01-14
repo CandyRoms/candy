@@ -36,18 +36,17 @@
   </project>
 
   <!-- Candy projects -->
-  <project path="bionic" name="bionic" groups="pdk" remote="candy" revision="c6" />
-  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="Slim" revision="mm6.0" />
+  <project path="bionic" name="bionic" groups="pdk" remote="candy"/>
   <project path="candy" name="candy" remote="candy" />
   <project path="device/qcom/common" name="device_qcom_common" remote="candy" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="candy" />
   <project path="external/busybox" name="external_busybox" remote="candy" />
   <project path="external/guava" name="external_guava" groups="pdk-cw-fs,pdk-fs" remote="candy" />
   <project path="external/lz4" name="external_lz4" remote="candy" revision="c6" />
-  <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="candy" revision="c6" />
+  <project path="external/sepolicy" name="external_sepolicy" groups="pdk" remote="candy" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="candy" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="candy" />
-  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="candy" revision="c6" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="candy" />
   <project path="frameworks/opt/bluetooth" name="frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" remote="candy" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="candy" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="candy" />
@@ -61,10 +60,10 @@
   <project path="hardware/qcom/display-caf/msm8960" name="Candy6/hardware_qcom_display" remote="github" revision="c6-caf-8960" />
   <project path="hardware/qcom/media-caf/msm8660" name="Candy6/hardware_qcom_media" remote="github" revision="c6-caf-8660" />
   <project path="hardware/qcom/media-caf/msm8960" name="Candy6/hardware_qcom_media" remote="github" revision="c6-caf-8960" />
-  <project path="hardware/qcom/msm8994" name="Candy6/hardware_qcom_msm8994" remote="github" groups="qcom_msm8994" revision="c6" />
+  <project path="hardware/qcom/msm8994" name="Candy6/hardware_qcom_msm8994" remote="github" groups="qcom_msm8994" />
   <project path="packages/apps/BluetoothExt" name="packages_apps_BluetoothExt" groups="pdk-cw-fs" remote="candy" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs" remote="candy" />
-  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="candy" revision="c6" />
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="candy" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="candy" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="candy" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="candy" />
@@ -77,13 +76,13 @@
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="candy" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="candy" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="candy" />
-  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="candy" revision="c6" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="candy" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="candy" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="candy" />
   <project path="system/bt" name="system_bt" groups="pdk" remote="candy" />
   <project path="system/core" name="system_core" groups="pdk" remote="candy" />
   <project path="system/extras" name="system_extras" groups="pdk" remote="candy" />
-  <project path="system/media" name="system_media" remote="candy" revision="c6" />
+  <project path="system/media" name="system_media" remote="candy" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="candy" />
   <project path="vendor/candy" name="vendor_candy" remote="candy" />
 
@@ -142,6 +141,7 @@
   <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="cm" />
 
   <!-- Slim -->
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="Slim" revision="mm6.0" />
   <project path="hardware/intel/common/libstagefrighthw" name="hardware_intel_common_libstagefrighthw" groups="intel" remote="Slim" revision="mm6.0" />
   <project path="hardware/intel/common/libva" name="hardware_intel_common_libva" remote="Slim" revision="mm6.0" />
   <project path="hardware/intel/common/omx-components" name="hardware_intel_common_omx-components" remote="Slim" revision="mm6.0" />
