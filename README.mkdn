@@ -22,4 +22,6 @@ Then sync up with this command:
 
 	repo sync
 
+We now have a gerrit. Please use it if you want your code to be reviewed.
+
 Gerrit URL : https://gerrit.bbqdroid.org
