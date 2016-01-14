@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com" />
 
   <remote  name="candy"
-           fetch="https://github.com/CandySiX-Testing"
+           fetch="https://github.com/CandyRoms"
            revision="c6" />
            
   <remote  name="cd"
@@ -53,14 +53,14 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="candy" />
   <project path="frameworks/support" name="frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="candy" />
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" groups="pdk" remote="candy" />
-  <project path="hardware/qcom/audio-caf/msm8660" name="Candy6/hardware_qcom_audio" remote="github" revision="c6-caf-8660" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="Candy6/hardware_qcom_audio" remote="github" revision="c6-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8660" name="hardware_qcom_audio" remote="candy" revision="c6-caf-8660" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="hardware_qcom_audio" remote="candy" revision="c6-caf-8960" />
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="candy" revision="c6" />
-  <project path="hardware/qcom/display-caf/msm8660" name="Candy6/hardware_qcom_display" remote="github" revision="c6-caf-8660" />
-  <project path="hardware/qcom/display-caf/msm8960" name="Candy6/hardware_qcom_display" remote="github" revision="c6-caf-8960" />
-  <project path="hardware/qcom/media-caf/msm8660" name="Candy6/hardware_qcom_media" remote="github" revision="c6-caf-8660" />
-  <project path="hardware/qcom/media-caf/msm8960" name="Candy6/hardware_qcom_media" remote="github" revision="c6-caf-8960" />
-  <project path="hardware/qcom/msm8994" name="Candy6/hardware_qcom_msm8994" remote="github" groups="qcom_msm8994" />
+  <project path="hardware/qcom/display-caf/msm8660" name="hardware_qcom_display" remote="candy" revision="c6-caf-8660" />
+  <project path="hardware/qcom/display-caf/msm8960" name="hardware_qcom_display" remote="candy" revision="c6-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8660" name="hardware_qcom_media" remote="candy" revision="c6-caf-8660" />
+  <project path="hardware/qcom/media-caf/msm8960" name="hardware_qcom_media" remote="candy" revision="c6-caf-8960" />
+  <project path="hardware/qcom/msm8994" name="hardware_qcom_msm8994" remote="candy" groups="qcom_msm8994" />
   <project path="packages/apps/BluetoothExt" name="packages_apps_BluetoothExt" groups="pdk-cw-fs" remote="candy" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs" remote="candy" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="candy" />

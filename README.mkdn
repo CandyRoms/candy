@@ -14,7 +14,7 @@ which hardware base your phone is working.
 To initialize your local repository using the Candy6 trees, use this command:
 
 
-	repo init -u git://github.com/CandySiX-Testing/candy.git -b c6
+	repo init -u git://github.com/CandyRoms/candy.git -b c6
 
 
 
@@ -25,3 +25,7 @@ Then sync up with this command:
 We now have a gerrit. Please use it if you want your code to be reviewed.
 
 Gerrit URL : https://gerrit.bbqdroid.org
+
+A great guide to using gerrit
+
+http://forum.xda-developers.com/showthread.php?t=2628545
