@@ -21,3 +21,5 @@ To initialize your local repository using the Candy6 trees, use this command:
 Then sync up with this command:
 
 	repo sync
+
+Gerrit URL : https://gerrit.bbqdroid.org
