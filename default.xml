@@ -6,8 +6,9 @@
 
   <remote  name="candy"
            fetch="https://github.com/CandyRoms"
+           review="http://gerrit.bbqdroid.org/"
            revision="c6" />
-           
+
   <remote  name="cd"
            fetch="https://github.com/CandyDevices"
            revision="c6" />
@@ -15,17 +16,17 @@
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod"
            revision="cm-13.0" />
-           
+
   <remote  name="github"
            fetch="git://github.com" />
 
   <remote  name="Slim"
            fetch="git://github.com/SlimRoms"
            review="https://review.slimroms.org/"/>
-           
+
   <remote  name="tm"
-           fetch="https://github.com/themuppets" 
-           revision="cm-13.0" />  
+           fetch="https://github.com/themuppets"
+           revision="cm-13.0" />
 
   <default revision="refs/tags/android-6.0.1_r10"
            remote="aosp"
