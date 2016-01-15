@@ -6,7 +6,7 @@
 
   <remote  name="github"
            fetch=".."
-           review="http://gerrit.bbqdroid.org/"
+           review="https://gerrit.bbqdroid.org"
            revision="c6" />
 
   <remote  name="cd"
