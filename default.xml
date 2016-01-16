@@ -544,4 +544,7 @@
   <!-- android-floating-action-button -->
   <project path="packages/apps/FloatingActionButton" name="futuresimple/android-floating-action-button" remote="github" revision="master" />
 
+  <!-- OmniSwitch -->
+  <project path="packages/apps/OmniSwitch" name="omnirom/android_packages_apps_OmniSwitch" remote="github" revision="android-6.0" />
+  
 </manifest>
