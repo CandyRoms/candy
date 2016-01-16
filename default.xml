@@ -153,7 +153,8 @@
   <project path="hardware/intel/common/utils" name="hardware_intel_common_utils" remote="Slim" revision="mm6.0" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="Slim" revision="mm6.0" /> 
   <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="Slim" revision="mm6.0" />
-
+  <project path="packages/apps/FloatingActionButton" name="SlimSaber/android-floating-action-button" remote="github" revision="lp5.1" />
+  
   <!-- Aosp projects -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
   <project path="art" name="platform/art" groups="pdk" remote="aosp" />
@@ -540,9 +541,6 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
-
-  <!-- android-floating-action-button -->
-  <project path="packages/apps/FloatingActionButton" name="futuresimple/android-floating-action-button" remote="github" revision="master" />
 
   <!-- OmniSwitch -->
   <project path="packages/apps/OmniSwitch" name="omnirom/android_packages_apps_OmniSwitch" remote="github" revision="android-6.0" />
