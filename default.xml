@@ -147,6 +147,7 @@
 
   <!-- Slim -->
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="Slim" revision="mm6.0" />
+  <project path="framworks/opt/cards" name="frameworks_opt_cards" remote="Slim" revision="mm6.0" />
   <project path="hardware/intel/common/libstagefrighthw" name="hardware_intel_common_libstagefrighthw" groups="intel" remote="Slim" revision="mm6.0" />
   <project path="hardware/intel/common/libva" name="hardware_intel_common_libva" remote="Slim" revision="mm6.0" />
   <project path="hardware/intel/common/omx-components" name="hardware_intel_common_omx-components" remote="Slim" revision="mm6.0" />
@@ -154,7 +155,7 @@
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="Slim" revision="mm6.0" /> 
   <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="Slim" revision="mm6.0" />
   <project path="packages/apps/FloatingActionButton" name="SlimSaber/android-floating-action-button" remote="github" revision="lp5.1" />
-  
+
   <!-- Aosp projects -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
   <project path="art" name="platform/art" groups="pdk" remote="aosp" />
