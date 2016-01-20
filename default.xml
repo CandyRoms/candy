@@ -147,7 +147,7 @@
 
   <!-- Slim -->
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="Slim" revision="mm6.0" />
-  <project path="framworks/opt/cards" name="frameworks_opt_cards" remote="Slim" revision="mm6.0" />
+  <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="Slim" revision="mm6.0" />
   <project path="hardware/intel/common/libstagefrighthw" name="hardware_intel_common_libstagefrighthw" groups="intel" remote="Slim" revision="mm6.0" />
   <project path="hardware/intel/common/libva" name="hardware_intel_common_libva" remote="Slim" revision="mm6.0" />
   <project path="hardware/intel/common/omx-components" name="hardware_intel_common_omx-components" remote="Slim" revision="mm6.0" />
