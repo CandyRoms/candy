@@ -139,6 +139,7 @@
   <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-13.0" groups="pdk" />
   <project path="hardware/ril-caf" name="android_hardware_ril" remote="cm" groups="pdk" revision="cm-13.0-caf" />
   <project path="libcore" name="android_libcore" remote="cm" revision="cm-13.0" />
+  <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="cm" revision="cm-13.0" />
   <project path="system/extras/su" name="android_system_extras_su" remote="cm" revision="cm-13.0" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="cm" revision="cm-13.0" />
   <project path="system/qcom" name="android_system_qcom" remote="cm" revision="cm-13.0" />
