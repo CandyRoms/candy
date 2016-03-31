@@ -50,11 +50,13 @@
   <project path="frameworks/av" name="CandyRoms/frameworks_av" remote="github" revision="c6" />
   <project path="frameworks/base" name="CandyRoms/frameworks_base" remote="github" revision="c6" />
   <project path="frameworks/native" name="CandyRoms/frameworks_native" remote="github" revision="c6" />
+  <project path="frameworks/support" name="CandyRoms/frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="c6" />
   <project path="frameworks/opt/bluetooth" name="CandyRoms/frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="c6" />
   <project path="frameworks/opt/telephony" name="CandyRoms/frameworks_opt_telephony" remote="github" revision="c6" />
   <project path="hardware/broadcom/libbt" name="CandyRoms/hardware_broadcom_libbt" groups="pdk" remote="github" revision="c6" />
   <project path="system/bt" name="CandyRoms/system_bt" groups="pdk" remote="github" revision="c6" />
   <project path="system/core" name="CandyRoms/system_core" remote="github" revision="c6" />
+  <project path="system/extras" name="CandyRoms/system_extras" remote="github" revision="c6" />
   <project path="vendor/candy" name="CandyRoms/vendor_candy" remote="github" revision="c6" />
   
   <!-- CM Projects -->
@@ -129,7 +131,6 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="aospb" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="aospb" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="aospb" />
-  <project path="system/extras" name="system_extras" remote="aospb" />
   <project path="system/media" name="system_media" remote="aospb" />
   <project path="system/netd" name="system_netd" remote="aospb" />
   <project path="system/qcom" name="system_qcom" remote="aospb" />
@@ -398,7 +399,6 @@
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" remote="aosp" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" remote="aosp" />
-  <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
