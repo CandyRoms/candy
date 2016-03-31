@@ -10,7 +10,7 @@
 
   <remote  name="github"
                 fetch="git://github.com/"
-                review="https://gerrit.bbqdroid.org/" 
+                review="https://gerrit.bbqdroid.org/" />
                 
   <default revision="refs/heads/c6"
            remote="github"
