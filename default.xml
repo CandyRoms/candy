@@ -43,18 +43,19 @@
   </project>
   <project path="candy" name="CandyRoms/candy" remote="github" revision="c6" />
   <project path="external/libnfc-nci" name="CandyRoms/external_libnfc-nci" remote="github" revision="c6" />
+  <project path="frameworks/av" name="CandyRoms/frameworks_av" remote="github" revision="c6" />
+  <project path="frameworks/base" name="CandyRoms/frameworks_base" remote="github" revision="c6" />
+  <project path="frameworks/opt/bluetooth" name="CandyRoms/frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="c6" />
+  <project path="frameworks/native" name="CandyRoms/frameworks_native" remote="github" revision="c6" />
+  <project path="frameworks/support" name="CandyRoms/frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="c6" />
+  <project path="frameworks/opt/telephony" name="CandyRoms/frameworks_opt_telephony" remote="github" revision="c6" />
+  <project path="hardware/broadcom/libbt" name="CandyRoms/hardware_broadcom_libbt" groups="pdk" remote="github" revision="c6" />
   <project path="packages/apps/Bluetooth" name="CandyRoms/packages_apps_Bluetooth" groups="pdk-cw-fs" remote="github" revision="c6" />
+  <project path="packages/apps/DeskClock" name="CandyRoms/packages_apps_DeskClock" remote="github" revision="c6" />
   <project path="packages/apps/KernelAdiutor" name="CandyDevices/packages_apps_KernelAdiutor" remote="github" revision="candy" />
   <project path="packages/apps/LockClock" name="CandyRoms/packages_apps_LockClock" remote="github" revision="c6" />
   <project path="packages/apps/Nfc" name="CandyRoms/packages_apps_Nfc" remote="github" groups="apps_nfc,pdk-fs" revision="c6" />
   <project path="packages/apps/Settings" name="CandyRoms/packages_apps_Settings" remote="github" revision="c6" />
-  <project path="frameworks/av" name="CandyRoms/frameworks_av" remote="github" revision="c6" />
-  <project path="frameworks/base" name="CandyRoms/frameworks_base" remote="github" revision="c6" />
-  <project path="frameworks/native" name="CandyRoms/frameworks_native" remote="github" revision="c6" />
-  <project path="frameworks/support" name="CandyRoms/frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="c6" />
-  <project path="frameworks/opt/bluetooth" name="CandyRoms/frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="c6" />
-  <project path="frameworks/opt/telephony" name="CandyRoms/frameworks_opt_telephony" remote="github" revision="c6" />
-  <project path="hardware/broadcom/libbt" name="CandyRoms/hardware_broadcom_libbt" groups="pdk" remote="github" revision="c6" />
   <project path="system/bt" name="CandyRoms/system_bt" groups="pdk" remote="github" revision="c6" />
   <project path="system/core" name="CandyRoms/system_core" remote="github" revision="c6" />
   <project path="system/extras" name="CandyRoms/system_extras" remote="github" revision="c6" />
@@ -442,7 +443,6 @@
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" remote="aosp" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" remote="aosp" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" remote="aosp" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="aosp" />
