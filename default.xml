@@ -53,6 +53,7 @@
   <project path="frameworks/av" name="CandyRoms/frameworks_av" remote="github" revision="c6" />
   <project path="frameworks/base" name="CandyRoms/frameworks_base" remote="github" revision="c6" />
   <project path="frameworks/opt/bluetooth" name="CandyRoms/frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="c6" />
+  <project path="frameworks/opt/net/ims" name="CandyRoms/frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs"  remote="github" revision="c6"/>
   <project path="frameworks/native" name="CandyRoms/frameworks_native" remote="github" revision="c6" />
   <project path="frameworks/support" name="CandyRoms/frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="c6" />
   <project path="frameworks/opt/telephony" name="CandyRoms/frameworks_opt_telephony" remote="github" revision="c6" />
@@ -99,7 +100,6 @@
   <project path="external/ntfs-3g" name="external_ntfs-3g" remote="aospb" />
   <project path="external/tinyalsa" name="external_tinyalsa" remote="aospb" />
   <project path="external/tinycompress" name="external_tinycompress" remote="aospb" />
-  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="aospb" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="aospb" />
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="aospb" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="aospb" />
