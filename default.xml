@@ -3,7 +3,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-6.0.1_r24" />
+           revision="refs/tags/android-6.0.1_r30" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -46,6 +46,7 @@
   <project path="bootable/recovery" name="CandyRoms/bootable_recovery" remote="github" revision="c6" />
   <project path="candy" name="CandyRoms/candy" remote="github" revision="c6" />
   <project path="external/e2fsprogs" name="CandyRoms/external_e2fsprogs" groups="pdk" remote="github" revision="c6" />
+  <project path="external/google" name="CandyRoms/external_google" remote="github" revision="c6" />
   <project path="external/libnfc-nci" name="CandyRoms/external_libnfc-nci" remote="github" revision="c6" />
   <project path="external/okhttp" name="CandyRoms/external_okhttp" remote="github" revision="c6" />
   <project path="external/sepolicy" name="CandyRoms/external_sepolicy" remote="github" revision="c6" />
@@ -58,6 +59,8 @@
   <project path="frameworks/support" name="CandyRoms/frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="c6" />
   <project path="frameworks/opt/telephony" name="CandyRoms/frameworks_opt_telephony" remote="github" revision="c6" />
   <project path="hardware/broadcom/libbt" name="CandyRoms/hardware_broadcom_libbt" groups="pdk" remote="github" revision="c6" />
+  <project path="hardware/broadcom/wlan" name="CandyRoms/hardware_broadcom_wlan" remote="github" revision="c6" />
+  <project path="hardware/libhardware" name="CandyRoms/hardware_libhardware" remote="github" revision="c6" />
   <project path="hardware/qcom/audio-caf/msm8960" name="CandyRoms/hardware_qcom_audio" remote="github" revision="c6-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8994" name="CandyRoms/hardware_qcom_audio" remote="github" revision="c6-caf-8994" />
   <project path="hardware/qcom/display-caf/msm8994" name="CandyRoms/hardware_qcom_display" remote="github" revision="c6-caf-8994" />
@@ -78,7 +81,6 @@
   <project path="vendor/candy" name="CandyRoms/vendor_candy" remote="github" revision="c6" />
   
   <!-- CM Projects -->
-  <project path="external/google" name="android_external_google" remote="cm" revision="cm-13.0" />
   <project path="external/mm-dash" name="android_external_mm-dash" remote="cm" revision="cm-13.0" />
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="cm" revision="cm-13.0" />
 
@@ -105,8 +107,6 @@
   <project path="external/tinyalsa" name="external_tinyalsa" remote="aospb" />
   <project path="external/tinycompress" name="external_tinycompress" remote="aospb" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="aospb" />
-  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="aospb" />
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="aospb" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="aospb" />
   <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" remote="aospb" />
   <project path="hardware/qcom/audio-caf/apq8084" name="hardware_qcom_audio" remote="aospb" revision="mm6.0-caf-8084" />
@@ -131,7 +131,6 @@
   <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" remote="aospb" revision="mm6.0-caf" />
   <project path="hardware/ril" name="hardware_ril" remote="aospb" />
   <project path="hardware/ril-caf" name="hardware_ril" remote="aospb" revision="mm6.0-caf" />
-  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="aospb" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="aospb" />
   <project path="system/media" name="system_media" remote="aospb" />
   <project path="system/netd" name="system_netd" remote="aospb" />
@@ -475,6 +474,7 @@
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" remote="aosp" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" remote="aosp" />
   <project path="packages/experimental" name="platform/packages/experimental" remote="aosp" />
+  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" groups="pdk-fs" remote="aosp" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" groups="pdk-fs" remote="aosp" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" groups="pdk-fs" remote="aosp" />
   <project path="packages/providers/BookmarkProvider" name="platform/packages/providers/BookmarkProvider" groups="pdk-fs" remote="aosp" />
