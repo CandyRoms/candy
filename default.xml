@@ -444,6 +444,7 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" remote="aosp" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" remote="aosp" />
+  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="aosp" />
   <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" remote="aosp" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" remote="aosp" />
