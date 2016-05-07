@@ -45,6 +45,7 @@
   <project path="bionic" name="CandyRoms/bionic" remote="github" revision="c6" />
   <project path="bootable/recovery" name="CandyRoms/bootable_recovery" remote="github" revision="c6" />
   <project path="candy" name="CandyRoms/candy" remote="github" revision="c6" />
+  <project path="device/qcom/common" name="CandyRoms/device_qcom_common" remote="github" revision="c6" />
   <project path="external/e2fsprogs" name="CandyRoms/external_e2fsprogs" groups="pdk" remote="github" revision="c6" />
   <project path="external/google" name="CandyRoms/external_google" remote="github" revision="c6" />
   <project path="external/libnfc-nci" name="CandyRoms/external_libnfc-nci" remote="github" revision="c6" />
@@ -100,7 +101,6 @@
   <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="Slim" revision="mm6.0" />
 
   <!-- Aospb Projects -->
-  <project path="device/qcom/common" name="device_qcom_common" remote="aospb" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aospb" />
   <project path="external/android-visualizer" name="external_android-visualizer" remote="aospb" />
   <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="aospb" />
