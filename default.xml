@@ -81,6 +81,8 @@
   <project path="packages/apps/LockClock" name="CandyRoms/packages_apps_LockClock" remote="github" revision="c6" />
   <project path="packages/apps/Nfc" name="CandyRoms/packages_apps_Nfc" remote="github" groups="apps_nfc,pdk-fs" revision="c6" />
   <project path="packages/apps/Settings" name="CandyRoms/packages_apps_Settings" remote="github" revision="c6" />
+  <project path="packages/apps/ThemeChooser" name="CandyRoms/packages_apps_ThemeChooser" remote="github" revision="c6" />
+  <project path="packages/providers/ThemesProvider" name="CandyRoms/packages_providers_ThemesProvider" remote="github" revision="c6" />
   <project path="packages/services/Telephony" name="CandyRoms/packages_services_Telephony" remote="github" revision="c6" />
   <project path="packages/services/Telecomm" name="CandyRoms/packages_services_Telecomm" remote="github" revision="c6" />
   <project path="system/bt" name="CandyRoms/system_bt" groups="pdk" remote="github" revision="c6" />
