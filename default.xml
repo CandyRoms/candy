@@ -75,6 +75,7 @@
   <project path="hardware/qcom/media-caf/msm8994" name="CandyRoms/hardware_qcom_media" remote="github" revision="c6-caf-8994" />
   <project path="hardware/qcom/wlan" name="CandyRoms/hardware_qcom_wlan" remote="github" revision="c6" />
   <project path="packages/apps/Bluetooth" name="CandyRoms/packages_apps_Bluetooth" groups="pdk-cw-fs" remote="github" revision="c6" />
+  <project path="packages/apps/Contacts" name="CandyRoms/packages_apps_Contacts" remote="github" revision="c6" />
   <project path="packages/apps/DeskClock" name="CandyRoms/packages_apps_DeskClock" remote="github" revision="c6" />
   <project path="packages/apps/Exchange" name="CandyRoms/packages_apps_Exchange" groups="pdk-fs" remote="github" revision="c6" />
   <project path="packages/apps/KernelAdiutor" name="CandyDevices/packages_apps_KernelAdiutor" remote="github" revision="candy" />
@@ -437,7 +438,6 @@
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" remote="aosp" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" remote="aosp" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" remote="aosp" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" remote="aosp" />
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" remote="aosp" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" remote="aosp" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" remote="aosp" />
