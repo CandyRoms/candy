@@ -84,6 +84,7 @@
   <project path="packages/apps/DeskClock" name="CandyRoms/packages_apps_DeskClock" remote="github" revision="c6" />
   <project path="packages/apps/Dialer" name="CandyRoms/packages_apps_Dialer" remote="github" revision="c6" />
   <project path="packages/apps/Exchange" name="CandyRoms/packages_apps_Exchange" groups="pdk-fs" remote="github" revision="c6" />
+  <project path="packages/apps/Gallery2" name="CandyRoms/packages_apps_Gallery2" remote="github" revision="c6" />
   <project path="packages/apps/InCallUI" name="CandyRoms/packages_apps_InCallUI" remote="github" revision="c6" />
   <project path="packages/apps/KernelAdiutor" name="CandyDevices/packages_apps_KernelAdiutor" remote="github" revision="candy" />
   <project path="packages/apps/LockClock" name="CandyRoms/packages_apps_LockClock" remote="github" revision="c6" />
@@ -99,6 +100,7 @@
   <!-- CM Projects -->
   <project path="external/mm-dash" name="android_external_mm-dash" remote="cm" revision="cm-13.0" />
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="cm" revision="cm-13.0" />
+  <project path="external/ahbottomnavigation" name="android_external_ahbottomnavigation" remote="cm" revision="cm-13.0" />
 
   <!-- OmniSwitch -->
   <project path="packages/apps/OmniSwitch" name="omnirom/android_packages_apps_OmniSwitch" remote="github" revision="android-6.0" />
@@ -449,7 +451,6 @@
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" remote="aosp" />
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="aosp" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" remote="aosp" />
   <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" remote="aosp" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" remote="aosp" />
