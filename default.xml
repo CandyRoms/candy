@@ -57,7 +57,8 @@
   <project path="frameworks/base" name="CandyRoms/frameworks_base" remote="github" revision="c6l" />
   <project path="frameworks/opt/bluetooth" name="CandyRoms/frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="c6" />
   <project path="frameworks/opt/net/ims" name="CandyRoms/frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs"  remote="github" revision="c6" />
-  <project path="frameworks/native" name="CandyRoms/frameworks_native" remote="github" revision="c6l" />
+  <project path="frameworks/opt/slim" name="CandyRoms/frameworks_opt_slim" remote="github" revision="c6l" />
+  <project path="frameworks/native" name="CandyRoms/frameworks_native" remote="github" revision="c6" />
   <project path="frameworks/support" name="CandyRoms/frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="c6" />
   <project path="frameworks/opt/telephony" name="CandyRoms/frameworks_opt_telephony" remote="github" revision="c6" />
   <project path="hardware/broadcom/libbt" name="CandyRoms/hardware_broadcom_libbt" groups="pdk" remote="github" revision="c6" />
