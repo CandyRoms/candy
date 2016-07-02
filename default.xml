@@ -51,14 +51,14 @@
   <project path="external/guava" name="CandyRoms/external_guava" groups="pdk-cw-fs,pdk-fs" remote="github" revision="c6" />
   <project path="external/libnfc-nci" name="CandyRoms/external_libnfc-nci" remote="github" revision="c6" />
   <project path="external/okhttp" name="CandyRoms/external_okhttp" remote="github" revision="c6" />
-  <project path="external/sepolicy" name="CandyRoms/external_sepolicy" remote="github" revision="c6" />
+  <project path="external/sepolicy" name="CandyRoms/external_sepolicy" remote="github" revision="c6l" />
   <project path="external/skia" name="CandyRoms/external_skia" remote="github" revision="c6" />
   <project path="frameworks/av" name="CandyRoms/frameworks_av" remote="github" revision="c6" />
   <project path="frameworks/base" name="CandyRoms/frameworks_base" remote="github" revision="c6l" />
   <project path="frameworks/opt/bluetooth" name="CandyRoms/frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="c6" />
   <project path="frameworks/opt/net/ims" name="CandyRoms/frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs"  remote="github" revision="c6" />
   <project path="frameworks/opt/slim" name="CandyRoms/frameworks_opt_slim" remote="github" revision="c6l" />
-  <project path="frameworks/native" name="CandyRoms/frameworks_native" remote="github" revision="c6" />
+  <project path="frameworks/native" name="CandyRoms/frameworks_native" remote="github" revision="c6l" />
   <project path="frameworks/support" name="CandyRoms/frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="c6" />
   <project path="frameworks/opt/telephony" name="CandyRoms/frameworks_opt_telephony" remote="github" revision="c6" />
   <project path="hardware/broadcom/libbt" name="CandyRoms/hardware_broadcom_libbt" groups="pdk" remote="github" revision="c6" />
