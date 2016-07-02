@@ -38,7 +38,7 @@
            revision="mm6.0" />
 
    <!-- Candy Projects -->
-  <project path="build" name="CandyRoms/build" remote="github" >
+  <project path="build" name="CandyRoms/build" remote="github"  revision="c6l" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="art" name="CandyRoms/art" remote="github" revision="c6"  />
