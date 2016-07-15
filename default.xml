@@ -109,6 +109,9 @@
 
   <!-- OmniSwitch -->
   <project path="packages/apps/OmniSwitch" name="omnirom/android_packages_apps_OmniSwitch" remote="github" revision="android-6.0" />
+
+  <!-- Masquerade -->
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
   
   <!-- Slim Projects -->
   <project path="packages/apps/FloatingActionButton" name="SlimSaber/android-floating-action-button" remote="github" revision="lp5.1" />
