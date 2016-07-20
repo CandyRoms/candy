@@ -3,7 +3,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-6.0.1_r46" />
+           revision="refs/tags/android-6.0.1_r52" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -46,6 +46,7 @@
   <project path="bootable/recovery" name="CandyRoms/bootable_recovery" remote="github" revision="c6" />
   <project path="candy" name="CandyRoms/candy" remote="github" revision="c6" />
   <project path="device/qcom/common" name="CandyRoms/device_qcom_common" remote="github" revision="c6" />
+  <project path="external/dhcpcd" name="CandyRoms/external_dhcpcd" groups="pdk-cw-fs,pdk-fs" remote="github" revision="c6" />
   <project path="external/DUtils" name="CandyRoms/external_DUtils" remote="github" revision="c6" />
   <project path="external/e2fsprogs" name="CandyRoms/external_e2fsprogs" groups="pdk" remote="github" revision="c6" />
   <project path="external/google" name="CandyRoms/external_google" remote="github" revision="c6" />
@@ -58,22 +59,26 @@
   <project path="frameworks/base" name="CandyRoms/frameworks_base" remote="github" revision="c6" />
   <project path="frameworks/opt/bluetooth" name="CandyRoms/frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="c6" />
   <project path="frameworks/opt/net/ims" name="CandyRoms/frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs"  remote="github" revision="c6" />
+  <project path="frameworks/opt/slim" name="CandyRoms/frameworks_opt_slim" remote="github" revision="c6" />
   <project path="frameworks/native" name="CandyRoms/frameworks_native" remote="github" revision="c6" />
   <project path="frameworks/support" name="CandyRoms/frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="c6" />
   <project path="frameworks/opt/telephony" name="CandyRoms/frameworks_opt_telephony" remote="github" revision="c6" />
   <project path="hardware/broadcom/libbt" name="CandyRoms/hardware_broadcom_libbt" groups="pdk" remote="github" revision="c6" />
   <project path="hardware/broadcom/wlan" name="CandyRoms/hardware_broadcom_wlan" remote="github" revision="c6" />
   <project path="hardware/libhardware" name="CandyRoms/hardware_libhardware" remote="github" revision="c6" />
+  <project path="hardware/qcom/audio/default" name="CandyRoms/hardware_qcom_audio" remote="github" revision="c6" />
   <project path="hardware/qcom/audio-caf/msm8960" name="CandyRoms/hardware_qcom_audio" remote="github" revision="c6-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8974" name="CandyRoms/hardware_qcom_audio" remote="github" revision="c6-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8994" name="CandyRoms/hardware_qcom_audio" remote="github" revision="c6-caf-8994" />
   <project path="hardware/qcom/audio-caf/msm8996" name="CandyRoms/hardware_qcom_audio" remote="github" revision="c6-caf-8996" />
   <project path="hardware/qcom/camera" name="CandyRoms/hardware_qcom_camera" remote="github" revision="c6" />
+  <project path="hardware/qcom/display" name="CandyRoms/hardware_qcom_display" remote="github" revision="c6" />
   <project path="hardware/qcom/display-caf/msm8960" name="CandyRoms/hardware_qcom_display" remote="github" revision="c6-caf-8960" />
   <project path="hardware/qcom/display-caf/msm8974" name="CandyRoms/hardware_qcom_display" remote="github" revision="c6-caf-8974"/>
   <project path="hardware/qcom/display-caf/msm8994" name="CandyRoms/hardware_qcom_display" remote="github" revision="c6-caf-8994" />
   <project path="hardware/qcom/display-caf/msm8996" name="CandyRoms/hardware_qcom_display" remote="github" revision="c6-caf-8996" />
   <project path="hardware/qcom/fm" name="CandyRoms/hardware_qcom_fm" remote="github" revision="c6" />
+  <project path="hardware/qcom/media/default" name="CandyRoms/hardware_qcom_media" remote="github" revision="c6" />
   <project path="hardware/qcom/media-caf/msm8960" name="CandyRoms/hardware_qcom_media" remote="github" revision="c6-caf-8960" />
   <project path="hardware/qcom/media-caf/msm8974" name="CandyRoms/hardware_qcom_media" remote="github" revision="c6-caf-8974" />
   <project path="hardware/qcom/media-caf/msm8994" name="CandyRoms/hardware_qcom_media" remote="github" revision="c6-caf-8994" />
@@ -129,17 +134,14 @@
   <project path="external/tinycompress" name="external_tinycompress" remote="aospb" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="aospb" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="aospb" />
-  <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" remote="aospb" />
   <project path="hardware/qcom/audio-caf/apq8084" name="hardware_qcom_audio" remote="aospb" revision="mm6.0-caf-8084" />
   <project path="hardware/qcom/audio-caf/msm8916" name="hardware_qcom_audio" remote="aospb" revision="mm6.0-caf-8916" />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="aospb" />
   <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" remote="aospb" revision="mm6.0-caf" />
-  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="aospb" />
   <project path="hardware/qcom/display-caf/apq8084" name="hardware_qcom_display" remote="aospb" revision="mm6.0-caf-8084" />
   <project path="hardware/qcom/display-caf/msm8916" name="hardware_qcom_display" remote="aospb" revision="mm6.0-caf-8916" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="aospb" />
   <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="aospb" />
-  <project path="hardware/qcom/media/default" name="hardware_qcom_media" remote="aospb" />
   <project path="hardware/qcom/media-caf/apq8084" name="hardware_qcom_media" remote="aospb" revision="mm6.0-caf-8084" />
   <project path="hardware/qcom/media-caf/msm8916" name="hardware_qcom_media" remote="aospb" revision="mm6.0-caf-8916" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="aospb" />
@@ -215,7 +217,6 @@
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk-fs" remote="aosp" />
   <project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" remote="aosp" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/dhcpcd" name="platform/external/dhcpcd" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" remote="aosp" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/donuts" name="platform/external/donuts" groups="pdk-fs" remote="aosp" />
