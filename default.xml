@@ -87,6 +87,7 @@
   <project path="hardware/qcom/wlan" name="CandyRoms/hardware_qcom_wlan" remote="github" revision="c6" />
   <project path="libcore" name="CandyRoms/libcore" remote="github" revision="c6" />
   <project path="packages/apps/Bluetooth" name="CandyRoms/packages_apps_Bluetooth" groups="pdk-cw-fs" remote="github" revision="c6" />
+  <project path="packages/apps/Camera2" name="CandyRoms/packages_apps_Camera2" groups="pdk-fs" remote="github" revision="c6" />
   <project path="packages/apps/Contacts" name="CandyRoms/packages_apps_Contacts" remote="github" revision="c6" />
   <project path="packages/apps/DeskClock" name="CandyRoms/packages_apps_DeskClock" remote="github" revision="c6" />
   <project path="packages/apps/Dialer" name="CandyRoms/packages_apps_Dialer" remote="github" revision="c6" />
@@ -451,7 +452,6 @@
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" remote="aosp" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" remote="aosp" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
