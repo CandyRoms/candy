@@ -58,6 +58,7 @@
   <project path="frameworks/base" name="CandyRoms/frameworks_base" remote="github" revision="c6l" />
   <project path="frameworks/opt/bluetooth" name="CandyRoms/frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="c6" />
   <project path="frameworks/opt/net/ims" name="CandyRoms/frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs"  remote="github" revision="c6" />
+  <project path="frameworks/opt/net/wifi" name="CandyRoms/frameworks_opt_net_wifi" remote="github" revision="c6" />
   <project path="frameworks/opt/slim" name="CandyRoms/frameworks_opt_slim" remote="github" revision="c6l" />
   <project path="frameworks/native" name="CandyRoms/frameworks_native" remote="github" revision="c6l" />
   <project path="frameworks/support" name="CandyRoms/frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="c6" />
@@ -411,7 +412,6 @@
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" remote="aosp" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" remote="aosp" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
