@@ -115,9 +115,12 @@
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
   
   <!-- Slim Projects -->
-  <project path="packages/apps/FloatingActionButton" name="SlimSaber/android-floating-action-button" remote="github" revision="lp5.1" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="Slim" revision="mm6.0" />
   <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="Slim" revision="mm6.0" />
+  
+  <!-- Validus -->
+  <project path="packages/apps/KernelAdiutor" name="ValidusOs-M/KernelAdiutor" remote="github" revision="mm6.0" />
+  <project path="packages/apps/FloatingActionButton" name="ValidusOs-M/FloatingActionButton" remote="github" revision="mm6.0" />
 
   <!-- Aospb Projects -->
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aospb" />
