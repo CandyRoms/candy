@@ -104,7 +104,7 @@
   <project path="packages/services/Telephony" name="CandyRoms/packages_services_Telephony" remote="github" revision="c6" />
   <project path="packages/services/Telecomm" name="CandyRoms/packages_services_Telecomm" remote="github" revision="c6" />
   <project path="Scripts" name="CandyRoms/Scripts" remote="github" revision="master" >
-    <copyfile src="source-buildup.sh" dest="source-bringup.sh" />
+    <copyfile src="source-bringup.sh" dest="source-bringup.sh" />
   </project>
   <project path="system/bt" name="CandyRoms/system_bt" groups="pdk" remote="github" revision="c6" />
   <project path="system/core" name="CandyRoms/system_core" remote="github" revision="c6" />
