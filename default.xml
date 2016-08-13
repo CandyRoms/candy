@@ -103,6 +103,9 @@
   <project path="packages/providers/ThemesProvider" name="CandyRoms/packages_providers_ThemesProvider" remote="github" revision="c6" />
   <project path="packages/services/Telephony" name="CandyRoms/packages_services_Telephony" remote="github" revision="c6" />
   <project path="packages/services/Telecomm" name="CandyRoms/packages_services_Telecomm" remote="github" revision="c6" />
+  <project path="Scripts" name="CandyRoms/Scripts" remote="github" revision="master" >
+    <copyfile src="source-buildup.sh" dest="source-buildup.sh" />
+  </project>
   <project path="system/bt" name="CandyRoms/system_bt" groups="pdk" remote="github" revision="c6" />
   <project path="system/core" name="CandyRoms/system_core" remote="github" revision="c6" />
   <project path="system/extras" name="CandyRoms/system_extras" remote="github" revision="c6" />
