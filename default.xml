@@ -3,7 +3,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-6.0.1_r61" />
+           revision="refs/tags/android-7.0.0_r1" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -44,7 +44,7 @@
   <project path="art" name="CandyRoms/art" remote="github" revision="c6"  />
   <project path="bionic" name="CandyRoms/bionic" remote="github" revision="c6" />
   <project path="bootable/recovery" name="CandyRoms/bootable_recovery" remote="github" revision="c6" />
-  <project path="candy" name="CandyRoms/candy" remote="github" revision="c6" />
+  <project path="candy" name="CandyRoms/candy" remote="github" revision="c7" />
   <project path="device/qcom/common" name="CandyRoms/device_qcom_common" remote="github" revision="c6" />
   <project path="external/dhcpcd" name="CandyRoms/external_dhcpcd" groups="pdk-cw-fs,pdk-fs" remote="github" revision="c6" />
   <project path="external/DUtils" name="CandyRoms/external_DUtils" remote="github" revision="c6" />
