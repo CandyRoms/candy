@@ -17,6 +17,10 @@
            sync-c="true"
            sync-j="4" />
 
+  <remote  name="cr"
+           fetch="https://github.com/CandyRoms"
+           revision="c6" />
+
   <remote  name="cd"
            fetch="https://github.com/CandyDevices"
            revision="c6" />
@@ -38,77 +42,77 @@
            revision="mm6.0" />
 
    <!-- Candy Projects -->
-  <project path="build" name="CandyRoms/build" remote="github" >
+  <project path="build" name="build" remote="cr" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="art" name="CandyRoms/art" remote="github" revision="c6"  />
-  <project path="bionic" name="CandyRoms/bionic" remote="github" revision="c6" />
-  <project path="bootable/recovery" name="CandyRoms/bootable_recovery" remote="github" revision="c6" />
-  <project path="candy" name="CandyRoms/candy" remote="github" revision="c7" />
-  <project path="device/qcom/common" name="CandyRoms/device_qcom_common" remote="github" revision="c6" />
-  <project path="external/dhcpcd" name="CandyRoms/external_dhcpcd" groups="pdk-cw-fs,pdk-fs" remote="github" revision="c6" />
-  <project path="external/DUtils" name="CandyRoms/external_DUtils" remote="github" revision="c6" />
-  <project path="external/e2fsprogs" name="CandyRoms/external_e2fsprogs" groups="pdk" remote="github" revision="c6" />
-  <project path="external/google" name="CandyRoms/external_google" remote="github" revision="c6" />
-  <project path="external/guava" name="CandyRoms/external_guava" groups="pdk-cw-fs,pdk-fs" remote="github" revision="c6" />
-  <project path="external/libnfc-nci" name="CandyRoms/external_libnfc-nci" remote="github" revision="c6" />
-  <project path="external/okhttp" name="CandyRoms/external_okhttp" remote="github" revision="c6" />
-  <project path="external/sepolicy" name="CandyRoms/external_sepolicy" remote="github" revision="c6" />
-  <project path="external/skia" name="CandyRoms/external_skia" remote="github" revision="c6" />
-  <project path="frameworks/av" name="CandyRoms/frameworks_av" remote="github" revision="c6" />
-  <project path="frameworks/base" name="CandyRoms/frameworks_base" remote="github" revision="c6" />
-  <project path="frameworks/opt/bluetooth" name="CandyRoms/frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="c6" />
-  <project path="frameworks/opt/net/ims" name="CandyRoms/frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs"  remote="github" revision="c6" />
-  <project path="frameworks/opt/net/wifi" name="CandyRoms/frameworks_opt_net_wifi" remote="github" revision="c6" />
-  <project path="frameworks/opt/slim" name="CandyRoms/frameworks_opt_slim" remote="github" revision="c6" />
-  <project path="frameworks/native" name="CandyRoms/frameworks_native" remote="github" revision="c6" />
-  <project path="frameworks/support" name="CandyRoms/frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="c6" />
-  <project path="frameworks/opt/telephony" name="CandyRoms/frameworks_opt_telephony" remote="github" revision="c6" />
-  <project path="hardware/broadcom/libbt" name="CandyRoms/hardware_broadcom_libbt" groups="pdk" remote="github" revision="c6" />
-  <project path="hardware/broadcom/wlan" name="CandyRoms/hardware_broadcom_wlan" remote="github" revision="c6" />
-  <project path="hardware/libhardware" name="CandyRoms/hardware_libhardware" remote="github" revision="c6" />
-  <project path="hardware/qcom/audio/default" name="CandyRoms/hardware_qcom_audio" remote="github" revision="c6" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="CandyRoms/hardware_qcom_audio" remote="github" revision="c6-caf-8960" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="CandyRoms/hardware_qcom_audio" remote="github" revision="c6-caf-8974" />
-  <project path="hardware/qcom/audio-caf/msm8994" name="CandyRoms/hardware_qcom_audio" remote="github" revision="c6-caf-8994" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="CandyRoms/hardware_qcom_audio" remote="github" revision="c6-caf-8996" />
-  <project path="hardware/qcom/camera" name="CandyRoms/hardware_qcom_camera" remote="github" revision="c6" />
-  <project path="hardware/qcom/display" name="CandyRoms/hardware_qcom_display" remote="github" revision="c6" />
-  <project path="hardware/qcom/display-caf/msm8960" name="CandyRoms/hardware_qcom_display" remote="github" revision="c6-caf-8960" />
-  <project path="hardware/qcom/display-caf/msm8974" name="CandyRoms/hardware_qcom_display" remote="github" revision="c6-caf-8974"/>
-  <project path="hardware/qcom/display-caf/msm8994" name="CandyRoms/hardware_qcom_display" remote="github" revision="c6-caf-8994" />
-  <project path="hardware/qcom/display-caf/msm8996" name="CandyRoms/hardware_qcom_display" remote="github" revision="c6-caf-8996" />
-  <project path="hardware/qcom/fm" name="CandyRoms/hardware_qcom_fm" remote="github" revision="c6" />
-  <project path="hardware/qcom/media/default" name="CandyRoms/hardware_qcom_media" remote="github" revision="c6" />
-  <project path="hardware/qcom/media-caf/msm8960" name="CandyRoms/hardware_qcom_media" remote="github" revision="c6-caf-8960" />
-  <project path="hardware/qcom/media-caf/msm8974" name="CandyRoms/hardware_qcom_media" remote="github" revision="c6-caf-8974" />
-  <project path="hardware/qcom/media-caf/msm8994" name="CandyRoms/hardware_qcom_media" remote="github" revision="c6-caf-8994" />
-  <project path="hardware/qcom/media-caf/msm8996" name="CandyRoms/hardware_qcom_media" remote="github" revision="c6-caf-8996" />
-  <project path="hardware/qcom/wlan" name="CandyRoms/hardware_qcom_wlan" remote="github" revision="c6" />
-  <project path="libcore" name="CandyRoms/libcore" remote="github" revision="c6" />
-  <project path="packages/apps/Bluetooth" name="CandyRoms/packages_apps_Bluetooth" groups="pdk-cw-fs" remote="github" revision="c6" />
-  <project path="packages/apps/Camera2" name="CandyRoms/packages_apps_Camera2" groups="pdk-fs" remote="github" revision="c6" />
-  <project path="packages/apps/Contacts" name="CandyRoms/packages_apps_Contacts" remote="github" revision="c6" />
-  <project path="packages/apps/DeskClock" name="CandyRoms/packages_apps_DeskClock" remote="github" revision="c6" />
-  <project path="packages/apps/Dialer" name="CandyRoms/packages_apps_Dialer" remote="github" revision="c6" />
-  <project path="packages/apps/DUI" name="CandyRoms/packages_apps_DUI" remote="github" revision="c6" />
-  <project path="packages/apps/Exchange" name="CandyRoms/packages_apps_Exchange" groups="pdk-fs" remote="github" revision="c6" />
-  <project path="packages/apps/Gallery2" name="CandyRoms/packages_apps_Gallery2" remote="github" revision="c6" />
-  <project path="packages/apps/InCallUI" name="CandyRoms/packages_apps_InCallUI" remote="github" revision="c6" />
-  <project path="packages/apps/LockClock" name="CandyRoms/packages_apps_LockClock" remote="github" revision="c6" />
-  <project path="packages/apps/Nfc" name="CandyRoms/packages_apps_Nfc" remote="github" groups="apps_nfc,pdk-fs" revision="c6" />
-  <project path="packages/apps/Settings" name="CandyRoms/packages_apps_Settings" remote="github" revision="c6" />
-  <project path="packages/apps/ThemeChooser" name="CandyRoms/packages_apps_ThemeChooser" remote="github" revision="c6" />
-  <project path="packages/providers/ThemesProvider" name="CandyRoms/packages_providers_ThemesProvider" remote="github" revision="c6" />
-  <project path="packages/services/Telephony" name="CandyRoms/packages_services_Telephony" remote="github" revision="c6" />
-  <project path="packages/services/Telecomm" name="CandyRoms/packages_services_Telecomm" remote="github" revision="c6" />
-  <project path="Scripts" name="CandyRoms/Scripts" remote="github" revision="master" >
+  <project path="art" name="art" remote="cr" revision="c6"  />
+  <project path="bionic" name="bionic" remote="cr" revision="c6" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="cr" revision="c6" />
+  <project path="candy" name="candy" remote="cr" revision="c7" />
+  <project path="device/qcom/common" name="device_qcom_common" remote="cr" revision="c6" />
+  <project path="external/dhcpcd" name="external_dhcpcd" groups="pdk-cw-fs,pdk-fs" remote="cr" revision="c6" />
+  <project path="external/DUtils" name="external_DUtils" remote="cr" revision="c6" />
+  <project path="external/e2fsprogs" name="external_e2fsprogs" groups="pdk" remote="cr" revision="c6" />
+  <project path="external/google" name="external_google" remote="cr" revision="c6" />
+  <project path="external/guava" name="external_guava" groups="pdk-cw-fs,pdk-fs" remote="cr" revision="c6" />
+  <project path="external/libnfc-nci" name="external_libnfc-nci" remote="cr" revision="c6" />
+  <project path="external/okhttp" name="external_okhttp" remote="cr" revision="c6" />
+  <project path="external/sepolicy" name="external_sepolicy" remote="cr" revision="c6" />
+  <project path="external/skia" name="external_skia" remote="cr" revision="c6" />
+  <project path="frameworks/av" name="frameworks_av" remote="cr" revision="c6" />
+  <project path="frameworks/base" name="frameworks_base" remote="cr" revision="c6" />
+  <project path="frameworks/opt/bluetooth" name="frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" remote="cr" revision="c6" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs"  remote="cr" revision="c6" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="cr" revision="c6" />
+  <project path="frameworks/opt/slim" name="frameworks_opt_slim" remote="cr" revision="c6" />
+  <project path="frameworks/native" name="frameworks_native" remote="cr" revision="c6" />
+  <project path="frameworks/support" name="frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="cr" revision="c6" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="cr" revision="c6" />
+  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" groups="pdk" remote="cr" revision="c6" />
+  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="cr" revision="c6" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="cr" revision="c6" />
+  <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" remote="cr" revision="c6" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="hardware_qcom_audio" remote="cr" revision="c6-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" remote="cr" revision="c6-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="hardware_qcom_audio" remote="cr" revision="c6-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="hardware_qcom_audio" remote="cr" revision="c6-caf-8996" />
+  <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="cr" revision="c6" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="cr" revision="c6" />
+  <project path="hardware/qcom/display-caf/msm8960" name="hardware_qcom_display" remote="cr" revision="c6-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display" remote="cr" revision="c6-caf-8974"/>
+  <project path="hardware/qcom/display-caf/msm8994" name="hardware_qcom_display" remote="cr" revision="c6-caf-8994" />
+  <project path="hardware/qcom/display-caf/msm8996" name="hardware_qcom_display" remote="cr" revision="c6-caf-8996" />
+  <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="cr" revision="c6" />
+  <project path="hardware/qcom/media/default" name="hardware_qcom_media" remote="cr" revision="c6" />
+  <project path="hardware/qcom/media-caf/msm8960" name="hardware_qcom_media" remote="cr" revision="c6-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="hardware_qcom_media" remote="cr" revision="c6-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="hardware_qcom_media" remote="cr" revision="c6-caf-8994" />
+  <project path="hardware/qcom/media-caf/msm8996" name="hardware_qcom_media" remote="cr" revision="c6-caf-8996" />
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="cr" revision="c6" />
+  <project path="libcore" name="libcore" remote="cr" revision="c6" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs" remote="cr" revision="c6" />
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" groups="pdk-fs" remote="cr" revision="c6" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="cr" revision="c6" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="cr" revision="c6" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="cr" revision="c6" />
+  <project path="packages/apps/DUI" name="packages_apps_DUI" remote="cr" revision="c6" />
+  <project path="packages/apps/Exchange" name="packages_apps_Exchange" groups="pdk-fs" remote="cr" revision="c6" />
+  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="cr" revision="c6" />
+  <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="cr" revision="c6" />
+  <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="cr" revision="c6" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="cr" groups="apps_nfc,pdk-fs" revision="c6" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cr" revision="c6" />
+  <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="cr" revision="c6" />
+  <project path="packages/providers/ThemesProvider" name="packages_providers_ThemesProvider" remote="cr" revision="c6" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="cr" revision="c6" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="cr" revision="c6" />
+  <project path="Scripts" name="Scripts" remote="cr" revision="master" >
     <copyfile src="source-bringup.sh" dest="source-bringup.sh" />
   </project>
-  <project path="system/bt" name="CandyRoms/system_bt" groups="pdk" remote="github" revision="c6" />
-  <project path="system/core" name="CandyRoms/system_core" remote="github" revision="c6" />
-  <project path="system/extras" name="CandyRoms/system_extras" remote="github" revision="c6" />
-  <project path="vendor/candy" name="CandyRoms/vendor_candy" remote="github" revision="c6" />
+  <project path="system/bt" name="system_bt" groups="pdk" remote="cr" revision="c6" />
+  <project path="system/core" name="system_core" remote="cr" revision="c6" />
+  <project path="system/extras" name="system_extras" remote="cr" revision="c6" />
+  <project path="vendor/candy" name="vendor_candy" remote="cr" revision="c6" />
   
   <!-- CM Projects -->
   <project path="external/mm-dash" name="android_external_mm-dash" remote="cm" revision="cm-13.0" />
