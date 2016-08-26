@@ -14,7 +14,7 @@ which hardware base your phone is working.
 To initialize your local repository using the Candy6 trees, use this command:
 
 
-	repo init -u git://github.com/CandyRoms/candy.git -b c6
+	repo init -u git://github.com/CandyRoms/candy.git -b c7
 
 
 
