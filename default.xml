@@ -35,10 +35,11 @@
 
   <!-- Candy Projects -->
   <project path="candy" name="CandyRoms/candy" remote="github" revision="c7" />
-  <!-- AOSP Projects -->
-  <project path="build" name="platform/build" groups="pdk,tradefed" remote="aosp" >
+  <project path="build" name="CandyRoms/build" remote="github" revision="c7" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="venodr/candy" name="CandyRoms/vendor_candy" remote="github" revision="c7" />
+  <!-- AOSP Projects -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" remote="aosp" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" remote="aosp" >
@@ -55,8 +56,6 @@
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" />
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu,broadcom_pdk" remote="aosp" />
-  <project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu,broadcom_pdk" clone-depth="1" remote="aosp" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" remote="aosp" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" remote="aosp" />
@@ -73,24 +72,6 @@
   <project path="device/generic/qemu" name="device/generic/qemu" remote="aosp" />
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" remote="aosp" />
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" />
-  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" remote="aosp" />
-  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" remote="aosp" />
-  <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs" remote="aosp" />
-  <project path="device/google/contexthub" name="device/google/contexthub" groups="device" remote="aosp" />
-  <project path="device/google/dragon" name="device/google/dragon" groups="device,dragon" remote="aosp" />
-  <project path="device/google/dragon-kernel" name="device/google/dragon-kernel" groups="device,dragon" clone-depth="1" remote="aosp" />
-  <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,broadcom_pdk" remote="aosp" />
-  <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,broadcom_pdk" clone-depth="1" remote="aosp" />
-  <project path="device/huawei/angler" name="device/huawei/angler" groups="device,angler,broadcom_pdk" remote="aosp" />
-  <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" remote="aosp" />
-  <project path="device/intel/edison" name="device/intel/edison" groups="device" remote="aosp" />
-  <project path="device/lge/bullhead" name="device/lge/bullhead" groups="device,bullhead" remote="aosp" />
-  <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" remote="aosp" />
-  <project path="device/linaro/hikey" name="device/linaro/hikey" remote="aosp" />
-  <project path="device/linaro/hikey-kernel" name="device/linaro/hikey-kernel" remote="aosp" />
-  <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu,broadcom_pdk" remote="aosp" />
-  <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" remote="aosp" />
-  <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" />
   <project path="external/adt-infra" name="platform/external/adt-infra" groups="adt-infra,notdefault" remote="aosp" />
