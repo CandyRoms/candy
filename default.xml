@@ -40,7 +40,7 @@
     </project>
   <project path="candy" name="CandyRoms/candy" remote="github" revision="c7" />
   <project path="frameworks/native" name="CandyRoms/frameworks_native" groups="pdk" remote="github" revision="c7" />
-  <project path="venodr/candy" name="CandyRoms/vendor_candy" remote="github" revision="c7" />
+  <project path="vendor/candy" name="CandyRoms/vendor_candy" remote="github" revision="c7" />
   <!-- AOSP Projects -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" remote="aosp" />
