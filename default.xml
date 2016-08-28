@@ -34,11 +34,12 @@
            revision="cm-14.0" />
 
   <!-- Candy Projects -->
-  <include name="hals.xml" />
+    <include name="hals.xml" />
+    <project path="build" name="CandyRoms/build" remote="github" revision="c7" >
+       <copyfile src="core/root.mk" dest="Makefile" />
+    </project>
   <project path="candy" name="CandyRoms/candy" remote="github" revision="c7" />
-  <project path="build" name="CandyRoms/build" remote="github" revision="c7" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
+  <project path="frameworks/native" name="CandyRoms/frameworks_native" groups="pdk" remote="github" revision="c7" />
   <project path="venodr/candy" name="CandyRoms/vendor_candy" remote="github" revision="c7" />
   <!-- AOSP Projects -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
@@ -326,7 +327,6 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="aosp" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" remote="aosp" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
