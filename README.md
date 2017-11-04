@@ -1,9 +1,9 @@
-CandyROM
-========
+CandyROMs
+=========
 
 To initialize your local repository, use this command:
 
-	repo init -u https://github.com/CandyROM/candy.git -b c8.0
+	repo init -u https://github.com/CandyROMs/candy.git -b c8.0
 
 Submitting Patches
 ------------------
@@ -15,7 +15,7 @@ To add the changeid hook in a project, use the following commands:
 	cd <project>
 	scp -p -P 29418 <username>@gerrit.bbqdroid.org:hooks/commit-msg ${gitdir}/hooks/
 
-You can also install the hook globally in all local CandyROM projects
+You can also install the hook globally in all local CandyROMs projects
 
 	repo forall -c 'gitdir=$(git rev-parse --git-dir); scp -p -P 29418 <username>@gerrit.bbqdroid.org:hooks/commit-msg ${gitdir}/hooks/'
 
@@ -26,7 +26,7 @@ You can send patches by using these commands:
     cd <project>
     git add --all
     git commit
-    git push ssh://<username>@gerrit.bbqdroid.org:29418/CandyROM/<project> HEAD:refs/for/<branch>
+    git push ssh://<username>@gerrit.bbqdroid.org:29418/CandyROMs/<project> HEAD:refs/for/<branch>
 
 This will commit your changes into a single commit.
 Make sure your git has the changeid hooks added.
@@ -40,4 +40,4 @@ use
 
 Gerrit will recognize it as a new patchset.
 
-To view the status of your and others patches, visit [CandyROM Code Review](http://gerrit.bbqdroid.org)
+To view the status of your and others patches, visit [CandyROMs Code Review](http://gerrit.bbqdroid.org)

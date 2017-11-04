@@ -33,51 +33,5 @@
   <project path="hardware/qcom/media-caf/msm8996" name="hardware_qcom_media" groups="qcom" remote="gzosp" revision="8.0-caf-8996" />
   <project path="hardware/qcom/media-caf/msm8998" name="hardware_qcom_media" groups="qcom" remote="gzosp" revision="8.0-caf-8998" />
 
-  <!-- Ant Wireless -->
-  <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="candy" />
-  <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="candy" />
-  <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="candy" />
-
-  <!-- bt -->
-  <project path="hardware/qcom/bt" name="hardware_qcom_bt" groups="qcom" remote="candy" />
-  <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom" remote="candy" revision="c8.0-caf" />
-
-  <!-- Device -->
-  <project path="device/qcom/common" name="device_qcom_common" remote="candy" />
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="candy" />
-
-  <!-- External -->
-  <project path="external/brctl" name="external_brctl" remote="candy" />
-  <project path="external/libnetfilter_conntrack" name="external_libnetfilter_conntrack" remote="candy" />
-  <project path="external/libnfnetlink" name="external_libnfnetlink" remote="candy" />
-  <project path="external/powertop" name="external_powertop" remote="candy" />
-
-  <!-- Gps -->
-  <project path="hardware/qcom/gps" name="hardware_qcom_gps" groups="qcom,qcom_gps" remote="candy" />
-
-  <!--Keymaster -->
-  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="candy" />
-
-  <!-- Power -->
-  <project path="hardware/qcom/power" name="hardware_qcom_power" groups="qcom,pdk" remote="candy" />
-
-  <!-- Ril -->
-  <project path="hardware/ril-caf" name="hardware_ril" groups="pdk" remote="candy" revision="c8.0-caf" />
-
-  <!-- System QCOM Softapp -->
-  <project path="system/qcom" name="system_qcom" groups="pdk" remote="candy" />
-
-  <!-- Wlan -->
-  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" groups="qcom_wlan" remote="candy" />
-  <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" groups="qcom_wlan" remote="candy" revision="c8.0-caf" />
-
-  <!-- Vendors -->
-  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="candy" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="candy" />
-  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="candy" />
-  <!--project path="vendor/qcom/opensource/dpm" name="vendor_qcom_opensource_dpm" remote="candy" />-->
-  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="candy" >
-    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
-  </project>
 
 </manifest>

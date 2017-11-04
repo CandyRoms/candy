@@ -4,18 +4,14 @@
   <remote  name="github"
            fetch="https://github.com" />
 
-<!--  <remote  name="candy"
-           revision="refs/heads/c8.0"
-           fetch=".."
-           review="gerrit.bbqdroid.org" /> -->
-
   <remote  name="candy"
-           fetch="https://github.com/CandyROM"
-           revision="refs/heads/c8.0" />
+           revision="refs/heads/c8.0"
+           fetch="https://github.com/CandyROMs"
+           review="gerrit.bbqdroid.org" />
 
   <remote  name="gzosp"
            fetch="https://github.com/GZOSP"
-           revision="refs/heads/8.0" />
+           revision="8.0" />
 
   <remote  name="los"
            fetch=".."
@@ -57,6 +53,12 @@
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="candy" />
   <project path="development" name="development" groups="pdk-cw-fs,pdk-fs" remote="candy" />
   <project path="device/candy/sepolicy" name="device_candy_sepolicy" remote="candy" />
+  <project path="device/qcom/common" name="device_qcom_common" remote="candy" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="candy" />
+  <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="candy" />
+  <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="candy" />
+  <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="candy" />
+  <project path="external/brctl" name="external_brctl" remote="candy" />
   <project path="external/connectivity" name="external_connectivity" groups="pdk" remote="candy" />
   <project path="external/ebtables" name="external_ebtables" groups="pdk" remote="candy" />
   <project path="external/exfat" name="external_exfat" remote="candy" />
@@ -64,9 +66,12 @@
   <project path="external/htop" name="external_htop" remote="candy" />
   <project path="external/json-c" name="external_json-c" remote="candy" />
   <project path="external/libncurses" name="external_libncurses" remote="candy" />
+  <project path="external/libnetfilter_conntrack" name="external_libnetfilter_conntrack" remote="candy" />
+  <project path="external/libnfnetlink" name="external_libnfnetlink" remote="candy" />
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="candy" />
   <project path="external/mksh" name="external_mksh" groups="pdk" remote="candy" />
   <project path="external/nano" name="external_nano" remote="candy" />
+  <project path="external/powertop" name="external_powertop" remote="candy" />
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="candy" />
   <project path="external/selinux" name="external_selinux" groups="pdk" remote="candy" />
   <project path="external/toybox" name="external_toybox" groups="pdk" remote="candy" />
@@ -82,9 +87,18 @@
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="candy" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="candy" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="candy" />
+  <project path="hardware/qcom/bt" name="hardware_qcom_bt" groups="qcom" remote="candy" />
+  <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom" remote="candy" revision="c8.0-caf" />
+  <project path="hardware/qcom/gps" name="hardware_qcom_gps" groups="qcom,qcom_gps" remote="candy" />
+  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="candy" />
+  <project path="hardware/qcom/power" name="hardware_qcom_power" groups="qcom,pdk" remote="candy" />
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" groups="qcom_wlan" remote="candy" />
+  <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" groups="qcom_wlan" remote="candy" revision="c8.0-caf" />
   <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="candy" />
+  <project path="hardware/ril-caf" name="hardware_ril" groups="pdk" remote="candy" revision="c8.0-caf" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="candy" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" groups="pdk-fs" remote="candy" />
+  <project path="packages/apps/CandyWrappers" name="packages_apps_CandyWrappers" groups="pdk-fs" remote="candy" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" groups="pdk-fs" remote="candy" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="candy" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" groups="pdk-fs" remote="candy" />
@@ -99,8 +113,15 @@
   <project path="system/core" name="system_core" groups="pdk" remote="candy" />
   <project path="system/media" name="system_media" groups="pdk" remote="candy" />
   <project path="system/nfc" name="system_nfc" groups="pdk" remote="candy" />
+  <project path="system/qcom" name="system_qcom" groups="pdk" remote="candy" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="candy" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="candy" />
   <project path="vendor/candy" name="vendor_candy" remote="candy" />
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="candy" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="candy" />
+  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="candy" />
+  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="candy" >
+    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
+  </project>
 
 </manifest>
