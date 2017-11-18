@@ -114,6 +114,7 @@
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="candy" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="candy" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="candy" />
+  <project path="scripts" name="Scripts" groups="pdk" remote="candy" />
   <project path="system/bt" name="system_bt" groups="pdk" remote="candy" />
   <project path="system/core" name="system_core" groups="pdk" remote="candy" />
   <project path="system/hwservicemanager" name="system_hwservicemanager" groups="pdk" remote="candy" />
