@@ -114,6 +114,7 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="candy" />
   <project path="system/bt" name="system_bt" groups="pdk" remote="candy" />
   <project path="system/core" name="system_core" groups="pdk" remote="candy" />
+  <project path="system/hwservicemanager" name="system_hwservicemanager" groups="pdk" remote="candy" />
   <project path="system/media" name="system_media" groups="pdk" remote="candy" />
   <project path="system/nfc" name="system_nfc" groups="pdk" remote="candy" />
   <project path="system/qcom" name="system_qcom" groups="pdk" remote="candy" />
