@@ -72,6 +72,7 @@
   <project path="external/mksh" name="external_mksh" groups="pdk" remote="candy" />
   <project path="external/nano" name="external_nano" remote="candy" />
   <project path="external/powertop" name="external_powertop" remote="candy" />
+  <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="candy" />
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="candy" />
   <project path="external/selinux" name="external_selinux" groups="pdk" remote="candy" />
   <project path="external/toybox" name="external_toybox" groups="pdk" remote="candy" />
