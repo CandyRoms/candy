@@ -5,6 +5,10 @@ To initialize your local repository, use this command:
 
 	repo init -u https://github.com/CandyROMs/candy.git -b c8.0
 
+Continue to sync Candy by issuing:
+
+	repo sync --force-sync --no-tags --no-clone-bundle -jX (X depends on the number of cores your CPU has, and the strength of your connection)
+
 Submitting Patches
 ------------------
 
