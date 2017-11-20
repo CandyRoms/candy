@@ -508,9 +508,9 @@
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
   <!-- Candy manifest -->
-  <include name="candy_default.xml" />
+  <include name="snippets/candy.xml" />
 
   <!-- CAF manifest -->
-  <include name="caf_default.xml" />
+  <include name="snippets/caf.xml" />
 
 </manifest>
