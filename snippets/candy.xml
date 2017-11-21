@@ -126,6 +126,6 @@
   </project>
 
   <!-- SDClang -->
-  <project path="vendor/qcom/sdclang-4.0/linux-x86" name="vendor_qcom_sdclang-4.0_linux-x86" remote="candy" />
+  <project path="vendor/qcom/sdclang-4.0/linux-x86" name="ThankYouMario/proprietary_vendor_qcom_sdclang-4.0_linux-x86" remote="github" />
 
 </manifest>
