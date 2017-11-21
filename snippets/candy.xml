@@ -69,8 +69,8 @@
   <project path="external/libnetfilter_conntrack" name="external_libnetfilter_conntrack" remote="candy" />
   <project path="external/libnfnetlink" name="external_libnfnetlink" remote="candy" />
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="candy" />
-  <project path="external/libnl" name="external/libnl" groups="pdk" remote="candy" />
-  <project path="external/llvm" name="external/llvm" groups="pdk" remote="candy" />
+  <project path="external/libnl" name="external_libnl" groups="pdk" remote="candy" />
+  <project path="external/llvm" name="external_llvm" groups="pdk" remote="candy" />
   <project path="external/mksh" name="external_mksh" groups="pdk" remote="candy" />
   <project path="external/nano" name="external_nano" remote="candy" />
   <project path="external/powertop" name="external_powertop" remote="candy" />
