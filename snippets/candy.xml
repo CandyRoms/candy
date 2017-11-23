@@ -9,6 +9,10 @@
            fetch="https://github.com/CandyROMs"
            review="gerrit.bbqdroid.org" />
 
+  <remote  name="cd"
+           fetch="https://github.com/CandyDevices"
+           revision="c8.0" />
+
   <remote  name="gzosp"
            fetch="https://github.com/GZOSP"
            revision="8.0" />
