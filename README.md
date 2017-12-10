@@ -3,7 +3,7 @@ CandyROMs
 
 To initialize your local repository, use this command:
 
-	repo init -u https://github.com/CandyROMs/candy.git -b c8.0
+	repo init -u https://github.com/CandyROMs/candy.git -b c8.1
 
 Continue to sync Candy by issuing:
 

@@ -5,33 +5,33 @@
            fetch="https://github.com" />
 
   <remote  name="candy"
-           revision="refs/heads/c8.0"
+           revision="refs/heads/c8.1"
            fetch="https://github.com/CandyROMs"
            review="gerrit.bbqdroid.org" />
 
   <remote  name="cd"
            fetch="https://github.com/CandyDevices"
-           revision="c8.0" />
+           revision="c8.1" />
 
   <remote  name="gzosp"
            fetch="https://github.com/GZOSP"
-           revision="8.0" />
+           revision="8.1" />
 
   <remote  name="los"
            fetch=".."
            review="review.lineageos.org"
-           revision="refs/heads/lineage-15.0" />
+           revision="refs/heads/lineage-15.1" />
 
   <remote  name="slim"
            fetch=".."
            review="review.slimroms.org"
-           revision="refs/heads/or8.0" />
+           revision="refs/heads/or8.1" />
 
   <remote  name="tm"
            fetch="https://github.com/TheMuppets"
-           revision="lineage-15.0" />
+           revision="lineage-15.1" />
 
-  <default revision="refs/heads/c8.0"
+  <default revision="refs/heads/c8.1"
            remote="candy"
            sync-c="true"
            sync-j="4" />
@@ -113,12 +113,16 @@
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="candy" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="candy" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="candy" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="candy" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="candy" />
   <project path="scripts" name="Scripts" groups="pdk" remote="candy" />
   <project path="system/bt" name="system_bt" groups="pdk" remote="candy" />
   <project path="system/core" name="system_core" groups="pdk" remote="candy" />
+  <project path="system/hardware/interfaces" name="system_hardware_interfaces" groups="pdk" remote="candy" />
   <project path="system/hwservicemanager" name="system_hwservicemanager" groups="pdk" remote="candy" />
+  <project path="system/libhidl" name="system_libhidl" groups="pdk" remote="candy" />
   <project path="system/media" name="system_media" groups="pdk" remote="candy" />
+  <project path="system/netd" name="system_netd" groups="pdk" remote="candy" />
   <project path="system/nfc" name="system_nfc" groups="pdk" remote="candy" />
   <project path="system/qcom" name="system_qcom" groups="pdk" remote="candy" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="candy" />
