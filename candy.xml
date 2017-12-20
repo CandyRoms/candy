@@ -57,12 +57,9 @@
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="candy" />
   <project path="development" name="development" groups="pdk-cw-fs,pdk-fs" remote="candy" />
   <project path="device/candy/sepolicy" name="device_candy_sepolicy" remote="candy" />
-  <project path="device/qcom/common" name="device_qcom_common" remote="candy" />
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="candy" />
   <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="candy" />
   <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="candy" />
   <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="candy" />
-  <project path="external/brctl" name="external_brctl" remote="candy" />
   <project path="external/connectivity" name="external_connectivity" groups="pdk" remote="candy" />
   <project path="external/DUtils" name="external_DUtils" remote="candy" />
   <project path="external/ebtables" name="external_ebtables" groups="pdk" remote="candy" />
@@ -71,21 +68,16 @@
   <project path="external/htop" name="external_htop" remote="candy" />
   <project path="external/json-c" name="external_json-c" remote="candy" />
   <project path="external/libncurses" name="external_libncurses" remote="candy" />
-  <project path="external/libnetfilter_conntrack" name="external_libnetfilter_conntrack" remote="candy" />
-  <project path="external/libnfnetlink" name="external_libnfnetlink" remote="candy" />
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="candy" />
-  <project path="external/libnl" name="external_libnl" groups="pdk" remote="candy" />
-  <project path="external/llvm" name="external_llvm" groups="pdk" remote="candy" />
   <project path="external/mksh" name="external_mksh" groups="pdk" remote="candy" />
   <project path="external/nano" name="external_nano" remote="candy" />
-  <project path="external/powertop" name="external_powertop" remote="candy" />
   <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="candy" />
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="candy" />
   <project path="external/selinux" name="external_selinux" groups="pdk" remote="candy" />
   <project path="external/toybox" name="external_toybox" groups="pdk" remote="candy" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" groups="pdk" remote="candy" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="candy" />
-  <project path="frameworks/base" name="frameworks_base" groups="pdk" remote="candy" />
+  <project path="frameworks/base" name="frameworks_base" remote="candy" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="candy" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="candy" />
   <project path="hardware/candy/interfaces" name="hardware_candy_interfaces" remote="candy" >
@@ -95,6 +87,7 @@
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="candy" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="candy" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="candy" />
+  <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="candy" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="candy" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" groups="pdk-fs" remote="candy" />
   <project path="packages/apps/CandyShop" name="packages_apps_CandyShop" groups="pdk-fs" remote="candy" />
@@ -104,8 +97,8 @@
   <project path="packages/apps/DUI" name="packages_apps_DUI" groups="pdk-fs" remote="candy" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="candy" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" groups="pdk-fs" remote="candy" />
-  <project path="packages/apps/Nfc" name="packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="candy" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="candy" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="candy" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="candy" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="candy" />
   <project path="packages/apps/SlimRecents" name="packages_apps_SlimRecents" groups="pdk-fs" remote="candy" />
@@ -118,13 +111,13 @@
   <project path="scripts" name="Scripts" groups="pdk" remote="candy" />
   <project path="system/bt" name="system_bt" groups="pdk" remote="candy" />
   <project path="system/core" name="system_core" groups="pdk" remote="candy" />
+  <project path="system/extras" name="system_extras" groups="pdk" remote="candy" />
   <project path="system/hardware/interfaces" name="system_hardware_interfaces" groups="pdk" remote="candy" />
   <project path="system/hwservicemanager" name="system_hwservicemanager" groups="pdk" remote="candy" />
   <project path="system/libhidl" name="system_libhidl" groups="pdk" remote="candy" />
   <project path="system/media" name="system_media" groups="pdk" remote="candy" />
   <project path="system/netd" name="system_netd" groups="pdk" remote="candy" />
   <project path="system/nfc" name="system_nfc" groups="pdk" remote="candy" />
-  <project path="system/qcom" name="system_qcom" groups="pdk" remote="candy" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="candy" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="candy" />
 

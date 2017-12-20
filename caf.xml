@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- HardWare QCOM -->
-  <project path="hardware/qcom/bt" name="hardware_qcom_bt" groups="qcom" remote="candy" />
-  <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom" remote="candy" revision="c8.1-caf" />
-  <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="candy" />
-  <project path="hardware/qcom/gps" name="hardware_qcom_gps" groups="qcom,qcom_gps" remote="candy" />
-  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="candy" />
-  <project path="hardware/qcom/power" name="hardware_qcom_power" groups="qcom,pdk" remote="candy" />
-  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" groups="qcom_wlan" remote="candy" />
-  <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" groups="qcom_wlan" remote="candy" revision="c8.1-caf" />
-  <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="candy" />
-  <project path="hardware/ril-caf" name="hardware_ril" groups="pdk" remote="candy" revision="c8.1-caf" />
 
   <!-- Hardware QCOM 'HALs' -->
   <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="gzosp" revision="8.1" />
@@ -45,17 +34,52 @@
   <project path="hardware/qcom/media-caf/msm8996" name="hardware_qcom_media" groups="qcom" remote="gzosp" revision="8.1-caf-8996" />
   <project path="hardware/qcom/media-caf/msm8998" name="hardware_qcom_media" groups="qcom" remote="gzosp" revision="8.1-caf-8998" />
 
-  <!-- Vendor CAF -->
-  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="candy" />
 
-  <!-- Vendor QCOM -->
+  <!-- bt -->
+  <project path="hardware/qcom/bt" name="hardware_qcom_bt" groups="qcom" remote="candy" />
+  <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom" remote="candy" revision="c8.1-caf" />
+
+  <!-- camera -->
+  <project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="qcom_camera" remote="candy" />
+
+  <!-- FM service -->
+  <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="candy" />
+
+  <!-- Gps -->
+  <project path="hardware/qcom/gps" name="hardware_qcom_gps" groups="qcom,qcom_gps" remote="candy" />
+
+  <!--Keymaster -->
+  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="candy" />
+
+  <!-- Power -->
+  <project path="hardware/qcom/power" name="hardware_qcom_power" groups="qcom,pdk" remote="candy" />
+
+  <!-- Wlan -->
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" groups="qcom_wlan" remote="candy" />
+  <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" groups="qcom_wlan" remote="candy" revision="c8.1-caf" />
+
+  <!-- Device -->
+  <project path="device/qcom/common" name="device_qcom_common" remote="candy" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="candy" />
+
+  <!-- External -->
+  <project path="external/libnetfilter_conntrack" name="external_libnetfilter_conntrack" remote="candy" />
+  <project path="external/libnfnetlink" name="external_libnfnetlink" remote="candy" />
+  <project path="external/powertop" name="external_powertop" remote="candy" />
+
+  <!-- Ril -->
+  <project path="hardware/ril-caf" name="hardware_ril" groups="pdk" remote="candy" revision="c8.1-caf" />
+
+  <!-- System QCOM Softapp -->
+  <project path="system/qcom" name="system_qcom" groups="pdk" remote="candy" />
+
+  <!-- Vendors -->
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="candy" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="candy" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="candy" />
+  <!--project path="vendor/qcom/opensource/dpm" name="vendor_qcom_opensource_dpm" remote="candy" />-->
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="candy" >
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
-
-  <!-- Vendor SDClang -->
-  <project path="vendor/qcom/sdclang-4.0/linux-x86" name="ThankYouMario/proprietary_vendor_qcom_sdclang-4.0_linux-x86" remote="github" revision="oreo" />
 
 </manifest>
