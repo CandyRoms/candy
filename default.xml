@@ -7,7 +7,6 @@
            revision="refs/tags/android-8.1.0_r4"/>
 
   <!-- AOSP -->
-  <project path="art" name="platform/art" groups="pdk" remote="aosp" />
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" remote="aosp" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -77,7 +76,6 @@
   <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" remote="aosp" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk" remote="aosp" />
-  <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" remote="aosp" />
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk" remote="aosp" />
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk" remote="aosp" />
   <project path="external/cros/system_api" name="platform/external/cros/system_api" groups="pdk" remote="aosp" />
@@ -168,7 +166,6 @@
   <project path="external/libchrome" name="platform/external/libchrome" groups="pdk" remote="aosp" />
   <project path="external/libconstrainedcrypto" name="platform/external/libconstrainedcrypto" groups="pdk" remote="aosp" />
   <project path="external/libcups" name="platform/external/libcups" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" remote="aosp" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" remote="aosp" />
   <project path="external/libdivsufsort" name="platform/external/libdivsufsort" groups="pdk" remote="aosp" />
   <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" remote="aosp" />
@@ -207,7 +204,6 @@
   <project path="external/lisa" name="platform/external/lisa" groups="pdk" remote="aosp" />
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk" remote="aosp" />
   <project path="external/lld" name="platform/external/lld" groups="pdk" remote="aosp" />
-  <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="aosp" />
   <project path="external/lmfit" name="platform/external/lmfit" groups="pdk" remote="aosp" />
   <project path="external/ltp" name="platform/external/ltp" groups="vts,pdk" remote="aosp" />
   <project path="external/lz4" name="platform/external/lz4" groups="pdk" remote="aosp" />
@@ -448,7 +444,6 @@
   <project path="prebuilts/checkcolor" name="platform/prebuilts/checkcolor" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" groups="pdk,darwin" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" clone-depth="1" remote="aosp" />
   <project path="prebuilts/deqp" name="platform/prebuilts/deqp" groups="pdk-fs" remote="aosp" />
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="aosp" />
