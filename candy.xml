@@ -79,6 +79,7 @@
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="candy" />
   <project path="frameworks/base" name="frameworks_base" remote="candy" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="candy" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_ims" groups="pdk" remote="candy" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="candy" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="candy" />
   <project path="hardware/candy/interfaces" name="hardware_candy_interfaces" remote="candy" >
