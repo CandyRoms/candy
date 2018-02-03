@@ -123,6 +123,7 @@
   <project path="system/netd" name="system_netd" groups="pdk" remote="candy" />
   <project path="system/nfc" name="system_nfc" groups="pdk" remote="candy" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="candy" />
+  <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="candy" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="candy" />
 
   <!-- Vendor Candy -->
