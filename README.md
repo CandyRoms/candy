@@ -30,7 +30,7 @@ You can send patches by using these commands:
     cd <project>
     git add --all
     git commit
-    git push ssh://<username>@gerrit.bbqdroid.org:29418/CandyRoms/<project> HEAD:refs/for/<branch>
+    git push ssh://<username>@gerrit.bbqdroid.org:29418/CandyROMs/<project> HEAD:refs/for/<branch>
 
 This will commit your changes into a single commit.
 Make sure your git has the changeid hooks added.
