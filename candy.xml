@@ -82,6 +82,8 @@
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" groups="pdk" remote="candy" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="candy" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="candy" />
+
+    <!-- Hardware -->
   <project path="hardware/candy/interfaces" name="hardware_candy_interfaces" remote="candy" >
       <copyfile dest="hardware/candy/Android.bp" src="Android.bp"/>
   </project>
@@ -92,6 +94,11 @@
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="candy" />
   <project path="hardware/qcom/bootctrl" name="hardware_qcom_bootctrl" groups="pdk" remote="candy" />
   <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="candy" />
+  <project path="hardware/samsung" name="hardware_samsung" remote="candy" />
+  <project path="hardware/samsung_slsi-cm/exynos" name="hardware_samsung_slsi-cm_exynos" remote="candy" />
+  <project path="hardware/samsung_slsi-cm/exynos5" name="hardware_samsung_slsi-cm_exynos5" remote="candy" />
+  <project path="hardware/samsung_slsi-cm/exynos7420" name="hardware_samsung_slsi-cm_exynos7420" remote="candy" />
+  <project path="hardware/samsung_slsi-cm/openmax" name="hardware_samsung_slsi-cm_openmax" remote="candy" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="candy" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" groups="pdk-fs" remote="candy" />
   <project path="packages/apps/CandyShop" name="packages_apps_CandyShop" groups="pdk-fs" remote="candy" />
