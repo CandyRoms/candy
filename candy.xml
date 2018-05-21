@@ -106,6 +106,7 @@
   <project path="hardware/samsung_slsi-cm/openmax" name="hardware_samsung_slsi-cm_openmax" remote="candy" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="candy" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" groups="pdk-fs" remote="candy" />
+  <project path="packages/apps/CandyOTA" name="packages_apps_CandyOTA" groups="pdk-fs" remote="candy" />
   <project path="packages/apps/CandyShop" name="packages_apps_CandyShop" groups="pdk-fs" remote="candy" />
   <project path="packages/apps/CandyWrappers" name="packages_apps_CandyWrappers" groups="pdk-fs" remote="candy" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" groups="pdk-fs" remote="candy" />
