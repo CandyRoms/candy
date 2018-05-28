@@ -148,4 +148,7 @@
   <!-- Wireguard support -->
   <project path="kernel/wireguard" name="android_kernel_wireguard" remote="zx2c4" />
 
+  <!-- OTA config -->
+  <project path="OTA/config" name="OTA_config" remote="candy" />
+
 </manifest>
