@@ -31,11 +31,6 @@
            fetch="https://github.com/TheMuppets"
            revision="lineage-15.1" />
 
-  <remote name="zx2c4"
-          fetch="https://git.zx2c4.com/"
-          revision="master" 
-          sync-s="true"/>
-
   <default revision="refs/heads/c8.1"
            remote="candy"
            sync-c="true"
@@ -144,9 +139,6 @@
 
   <!-- Vendor Candy -->
   <project path="vendor/candy" name="vendor_candy" remote="candy" />
-
-  <!-- Wireguard support -->
-  <project path="kernel/wireguard" name="android_kernel_wireguard" remote="zx2c4" />
 
   <!-- OTA config -->
   <project path="OTA/config" name="OTA_config" remote="candy" />
