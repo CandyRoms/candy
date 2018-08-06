@@ -53,6 +53,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="art" name="art" groups="pdk" remote="candy" />
   <project path="bionic" name="bionic" groups="pdk" remote="candy" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="candy" />
   <project path="development" name="development" groups="pdk-cw-fs,pdk-fs" remote="candy" />
