@@ -23,6 +23,7 @@
   <project path="external/tinycompress" name="external_tinycompress" remote="candy" />
   <project path="frameworks/av" name="frameworks_av" remote="candy" />
   <project path="frameworks/base" name="frameworks_base" remote="candy" />
+  <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="candy" />
   <project path="frameworks/native" name="frameworks_native" remote="candy" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="candy" />
   <project path="frameworks/support" name="frameworks_support" remote="candy" />
