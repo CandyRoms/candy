@@ -59,6 +59,7 @@
 
   <!-- Codeaurora Additions -->
   <project path="device/qcom/common" name="device_qcom_common" remote="candy" />
+  <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="candy" />
   <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" revision="16.0-caf-8998" remote="los" />
   <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" revision="16.0-caf-8998" remote="los" />
   <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" revision="16.0-caf-8998" remote="los" />
