@@ -19,7 +19,7 @@
            revision="refs/tags/android-9.0.0_r1" />
 
   <remote  name="los"
-           fetch=".."
+           fetch="https://github.com/LineageOS"
            review="review.lineageos.org"
            revision="refs/heads/lineage-16.0" />
 
