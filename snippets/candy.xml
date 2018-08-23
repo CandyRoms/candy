@@ -81,7 +81,6 @@
   <project path="hardware/qcom/display-caf/msm8998" name="hardware_qcom_display" revision="c9.0-caf-8998" remote="candy" />
   <project path="hardware/qcom/media-caf/msm8998" name="hardware_qcom_media" revision="c9.0-caf-8998" remote="candy" />
 
-
   <!-- Candy Additions -->
   <project path="device/candy/sepolicy" name="device_candy_sepolicy" remote="candy" />
   <project path="hardware/candy/interfaces" name="hardware_candy_interfaces" remote="candy" >

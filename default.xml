@@ -21,7 +21,7 @@
   <remote  name="los"
            fetch=".."
            review="review.lineageos.org"
-           revision="refs/heads/cm-16.0" />
+           revision="refs/heads/lineage-16.0" />
 
   <remote  name="slim"
            fetch="https://github.com/SlimRoms"
@@ -30,7 +30,7 @@
 
   <remote  name="tm"
            fetch="https://github.com/TheMuppets"
-           revision="cm-16.0" />
+           revision="lineage-16.0" />
 
   <remote  name="bb"
            fetch="https://bitbucket.org/" />
