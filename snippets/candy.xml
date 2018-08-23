@@ -44,6 +44,7 @@
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="candy" />
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="candy" />
   <project path="hardware/ril" name="hardware_ril" remote="candy" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="candy" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="candy" />
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" groups="pdk" clone-depth="1" remote="candy" />
   <project path="system/bt" name="system_bt" remote="candy" />
