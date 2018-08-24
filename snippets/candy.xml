@@ -43,6 +43,7 @@
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="candy" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="candy" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="candy" />
+  <project path="packages/services/BuiltInPrintService" name="GZOSP/packages_services_BuiltInPrintService" remote="github" revision="9.0" />
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" groups="pdk" clone-depth="1" remote="candy" />
   <project path="system/bt" name="system_bt" remote="candy" />
   <project path="system/core" name="system_core" remote="candy" />
