@@ -101,6 +101,6 @@
   <project path="hardware/qcom/wlan-caf" name="GZOSP/hardware_qcom_wlan" remote="github" revision="9.0-caf" />
 
   <!-- System QCOM Softapp -->
-  <project path="system/qcom" name="system_qcom" remote="gzosp" revision="9.0" />
+  <project path="system/qcom" name="GZOSP/system_qcom" remote="github" revision="9.0" />
 
 </manifest>
