@@ -84,9 +84,9 @@
   <project path="hardware/qcom/display-caf/msm8996" name="LineageOS/android_hardware_qcom_display" revision="lineage-16.0-caf-8996" remote="github" />
   <project path="hardware/qcom/media-caf/msm8996" name="LineageOS/android_hardware_qcom_media" revision="lineage-16.0-caf-8996" remote="github" />
   <!-- 8998 HALs -->
-  <project path="hardware/qcom/audio-caf/msm8998" name="hardware_qcom_audio" revision="c9.0-caf-8998" remote="candy" />
-  <project path="hardware/qcom/display-caf/msm8998" name="hardware_qcom_display" revision="c9.0-caf-8998" remote="candy" />
-  <project path="hardware/qcom/media-caf/msm8998" name="hardware_qcom_media" revision="c9.0-caf-8998" remote="candy" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="LineageOS/android_hardware_qcom_audio" revision="lineage-16.0-caf-8998" remote="github" />
+  <project path="hardware/qcom/display-caf/msm8998" name="LineageOS/android_hardware_qcom_display" revision="lineage-16.0-caf-8998" remote="github" />
+  <project path="hardware/qcom/media-caf/msm8998" name="LineageOS/android_hardware_qcom_media" revision="lineage-16.0-caf-8998" remote="github" />
 
   <!-- bt -->
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="candy" />
