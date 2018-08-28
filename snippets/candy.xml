@@ -18,6 +18,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="candy" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="candy" />
   <project path="external/perfetto" name="external_perfetto" groups="pdk" remote="candy" />
   <project path="external/selinux" name="external_selinux" remote="candy" />
@@ -44,7 +45,6 @@
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="candy" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="candy" />
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="candy" />
-  <!--<project path="prebuilts/build-tools" name="prebuilts_build-tools" groups="pdk" clone-depth="1" remote="candy" />-->
   <project path="system/bt" name="system_bt" remote="candy" />
   <project path="system/core" name="system_core" remote="candy" />
   <project path="system/extras" name="system_extras" remote="candy" />
