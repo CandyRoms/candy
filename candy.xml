@@ -49,6 +49,7 @@
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="candy" />
   <project path="packages/apps/CandyShop" name="packages_apps_CandyShop" remote="candy" />
   <project path="packages/apps/CandyWrappers" name="packages_apps_CandyWrappers" remote="candy" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="candy" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="candy" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="candy" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="candy" />
