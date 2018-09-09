@@ -19,7 +19,6 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="candy" />
-  <project path="external/build-tools" name="external_build-tools" remote="candy" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="candy" />
   <project path="external/json-c" name="external_json-c" remote="candy" />
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="candy" />
@@ -56,6 +55,7 @@
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="candy" />
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="candy" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="candy" />
+  <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="candy" />
   <project path="system/bt" name="system_bt" remote="candy" />
   <project path="system/core" name="system_core" remote="candy" />
   <project path="system/extras" name="system_extras" remote="candy" />
