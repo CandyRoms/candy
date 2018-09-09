@@ -47,3 +47,4 @@
 
   <!-- System QCOM Softapp -->
   <project path="system/qcom" name="system_qcom" remote="candy" revision="c9.0" />
+</manifest>
