@@ -33,6 +33,7 @@
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="candy" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="candy" />
   <project path="frameworks/support" name="frameworks_support" remote="candy" />
+  <project path="frameworks/support/design" name="android-support-design" remote="candy" />
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="candy" />
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="candy" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="candy" />
