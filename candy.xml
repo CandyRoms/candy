@@ -48,7 +48,7 @@
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="candy" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="candy" />
   <project path="packages/apps/CandyShop" name="packages_apps_CandyShop" remote="candy" />
-  <project path="packages/apps/CandyWrappers" name="packages_apps_CandyWrappers" remote="candy" />
+  <project path="packages/apps/CandyWrappers" name="NoSpamDan/packages_apps_CandyWrappers" remote="github" revision="c9.0"/>
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="candy" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="candy" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="candy" />
@@ -65,6 +65,7 @@
   <project path="system/netd" name="system_netd" remote="candy" />
   <project path="system/nfc" name="system_nfc" remote="candy" />
   <project path="system/sepolicy" name="system_sepolicy" remote="candy" />
+  <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="candy" />
   <project path="system/vold" name="system_vold" remote="candy" />
 
   <!-- Candy Additions -->
