@@ -51,6 +51,7 @@
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="candy" />
   <project path="packages/apps/CandyShop" name="packages_apps_CandyShop" remote="candy" />
   <project path="packages/apps/CandyWrappers" name="packages_apps_CandyWrappers" remote="candy" />
+  <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="candy" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="candy" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="candy" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="candy" />
