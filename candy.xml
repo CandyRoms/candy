@@ -79,4 +79,17 @@
   <project path="candy" name="candy" remote="candy" />
   <project path="vendor/candy" name="vendor_candy" remote="candy" />
 
+  <!-- LineageOS Additions -->
+  <project path="device/qcom/sepolicy-legacy" name="LineageOS/android_device_qcom_sepolicy-legacy" remote="github" revision="lineage-16.0" />
+
+  <project path="external/htop" name="LineageOS/android_external_htop" remote="github" revision="lineage-16.0" />
+  <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="lineage-16.0" />
+  <project path="external/p7zip" name="LineageOS/android_external_p7zip" remote="github" revision="lineage-16.0" />
+  <project path="external/pigz" name="LineageOS/android_external_pigz" remote="github" revision="lineage-16.0" />
+  <project path="external/rsync" name="LineageOS/android_external_rsync" remote="github" revision="lineage-16.0" />
+  <project path="external/unrar" name="LineageOS/android_external_unrar" remote="github" revision="lineage-16.0" />
+  <project path="external/vim" name="LineageOS/android_external_vim" remote="github" revision="lineage-16.0" />
+  <project path="external/zip" name="LineageOS/android_external_zip" remote="github" revision="lineage-16.0" />
+
+
 </manifest>
