@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- Aosp Forks -->
+  <project path="art" name="art" remote="candy" />
   <project path="build/make" name="build" groups="pdk" remote="candy">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
