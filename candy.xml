@@ -84,6 +84,7 @@
 
   <project path="external/htop" name="LineageOS/android_external_htop" remote="github" revision="lineage-16.0" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="lineage-16.0" />
+  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="lineage-16.0" />
   <project path="external/p7zip" name="LineageOS/android_external_p7zip" remote="github" revision="lineage-16.0" />
   <project path="external/pigz" name="LineageOS/android_external_pigz" remote="github" revision="lineage-16.0" />
   <project path="external/rsync" name="LineageOS/android_external_rsync" remote="github" revision="lineage-16.0" />
