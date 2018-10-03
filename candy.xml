@@ -92,7 +92,5 @@
   <project path="external/vim" name="LineageOS/android_external_vim" remote="github" revision="lineage-16.0" />
   <project path="external/zip" name="LineageOS/android_external_zip" remote="github" revision="lineage-16.0" />
 
-  <project path="hardware/qcom/thermal" name="LineageOS/android_hardware_qcom_thermal" />
-  <project path="hardware/qcom/vr" name="LineageOS/android_hardware_qcom_vr" remote="github" revision="lineage-16.0" />
 
 </manifest>
