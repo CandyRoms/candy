@@ -21,6 +21,7 @@
   </project>
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="candy" />
   <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="candy" />
+  <project path="external/exfat" name="external_exfat" remote="candy" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="candy" />
   <project path="external/json-c" name="external_json-c" remote="candy" />
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="candy" />
