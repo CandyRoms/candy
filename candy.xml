@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- Aosp Forks -->
+  <project path="art" name="art" remote="candy" />
   <project path="build/make" name="build" groups="pdk" remote="candy">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -20,6 +21,7 @@
   </project>
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="candy" />
   <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="candy" />
+  <project path="external/exfat" name="external_exfat" remote="candy" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="candy" />
   <project path="external/json-c" name="external_json-c" remote="candy" />
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="candy" />
@@ -78,5 +80,21 @@
   </project>
   <project path="candy" name="candy" remote="candy" />
   <project path="vendor/candy" name="vendor_candy" remote="candy" />
+
+  <!-- LineageOS Additions -->
+  <project path="device/qcom/sepolicy-legacy" name="LineageOS/android_device_qcom_sepolicy-legacy" remote="github" revision="lineage-16.0" />
+
+  <project path="external/htop" name="LineageOS/android_external_htop" remote="github" revision="lineage-16.0" />
+  <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="lineage-16.0" />
+  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="lineage-16.0" />
+  <project path="external/p7zip" name="LineageOS/android_external_p7zip" remote="github" revision="lineage-16.0" />
+  <project path="external/pigz" name="LineageOS/android_external_pigz" remote="github" revision="lineage-16.0" />
+  <project path="external/rsync" name="LineageOS/android_external_rsync" remote="github" revision="lineage-16.0" />
+  <project path="external/unrar" name="LineageOS/android_external_unrar" remote="github" revision="lineage-16.0" />
+  <project path="external/vim" name="LineageOS/android_external_vim" remote="github" revision="lineage-16.0" />
+  <project path="external/zip" name="LineageOS/android_external_zip" remote="github" revision="lineage-16.0" />
+
+  <project path="hardware/qcom/thermal" name="LineageOS/android_hardware_qcom_thermal" />
+  <project path="hardware/qcom/vr" name="LineageOS/android_hardware_qcom_vr" remote="github" revision="lineage-16.0" />
 
 </manifest>
