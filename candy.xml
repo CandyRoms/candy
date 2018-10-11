@@ -57,6 +57,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="candy" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="candy" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="candy" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps/_ettingsIntelligence" remote="candy" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="candy" />
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="candy" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="candy" />
