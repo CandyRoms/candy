@@ -56,6 +56,8 @@
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="candy" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="candy" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="candy" />
+  <project path="packages/apps/SmartNav" name="packages_apps_SmartNav" remote="candy" />
+  <project path="packages/apps/SmartNavSettings" name="packages_apps_SmartNavSettings" remote="candy" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="candy" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="candy" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="candy" />
