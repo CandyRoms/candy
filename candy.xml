@@ -85,6 +85,7 @@
   </project>
   <project path="candy" name="candy" remote="candy" />
   <project path="vendor/candy" name="vendor_candy" remote="candy" />
+  <project path="vendor/support" name="vendor_support" remote="candy" />
 
   <!-- LineageOS Additions -->
   <project path="device/qcom/sepolicy-legacy" name="LineageOS/android_device_qcom_sepolicy-legacy" remote="github" revision="lineage-16.0" />
