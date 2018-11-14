@@ -32,6 +32,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="candy" />
   <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="candy" />
   <project path="frameworks/native" name="frameworks_native" remote="candy" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_ims" remote="candy" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="candy" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="candy" />
   <project path="frameworks/support" name="frameworks_support" remote="candy" />
@@ -65,6 +66,7 @@
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="candy" />
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="candy" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="candy" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="candy" />
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="candy" />
   <project path="system/bt" name="system_bt" remote="candy" />
   <project path="system/core" name="system_core" remote="candy" />
