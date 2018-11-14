@@ -32,7 +32,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="candy" />
   <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="candy" />
   <project path="frameworks/native" name="frameworks_native" remote="candy" />
-  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_ims" remote="candy" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="candy" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="candy" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="candy" />
   <project path="frameworks/support" name="frameworks_support" remote="candy" />
