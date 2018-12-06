@@ -82,6 +82,7 @@
 
   <!-- Candy Additions -->
   <project path="device/candy/sepolicy" name="device_candy_sepolicy" remote="candy" />
+  <project path="frameworks/candy" name="frameworks_candy" remote="candy" />
   <project path="hardware/candy/interfaces" name="hardware_candy_interfaces" remote="candy" >
     <copyfile dest="hardware/candy/Android.bp" src="Android.bp"/>
   </project>
