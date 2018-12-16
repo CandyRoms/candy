@@ -32,7 +32,7 @@ To add changeid hook, use the following commands:
 
 You can also install the hook globally in all local CandyRoms projects:
 
-    repo forall -c 'gitdir=$(git rev-parse --git-dir); scp -p -P 29418 <username>@review.gzospgzr.com:hooks/commit-msg ${gitdir}/hooks/'
+    repo forall -c 'gitdir=$(git rev-parse --git-dir); scp -p -P 29418 <username>@gerrit.bbqdroid.org:hooks/commit-msg ${gitdir}/hooks/'
 
 You can send patches by using these commands:
 
