@@ -64,6 +64,7 @@
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="candy" />
   <project path="packages/providers/AmbientPlayHistoryProvider" name="packages_providers_AmbientPlayHistoryProvider" remote="candy" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="candy" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="candy" />
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="candy" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="candy" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="candy" />
