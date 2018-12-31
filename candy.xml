@@ -93,7 +93,6 @@
 
   <!-- LineageOS Additions -->
   <project path="device/qcom/sepolicy-legacy" name="LineageOS/android_device_qcom_sepolicy-legacy" remote="github" revision="lineage-16.0" />
-
   <project path="external/htop" name="LineageOS/android_external_htop" remote="github" revision="lineage-16.0" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="lineage-16.0" />
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="lineage-16.0" />
@@ -105,6 +104,8 @@
   <project path="external/zip" name="LineageOS/android_external_zip" remote="github" revision="lineage-16.0" />
   <project path="hardware/broadcom/nfc" name="LineageOS/android_hardware_broadcom_nfc" remote="github" revision="lineage-16.0" />
   <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="github" revision="lineage-16.0" />
+  <project path="hardware/qcom/thermal" name="LineageOS/android_hardware_qcom_thermal" remote="github" revision="lineage-16.0" />
+  <project path="hardware/qcom/vr" name="LineageOS/android_hardware_qcom_vr" remote="github" revision="lineage-16.0" />
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="github" revision="lineage-16.0" />
   <project path="packages/apps/Nfc" name="LineageOS/android_packages_apps_Nfc" remote="github" revision="lineage-16.0" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" remote="github" revision="lineage-16.0" />
@@ -113,5 +114,8 @@
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" remote="github" revision="lineage-16.0" />
   <project path="vendor/nxp/opensource/halimpl" name="LineageOS/android_vendor_nxp_opensource_halimpl" remote="github" revision="lineage-16.0" />
   <project path="vendor/nxp/opensource/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" remote="github" revision="lineage-16.0" />
-
+  <project path="vendor/qcom/opensource/audio" name="LineageOS/android_vendor_qcom_opensource_audio" remote="github" revision="lineage-16.0" />
+  <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" remote="github" revision="lineage-16.0" />
+  <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" remote="github" revision="lineage-16.0" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" remote="github" revision="lineage-16.0" />
 </manifest>
