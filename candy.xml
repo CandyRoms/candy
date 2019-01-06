@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <remote  name="candy"
+           fetch="https://github.com/CandyRoms" />
+
+  <remote  name="cd"
+           fetch="https://github.com/CandyDevices"
+           revision="c9.0" />
+
+  <remote  name="los"
+           fetch="https://github.com/LineageOS"
+           review="review.lineageos.org"
+           revision="refs/heads/lineage-16.0" />
+
+  <remote  name="slim"
+           fetch="https://github.com/SlimRoms"
+           review="review.slimroms.org"
+           revision="refs/heads/9.0" />
+
+  <remote  name="tm"
+           fetch="https://github.com/TheMuppets"
+           revision="lineage-16.0" />
+
+  <remote  name="bb"
+           fetch="https://bitbucket.org/" />
+
+  <remote  name="mario"
+           fetch="https://github.com/ThankYouMario" />
+
+  <default revision="c9.0"
+           remote="candy"
+           sync-f="true"
+           sync-c="true"
+           sync-j="8" />
+
   <!-- Aosp Forks -->
   <project path="art" name="art" remote="candy" />
   <project path="build/make" name="build" groups="pdk" remote="candy">
@@ -92,30 +128,30 @@
   <project path="vendor/support" name="vendor_support" remote="candy" />
 
   <!-- LineageOS Additions -->
-  <project path="device/qcom/sepolicy-legacy" name="LineageOS/android_device_qcom_sepolicy-legacy" remote="github" revision="lineage-16.0" />
-  <project path="external/htop" name="LineageOS/android_external_htop" remote="github" revision="lineage-16.0" />
-  <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="lineage-16.0" />
-  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="lineage-16.0" />
-  <project path="external/p7zip" name="LineageOS/android_external_p7zip" remote="github" revision="lineage-16.0" />
-  <project path="external/pigz" name="LineageOS/android_external_pigz" remote="github" revision="lineage-16.0" />
-  <project path="external/rsync" name="LineageOS/android_external_rsync" remote="github" revision="lineage-16.0" />
-  <project path="external/unrar" name="LineageOS/android_external_unrar" remote="github" revision="lineage-16.0" />
-  <project path="external/vim" name="LineageOS/android_external_vim" remote="github" revision="lineage-16.0" />
-  <project path="external/zip" name="LineageOS/android_external_zip" remote="github" revision="lineage-16.0" />
-  <project path="hardware/broadcom/nfc" name="LineageOS/android_hardware_broadcom_nfc" remote="github" revision="lineage-16.0" />
-  <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="github" revision="lineage-16.0" />
-  <project path="hardware/qcom/thermal" name="LineageOS/android_hardware_qcom_thermal" remote="github" revision="lineage-16.0" />
-  <project path="hardware/qcom/vr" name="LineageOS/android_hardware_qcom_vr" remote="github" revision="lineage-16.0" />
-  <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="github" revision="lineage-16.0" />
-  <project path="packages/apps/Nfc" name="LineageOS/android_packages_apps_Nfc" remote="github" revision="lineage-16.0" />
-  <project path="vendor/nxp/opensource/interfaces/nfc" name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" remote="github" revision="lineage-16.0" />
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" remote="github" revision="lineage-16.0" />
-  <project path="vendor/nxp/opensource/commonsys/frameworks" name="LineageOS/android_vendor_nxp_opensource_frameworks" remote="github" revision="lineage-16.0" />
-  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" remote="github" revision="lineage-16.0" />
-  <project path="vendor/nxp/opensource/halimpl" name="LineageOS/android_vendor_nxp_opensource_halimpl" remote="github" revision="lineage-16.0" />
-  <project path="vendor/nxp/opensource/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" remote="github" revision="lineage-16.0" />
-  <project path="vendor/qcom/opensource/audio" name="LineageOS/android_vendor_qcom_opensource_audio" remote="github" revision="lineage-16.0" />
-  <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" remote="github" revision="lineage-16.0" />
-  <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" remote="github" revision="lineage-16.0" />
-  <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" remote="github" revision="lineage-16.0" />
+  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="los" />
+  <project path="external/htop" name="android_external_htop" remote="los" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="los" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" />
+  <project path="external/p7zip" name="android_external_p7zip" remote="los" />
+  <project path="external/pigz" name="android_external_pigz" remote="los" />
+  <project path="external/rsync" name="android_external_rsync" remote="los" />
+  <project path="external/unrar" name="android_external_unrar" remote="los" />
+  <project path="external/vim" name="android_external_vim" remote="los" />
+  <project path="external/zip" name="android_external_zip" remote="los" />
+  <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="los" />
+  <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="los" />
+  <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" remote="los" />
+  <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" remote="los" />
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="los" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="los" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="los" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="los" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="los" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="los" />
+  <project path="vendor/nxp/opensource/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="los" />
+  <project path="vendor/nxp/opensource/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="los" />
+  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="los" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="los" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="los" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="los" />
 </manifest>

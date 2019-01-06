@@ -1,50 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="github"
-           fetch="https://github.com" />
-
-  <remote  name="candy"
-           revision="refs/heads/c9.0"
-           fetch="https://github.com/CandyROMs"
-           review="gerrit.bbqdroid.org" />
-
-  <remote  name="cd"
-           fetch="https://github.com/CandyDevices"
-           revision="c9.0" />
-
-  <remote  name="aosp"
+ <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/"
            revision="refs/tags/android-9.0.0_r21" />
-
-  <remote  name="los"
-           fetch="https://github.com/LineageOS"
-           review="review.lineageos.org"
-           revision="refs/heads/lineage-16.0" />
-
-  <remote  name="slim"
-           fetch="https://github.com/SlimRoms"
-           review="review.slimroms.org"
-           revision="refs/heads/9.0" />
-
-  <remote  name="tm"
-           fetch="https://github.com/TheMuppets"
-           revision="lineage-16.0" />
-
-  <remote  name="bb"
-           fetch="https://bitbucket.org/" />
-
-  <remote  name="mario"
-           fetch="https://github.com/ThankYouMario" />
-
-  <remote  name="private"
-           fetch="ssh://git@github.com" />
-
-  <default revision="refs/heads/c9.0"
-           remote="candy"
-           sync-c="true"
-           sync-j="4" />
 
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" remote="aosp" />
