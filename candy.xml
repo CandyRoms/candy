@@ -5,7 +5,9 @@
            fetch="https://github.com" />
 
   <remote  name="candy"
-           fetch="https://github.com/CandyRoms" />
+           fetch="https://github.com/CandyRoms"
+           review="gerrit.bbqdroid.org"
+           revision="refs/heads/c9.0" />
 
   <remote  name="cd"
            fetch="https://github.com/CandyDevices"
