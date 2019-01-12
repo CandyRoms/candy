@@ -5,7 +5,9 @@
            fetch="https://github.com" />
 
   <remote  name="candy"
-           fetch="https://github.com/CandyRoms" />
+           fetch="https://github.com/CandyRoms"
+           review="gerrit.bbqdroid.org"
+           revision="refs/heads/c9.0" />
 
   <remote  name="cd"
            fetch="https://github.com/CandyDevices"
@@ -32,7 +34,7 @@
            fetch="https://github.com/ThankYouMario" />
 
   <default revision="c9.0"
-           remote="candy"
+           remote="github"
            sync-f="true"
            sync-c="true"
            sync-j="8" />
@@ -92,6 +94,7 @@
   <project path="packages/apps/CandyWrappers" name="packages_apps_CandyWrappers" remote="candy" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="candy" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="candy" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="candy" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="candy" />
   <project path="packages/apps/SmartNav" name="packages_apps_SmartNav" remote="candy" />
   <project path="packages/apps/SmartNavSettings" name="packages_apps_SmartNavSettings" remote="candy" />
