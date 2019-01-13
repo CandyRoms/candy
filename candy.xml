@@ -100,6 +100,7 @@
   <project path="packages/apps/SmartNavSettings" name="packages_apps_SmartNavSettings" remote="candy" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="candy" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="candy" />
+  <project path="packages/apps/SlimRecents" name="packages_apps_SlimRecents" remote="candy" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="candy" />
   <project path="packages/providers/AmbientPlayHistoryProvider" name="packages_providers_AmbientPlayHistoryProvider" remote="candy" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="candy" />
