@@ -53,7 +53,7 @@
   <project path="bionic" name="bionic" remote="candy" />
   <project path="bootable/recovery" name="bootable_recovery" remote="candy" />
   <project path="build/kati" name="build_kati" remote="candy" />
-  <project path="build/soong" name="build_soong" >
+  <project path="build/soong" name="build_soong" remote="candy" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
