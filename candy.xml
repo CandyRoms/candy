@@ -13,6 +13,10 @@
            fetch="https://github.com/CandyDevices"
            revision="c9.0" />
 
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/CandyRoms"
+           revision="c9.0" />
+
   <remote  name="los"
            fetch="https://github.com/LineageOS"
            review="review.lineageos.org"
@@ -124,12 +128,14 @@
   <project path="system/vold" name="system_vold" remote="candy" />
 
   <!-- Candy Additions -->
+  <project path="candy" name="candy" remote="candy" />
   <project path="device/candy/sepolicy" name="device_candy_sepolicy" remote="candy" />
   <project path="frameworks/candy" name="frameworks_candy" remote="candy" />
   <project path="hardware/candy/interfaces" name="hardware_candy_interfaces" remote="candy" >
     <copyfile dest="hardware/candy/Android.bp" src="Android.bp"/>
   </project>
-  <project path="candy" name="candy" remote="candy" />
+  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" groups="pdk" clone-depth="1" remote="gitlab" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-8.2" name="prebuilts_gcc_linux-x86_aarch64_aarch-linux-gnu-8.2" remote="gitlab" />
   <project path="vendor/candy" name="vendor_candy" remote="candy" />
   <project path="vendor/support" name="vendor_support" remote="candy" />
 
