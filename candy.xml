@@ -120,7 +120,6 @@
   <project path="system/bt" name="system_bt" remote="candy" />
   <project path="system/core" name="system_core" remote="candy" />
   <project path="system/hwservicemanager" name="system_hwservicemanager" remote="candy" />
-  <project path="system/libhidl" name="system_libhidl" remote="candy" />
   <project path="system/media" name="system_media" remote="candy" />
   <project path="system/netd" name="system_netd" remote="candy" />
   <project path="system/nfc" name="system_nfc" remote="candy" />
