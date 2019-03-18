@@ -61,6 +61,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="device/qcom/common" name="device_qcom_common" remote="candy" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="candy" />
   <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="candy" />
   <project path="external/exfat" name="external_exfat" remote="candy" />
@@ -139,8 +140,13 @@
   <project path="vendor/candy" name="vendor_candy" remote="candy" />
   <project path="vendor/support" name="vendor_support" remote="candy" />
 
+  <!-- Candy-specific CAF & Qcom repos -->
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="candy" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="candy" revision="c9.0" />
+
   <!-- LineageOS Additions -->
   <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="los" />
+
   <project path="external/htop" name="android_external_htop" remote="los" />
   <project path="external/libncurses" name="android_external_libncurses" remote="los" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" />
@@ -150,12 +156,17 @@
   <project path="external/unrar" name="android_external_unrar" remote="los" />
   <project path="external/vim" name="android_external_vim" remote="los" />
   <project path="external/zip" name="android_external_zip" remote="los" />
+
   <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="los" />
   <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="los" />
   <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" remote="los" />
   <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" remote="los" />
+
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="los" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="los" />
+
+  <project path="system/timezone" name="android_system_timezone" remote="los" />
+  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="los" />
 
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="los" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="los" />
@@ -165,7 +176,6 @@
   <project path="vendor/nxp/opensource/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="los" />
 
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="los" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="candy" revision="c9.0" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="los" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="los" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="los" />
