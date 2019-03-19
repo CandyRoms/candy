@@ -108,6 +108,7 @@
   <project path="packages/apps/SmartNavSettings" name="packages_apps_SmartNavSettings" remote="candy" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="candy" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="candy" />
+  <project path="packages/apps/Snap" name="packages_apps_Snap" remote="candy" />
   <project path="packages/apps/SlimRecents" name="packages_apps_SlimRecents" remote="candy" />
   <project path="packages/apps/WeatherClient" name="packages_apps_WeatherClient" remote="candy" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="candy" />
