@@ -114,7 +114,6 @@
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="candy" />
   <project path="packages/providers/AmbientPlayHistoryProvider" name="packages_providers_AmbientPlayHistoryProvider" remote="candy" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="candy" />
-  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="candy" />
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="candy" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="candy" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="candy" />
@@ -164,6 +163,7 @@
 
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="los" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="los" />
+  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="los" />
 
   <project path="system/timezone" name="android_system_timezone" remote="los" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="los" />
