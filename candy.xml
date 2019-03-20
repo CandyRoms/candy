@@ -120,10 +120,13 @@
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="candy" />
   <project path="system/bt" name="system_bt" remote="candy" />
   <project path="system/core" name="system_core" remote="candy" />
+  <project path="system/libhidl" name="system_libhidl" remote="candy" />
   <project path="system/media" name="system_media" remote="candy" />
   <project path="system/netd" name="system_netd" remote="candy" />
   <project path="system/nfc" name="system_nfc" remote="candy" />
+  <project path="system/tools/hidl" name="system_tools_hidl" remote="candy" />
   <project path="system/sepolicy" name="system_sepolicy" remote="candy" />
+
   <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="candy" />
   <project path="system/vold" name="system_vold" remote="candy" />
 
