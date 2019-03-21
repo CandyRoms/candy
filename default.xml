@@ -574,6 +574,6 @@
 
   <include name="candy.xml" />
 
-  <include name="caf.xml" />
+  <include name="lineage.xml" />
 
 </manifest>
