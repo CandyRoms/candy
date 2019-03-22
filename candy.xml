@@ -53,6 +53,7 @@
   </project>
   <project path="device/qcom/common" name="device_qcom_common" remote="candy" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="candy" />
+
   <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="candy" />
   <project path="external/exfat" name="external_exfat" remote="candy" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="candy" />
@@ -61,6 +62,7 @@
   <project path="external/perfetto" name="external_perfetto" groups="pdk" remote="candy" />
   <project path="external/selinux" name="external_selinux" remote="candy" />
   <project path="external/tinycompress" name="external_tinycompress" remote="candy" />
+
   <project path="frameworks/av" name="frameworks_av" remote="candy" />
   <project path="frameworks/base" name="frameworks_base" remote="candy" />
   <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="candy" />
@@ -70,6 +72,7 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="candy" />
   <project path="frameworks/support" name="frameworks_support" remote="candy" />
   <project path="frameworks/support/design" name="android-support-design" remote="candy" />
+
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="candy" />
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="candy" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="candy" />
@@ -80,6 +83,7 @@
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="candy" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="candy" />
   <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="candy" />
+
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="candy" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="candy" />
   <project path="packages/apps/CandyShop" name="packages_apps_CandyShop" remote="candy" />
@@ -103,12 +107,13 @@
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="candy" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="candy" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="candy" />
+
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="candy" />
+
   <project path="system/bt" name="system_bt" remote="candy" />
   <project path="system/core" name="system_core" remote="candy" />
   <project path="system/extras" name="system_extras" remote="candy" />
   <project path="system/libhidl" name="system_libhidl" remote="candy" />
-  <project path="system/media" name="system_media" remote="candy" />
   <project path="system/netd" name="system_netd" remote="candy" />
   <project path="system/nfc" name="system_nfc" remote="candy" />
   <project path="system/tools/hidl" name="system_tools_hidl" remote="candy" />
