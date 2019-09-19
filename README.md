@@ -14,7 +14,7 @@ a look at @akhilnarang's scripts [here](https://github.com/akhilnarang/scripts).
 To initialize your local repository using the Candy c10 trees, use this command:
 
 
-	repo init -u git://github.com/CandyROMs/candy.git -b staging/c10
+	repo init -u git://github.com/CandyROMs/candy.git -b c10
 
 
 Then sync up with this command:
