@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Github -->
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <!-- CandyRoms Git -->
+  <remote  name="candy"
+           revision="c10"
+           fetch="https://github.com/CandyRoms" />
+
+  <!-- GitLab -->
+  <remote name="gitlab"
+          fetch="https://gitlab.com/CandyRoms" />
+
+  <!-- Remove replaced/unnecessary AOSP repos-->
+  <include name="remove.xml" />
+
+  <!-- Include CAF repos -->
+  <include name="candy-caf.xml" />
+
+  <project path="art" name="art" remote="candy" />
+  <project path="candy" name="candy" remote="candy" />
+  <project path="build/make" name="build" remote="candy" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/kati" name="build_kati" remote="candy" />
+  <project path="build/soong" name="build_soong" remote="candy" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="device/candy/sepolicy" name="device_candy_sepolicy" remote="candy" />
+  <project path="frameworks/base" name="frameworks_base" remote="candy" />
+  <project path="frameworks/native" name="frameworks_native" remote="candy" />
+  <project path="hardware/candy/interfaces" name="hardware_candy_interfaces" remote="candy" />
+  <project path="packages/apps/CandyShop" name="packages_apps_CandyShop" remote="candy" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="candy" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="candy" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="candy" />
+  <project path="system/core" name="system_core" remote="candy"  />
+  <project path="system/qcom" name="system_qcom" groups="qcom" remote="candy" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="candy"  />
+  <project path="vendor/candy" name="vendor_candy" remote="candy"  />
+
+</manifest>
