@@ -12,6 +12,7 @@
 
   <!-- GitLab -->
   <remote name="gitlab"
+          revision="c10"
           fetch="https://gitlab.com/CandyRoms" />
 
   <!-- Remove replaced/unnecessary AOSP repos-->
