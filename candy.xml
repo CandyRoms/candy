@@ -19,7 +19,7 @@
   <include name="remove.xml" />
 
   <!-- Include CAF repos -->
-  <include name="candy-caf.xml" />
+  <include name="ingredients.xml" />
 
   <project path="art" name="art" remote="candy" />
   <project path="bionic" name="bionic" remote="candy" />
@@ -52,7 +52,6 @@
   <project path="hardware/interfaces" name="hardware_interfaces" remote="candy" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="candy" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="candy" />
-  <!--<project path="hardware/ril" name="hardware_ril" remote="candy" />-->
 
   <project path="packages/apps/CandyShop" name="packages_apps_CandyShop" remote="candy" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="candy" />
