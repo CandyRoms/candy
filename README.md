@@ -5,21 +5,22 @@ Welcome to CandyRoms
 Begin tasting the sweetness
 ---------------
 
-To get started with CandyROMs based on Android 10, you'll should be familiar with
+To get started with CandyROMs based on Android 10, you should be familiar with
 [Git and Repo](https://source.android.com/source/using-repo.html) and the basics of internal Android functionality.
 
-Please set up your build environment by following the [AOSP guide](https://source.android.com/setup/build/initializing). You might want to take
-a look at @akhilnarang's scripts [here](https://github.com/akhilnarang/scripts).
+Please set up your build environment by following the [AOSP guide](https://source.android.com/setup/build/initializing). 
+
+You might want to take a look at @akhilnarang's scripts [here](https://github.com/akhilnarang/scripts).
 
 To initialize your local repository using the Candy c10 trees, use this command:
 
 
-	repo init -u git://github.com/CandyROMs/candy.git -b c10
+    repo init -u git://github.com/CandyROMs/candy.git -b c10
 
 
 Then sync up with this command:
 
-	repo sync
+    repo sync
 
 Additional flags which you can append to speedup the sync process are:
 
@@ -32,8 +33,8 @@ We're open source, and patches are always welcome!
 To do this, you will need an account setup with our gerrit server and add changeid hooks.
 To add changeid hook, use the following commands:
 
-	cd <project>
-	scp -p -P 29418 <username>@gerrit.bbqdroid.org:hooks/commit-msg .git/hooks/
+    cd <project>
+    scp -p -P 29418 <username>@gerrit.bbqdroid.org:hooks/commit-msg .git/hooks/
 
 You can also install the hook globally in all local CandyRoms projects:
 
@@ -55,11 +56,11 @@ This will commit your changes into a single commit.
 Make sure your git has the changeid hooks added.
 If you are going to make extra additions, just repeat steps (Don't repo start again), but instead of
 
-	git commit
+    git commit
 
 use
 
-	git commit --amend
+    git commit --amend
 
 Gerrit will recognize it as a new patchset.
 
