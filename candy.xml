@@ -56,6 +56,7 @@
 
   <project path="packages/apps/CandyShop" name="packages_apps_CandyShop" remote="candy" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="candy" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="candy" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="candy" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="candy" />
 
@@ -69,5 +70,14 @@
   <project path="system/vold" name="system_vold" groups="qcom" remote="candy" />
 
   <project path="vendor/candy" name="vendor_candy" remote="candy"  />
+
+  <!-- NXP NFC -->
+  <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="candy" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_external_libnfc-nci" remote="candy" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="vendor_nxp_opensource_frameworks" remote="candy" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="vendor_nxp_opensource_packages_apps_Nfc" remote="candy" />
+  <project path="vendor/nxp/opensource/halimpl" name="vendor_nxp_opensource_halimpl" remote="candy" />
+  <project path="vendor/nxp/opensource/hidlimpl" name="vendor_nxp_opensource_hidlimpl" remote="candy" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="vendor_nxp_interfaces_opensource_nfc" remote="candy" />
 
 </manifest>
