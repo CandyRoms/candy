@@ -68,7 +68,7 @@
   <project path="hardware/ril-caf" name="android_hardware_ril" revision="lineage-17.0-caf" remote="los" />
 
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" revision="lineage-17.0" remote="los" />
-  <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" revision="lineage-17.0-caf" remote="los" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" revision="lineage-17.0-caf" remote="los" />
 
   <!-- tools -->
   <project path="prebuilts/openssl" name="android_prebuilts_openssl" clone-depth="1" remote="los" />
