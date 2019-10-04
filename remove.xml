@@ -42,6 +42,7 @@
   <remove-project name="device/sample" />
 
   <!-- remove AOSP base repos -->
+  <remove-project name="platform/hardware/qcom/bt" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
   <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
