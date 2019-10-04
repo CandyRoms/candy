@@ -62,7 +62,7 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="candy" />
 
   <!--<project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" groups="pdk" clone-depth="1" remote="gitlab" />-->
-  <project path="prebuilts/tools-candy" name="android_prebuilts_tools-candy" clone-depth="1" remote="candy" />
+  <project path="prebuilts/tools-candy" name="prebuilts_tools-candy" clone-depth="1" remote="candy" />
 
   <project path="system/bt" name="system_bt" remote="candy"  />
   <project path="system/core" name="system_core" remote="candy"  />
