@@ -53,6 +53,7 @@
   <project path="hardware/interfaces" name="hardware_interfaces" remote="candy" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="candy" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="candy" />
+  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="candy" />
 
   <project path="packages/apps/CandyShop" name="packages_apps_CandyShop" remote="candy" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="candy" />
