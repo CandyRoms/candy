@@ -21,6 +21,7 @@
   <!-- Include CAF repos -->
   <include name="ingredients.xml" />
 
+  <!-- core -->
   <project path="art" name="art" remote="candy" />
   <project path="bionic" name="bionic" remote="candy" />
   <project path="candy" name="candy" remote="candy" />
@@ -39,28 +40,36 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+
+  <!--SELinux -->
   <project path="device/candy/sepolicy" name="device_candy_sepolicy" remote="candy" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="candy" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy" remote="candy" />
-
   <project path="external/selinux" name="external_selinux" remote="candy" />
 
+  <!--frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="candy" />
   <project path="frameworks/base" name="frameworks_base" remote="candy" />
   <project path="frameworks/native" name="frameworks_native" remote="candy" />
 
+  <!--hardware -->
   <project path="hardware/candy/interfaces" name="hardware_candy_interfaces" remote="candy" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="candy" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="candy" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="candy" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="candy" />
 
+  <!--packages -->
   <project path="packages/apps/CandyShop" name="packages_apps_CandyShop" remote="candy" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="candy" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="candy" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="candy" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="candy" />
 
+  <!--Support -->
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="candy" />
+
+  <!--prebuilts -->
   <!--<project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" groups="pdk" clone-depth="1" remote="gitlab" />-->
   <project path="prebuilts/tools-candy" name="prebuilts_tools-candy" clone-depth="1" remote="candy" />
 
@@ -71,6 +80,7 @@
   <project path="system/update_engine" name="system_update_engine" groups="qcom" remote="candy" />
   <project path="system/vold" name="system_vold" groups="qcom" remote="candy" />
 
+  <!--vendor -->
   <project path="vendor/candy" name="vendor_candy" remote="candy"  />
 
   <!-- NXP NFC -->
