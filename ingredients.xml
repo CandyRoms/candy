@@ -58,7 +58,6 @@
   </project>
 
   <!-- Qcom hardware -->
-  <project path="hardware/qcom/bootctrl" name="hardware_qcom_bootctrl" revision="c10" remote="nsd" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" revision="lineage-17.0" remote="los" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" revision="lineage-17.0" remote="los" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,pdk-qcom" revision="lineage-17.0" remote="los" />

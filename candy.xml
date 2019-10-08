@@ -57,6 +57,8 @@
   <project path="hardware/interfaces" name="hardware_interfaces" remote="candy" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="candy" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="candy" />
+
+  <project path="hardware/qcom/bootctrl" name="hardware_qcom_bootctrl" remote="candy" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="candy" />
 
   <!--packages -->
