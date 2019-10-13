@@ -67,6 +67,7 @@
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="candy" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="candy" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="candy" />
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="candy" />
 
   <!--Support -->
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="candy" />
