@@ -8,6 +8,11 @@
   <remote  name="nsd"
            fetch="https://github.com/NoSpamDan" />
 
+  <remote  name="gzosp"
+           fetch="https://github.com/GZOSP"
+           revision="refs/heads/10.0" />
+
+
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="los" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="los" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" />
@@ -67,7 +72,7 @@
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" revision="lineage-17.0" remote="los" />
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" revision="lineage-17.0-caf" remote="los" />
 
-  <project path="hardware/ril" name="android_hardware_ril" revision="lineage-17.0" remote="los" />
+  <project path="hardware/ril" name="hardware_ril" revision="10.0" remote="gzosp" />
 
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" revision="lineage-17.0" remote="los" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" revision="lineage-17.0-caf" remote="los" />
@@ -76,7 +81,7 @@
   <project path="prebuilts/openssl" name="android_prebuilts_openssl" clone-depth="1" remote="los" />
 
   <!-- telephony -->
-  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="los" />
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" revision="10.0" remote="gzosp" />
 
   <!-- NFC -->
   <!--<project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="los" />
