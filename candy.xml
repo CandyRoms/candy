@@ -35,6 +35,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="build/blueprint" name="build_blueprint" remote="candy" />
   <project path="build/kati" name="build_kati" remote="candy" />
   <project path="build/soong" name="build_soong" remote="candy" >
     <linkfile src="root.bp" dest="Android.bp" />
