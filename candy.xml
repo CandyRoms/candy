@@ -90,6 +90,7 @@
 
   <!--vendor -->
   <project path="vendor/candy" name="vendor_candy" remote="candy"  />
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" revision="c10" remote="candy" />
 
   <!-- NXP NFC -->
   <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="candy" />
