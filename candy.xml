@@ -102,6 +102,9 @@
   <project path="vendor/nxp/opensource/hidlimpl" name="vendor_nxp_opensource_hidlimpl" remote="candy" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="vendor_nxp_interfaces_opensource_nfc" remote="candy" />
 
+  <!-- Qcom opensource -->
+  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="candy" />
+
   <!-- Official devices for OTA -->
   <project path="official_devices" name="official_devices" remote="candy" />
 
