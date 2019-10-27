@@ -79,9 +79,6 @@
 
   <project path="hardware/ril" name="hardware_ril" revision="10.0" remote="gzosp" />
 
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" revision="lineage-17.0" remote="los" />
-  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" revision="lineage-17.0-caf" remote="los" />
-
   <!-- packages -->
   <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="los" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" revision="ten" remote="pe" />
