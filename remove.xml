@@ -74,6 +74,7 @@
   <!-- remove forked/cloned/tracked repos -->
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/hardware/nxp/nfc" />
+  <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/Launcher3" />
