@@ -10,6 +10,11 @@
            revision="c10"
            fetch="https://github.com/CandyRoms" />
 
+  <!-- CandyDevices Git -->
+  <remote  name="CandyDevices"
+           fetch="https://github.com/CandyDevices"
+           revision="refs/heads/c10" />
+
   <!-- GitLab -->
   <remote name="gitlab"
           revision="c10"
