@@ -69,6 +69,7 @@
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" revision="lineage-17.0" remote="los" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" revision="lineage-17.0" remote="los" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" revision="lineage-17.0" remote="los" />
+  <project path="hardware/qcom/power" name="hardware_qcom_power" revision="10.0" remote="gzosp" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" revision="lineage-17.0" remote="los" />
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" revision="lineage-17.0" remote="los" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" revision="lineage-17.0" remote="los" />
@@ -78,7 +79,7 @@
   <!-- packages -->
   <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" revision="lineage-17.0" remote="los" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" revision="ten" remote="pe" />
- 
+
   <!-- tools -->
   <project path="prebuilts/openssl" name="android_prebuilts_openssl" clone-depth="1" remote="los" />
 
