@@ -47,6 +47,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- device -->
+  <project path="device/qcom/common" name="device_qcom_common" remote="candy" />
+
   <!--SELinux -->
   <project path="device/candy/sepolicy" name="device_candy_sepolicy" remote="candy" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="candy" />
