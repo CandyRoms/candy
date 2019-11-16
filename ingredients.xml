@@ -16,6 +16,10 @@
            fetch="https://github.com/pe-wip"
            revision="refs/heads/ten" />
 
+  <remote name="statix"
+          fetch="https://github.com/StatiXOS"
+          revision="ref/heads/10" />
+
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="los" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="los" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" />
@@ -31,9 +35,9 @@
   <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" revision="lineage-17.0-caf-msm8996" remote="los" />
   <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" revision="lineage-17.0-caf-msm8996" remote="los" />
 
-  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" revision="lineage-17.0-caf-msm8998" remote="los" />
-  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" revision="lineage-17.0-caf-msm8998" remote="los" />
-  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" revision="lineage-17.0-caf-msm8998" remote="los" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" revision="10-caf-8998" remote="statix" />
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" revision="10-caf-8998" remote="statix" />
+  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" revision="10-caf-8998" remote="statix" />
 
   <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" revision="lineage-17.0-caf-sdm845" remote="los" />
   <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" revision="lineage-17.0-caf-sdm845" remote="los" />
