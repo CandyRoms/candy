@@ -53,6 +53,9 @@
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy" remote="candy" />
   <project path="external/selinux" name="external_selinux" remote="candy" />
 
+  <!--external -->
+  <project path="external/tinycompress" name="external_tinycompress" remote="candy" />
+
   <!--frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="candy" />
   <project path="frameworks/base" name="frameworks_base" remote="candy" />
