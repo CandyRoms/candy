@@ -16,6 +16,10 @@
            fetch="https://github.com/pe-wip"
            revision="refs/heads/ten" />
 
+  <remote  name="pex"
+           fetch="https://github.com/pixelexperience"
+           revision="refs/heads/ten" />
+
   <remote name="statix"
           fetch="https://github.com/StatiXOS"
           revision="ref/heads/10" />
@@ -83,7 +87,7 @@
   <!-- packages -->
   <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" revision="lineage-17.0" remote="los" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" revision="ten" remote="pe" />
-  <project path="packages/apps/Snap" name="packages_apps_Snap" revision="ten" remote="pe" />
+  <project path="packages/apps/Snap" name="packages_apps_Snap" revision="ten" remote="pex" />
 
   <!-- tools -->
   <project path="prebuilts/openssl" name="android_prebuilts_openssl" clone-depth="1" remote="los" />
