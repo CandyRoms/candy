@@ -106,6 +106,7 @@
   <project path="vendor/candy" name="vendor_candy" remote="candy"  />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" revision="c10" remote="candy" />
   <project path="vendor/pixelgapps" name="android_vendor_pixelgapps" remote="gitlab"  />
+  <project path="vendor/support" name="vendor_support" remote="candy"  />
 
   <!-- NXP NFC -->
   <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="candy" />
