@@ -50,7 +50,8 @@
   <!--SELinux -->
   <project path="device/candy/sepolicy" name="device_candy_sepolicy" remote="candy" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="candy" />
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy" remote="candy" />
+  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="candy" revision="c10-legacy" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="candy" revision="c10-legacy-um" />
   <project path="external/selinux" name="external_selinux" remote="candy" />
 
   <!--external -->
