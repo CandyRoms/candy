@@ -122,6 +122,9 @@
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" revision="c10" remote="candy" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="candy" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="candy" />
+  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" revision="c10" remote="candy" >
+      <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
+  </project>
 
   <!-- Official devices for OTA -->
   <project path="official_devices" name="official_devices" remote="candy" />
