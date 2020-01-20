@@ -85,9 +85,6 @@
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" revision="ten" remote="pex" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" revision="ten" remote="pex" />
 
-  <!-- tools -->
-  <project path="prebuilts/openssl" name="android_prebuilts_openssl" clone-depth="1" remote="los" />
-
   <!-- telephony -->
   <!--project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" revision="10.0" remote="gzosp" /-->
 
