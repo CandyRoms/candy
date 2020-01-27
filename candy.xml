@@ -54,6 +54,9 @@
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="candy" revision="c10-legacy-um" />
   <project path="external/selinux" name="external_selinux" remote="candy" />
 
+  <!-- development -->
+  <project path="development" name="development" remote="candy" />
+
   <!--external -->
   <project path="external/tinycompress" name="external_tinycompress" remote="candy" />
 
