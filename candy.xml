@@ -58,6 +58,7 @@
   <project path="development" name="development" remote="candy" />
 
   <!--external -->
+  <project path="external/sqlite" name="external_sqlite" remote="candy" />
   <project path="external/tinycompress" name="external_tinycompress" remote="candy" />
 
   <!--frameworks -->
