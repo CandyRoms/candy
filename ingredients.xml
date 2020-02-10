@@ -20,12 +20,32 @@
           fetch="https://github.com/StatiXOS"
           revision="ref/heads/10" />
 
+  <!-- external -->
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="los" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="los" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" />
 
-  <project path="external/json-c" name="android_external_json-c" groups="qcom,pdk-qcom" revision="lineage-17.1" remote="los" />
-  <project path="external/ntfs-3g" name="android_external_ntfs-3g" groups="qcom,pdk-qcom" revision="lineage-17.1" remote="los" />
+  <!-- External -->
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="los" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="los" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" />
+  <project path="external/bash" name="android_external_bash" remote="los" />
+  <project path="external/connectivity" name="android_external_connectivity" remote="los" />
+  <project path="external/exfat" name="android_external_exfat" remote="los" />
+  <project path="external/json-c" name="android_external_json-c" remote="los" />
+  <project path="external/htop" name="android_external_htop" remote="los" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="los" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" />
+  <project path="external/mksh" name="android_external_mksh" remote="los" />
+  <project path="external/nano" name="android_external_nano" remote="los" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" />
+  <project path="external/openssh" name="android_external_openssh" remote="los" />
+  <project path="external/p7zip" name="android_external_p7zip" remote="los" />
+  <project path="external/pigz" name="android_external_pigz" remote="los" />
+  <project path="external/rsync" name="android_external_rsync" remote="los" />
+  <project path="external/unrar" name="android_external_unrar" remote="los" />
+  <project path="external/vim" name="android_external_vim" remote="los" />
+  <project path="external/zip" name="android_external_zip" remote="los" />
 
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" revision="lineage-17.1" remote="los" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" revision="lineage-17.1" remote="los" />
@@ -87,17 +107,6 @@
 
   <!-- system -->
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="los" />
-
-  <!-- telephony -->
-  <!--project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" revision="10.0" remote="gzosp" /-->
-
-  <!-- NFC -->
-  <!--<project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="los" />
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="los" />
-  <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="los" />
-  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="los" />
-  <project path="vendor/nxp/opensource/halimpl" name="android_vendor_nxp_opensource_halimpl" revision="lineage-17.1-pn5xx" remote="los" />
-  <project path="vendor/nxp/opensource/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" revision="lineage-17.1-pn5xx" remote="los" />-->
 
   <!-- vendor -->
   <!--<project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" revision="lineage-17.1" remote="los" />-->
