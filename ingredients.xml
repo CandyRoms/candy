@@ -85,6 +85,9 @@
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" revision="ten" remote="pex" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" revision="ten" remote="pex" />
 
+  <!-- system -->
+  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="los" />
+
   <!-- telephony -->
   <!--project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" revision="10.0" remote="gzosp" /-->
 
@@ -97,7 +100,7 @@
   <project path="vendor/nxp/opensource/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" revision="lineage-17.1-pn5xx" remote="los" />-->
 
   <!-- vendor -->
-  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" revision="lineage-17.1" remote="los" />
+  <!--<project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" revision="lineage-17.1" remote="los" />-->
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" revision="lineage-17.1" remote="los" />
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" revision="lineage-17.1" remote="los" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" revision="ten" remote="pex" />
