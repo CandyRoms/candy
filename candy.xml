@@ -101,6 +101,10 @@
   <project path="prebuilts/clang/host/linux-x86/clang-r370808" name="prebuilts_clang_host_linux-x86_clang-r370808" revision="c10" clone-depth="1" remote="gitlab" />
   <project path="prebuilts/tools-candy" name="prebuilts_tools-candy" clone-depth="1" remote="candy" />
 
+  <!-- platform_testing -->
+  <project path="platform_testing" name="platform_testing" remote="candy" />
+
+  <!-- system -->
   <project path="system/bt" name="system_bt" remote="candy"  />
   <project path="system/core" name="system_core" remote="candy"  />
   <project path="system/qcom" name="system_qcom" groups="qcom" remote="candy" />
