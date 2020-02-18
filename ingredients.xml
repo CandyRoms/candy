@@ -104,7 +104,7 @@
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="los" />
 
   <!-- vendor -->
-  <!--<project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" revision="lineage-17.1" remote="los" />-->
+  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" revision="lineage-17.1" remote="los" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" revision="lineage-17.1" remote="los" />
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" revision="lineage-17.1" remote="los" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" revision="ten" remote="pex" />
