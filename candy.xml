@@ -7,7 +7,7 @@
 
   <!-- CandyRoms Git -->
   <remote  name="candy"
-           revision="c10"
+           revision="refs/heads/c10"
            fetch="https://github.com/CandyRoms" />
 
   <!-- CandyDevices Git -->
