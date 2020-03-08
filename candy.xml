@@ -88,6 +88,7 @@
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="candy" />
   <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="candy" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="candy" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="candy" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="candy" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="candy" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="candy" />
