@@ -34,18 +34,18 @@ To do this, you will need an account setup with our gerrit server and add change
 To add changeid hook, use the following commands:
 
     cd <project>
-    scp -p -P 29418 <username>@gerrit.bbqdroid.org:hooks/commit-msg .git/hooks/
+    scp -p -P 29418 <username>@gerrit.candyroms.org:hooks/commit-msg .git/hooks/
 
 You can also install the hook globally in all local CandyRoms projects:
 
-    repo forall -c 'gitdir=$(git rev-parse --git-dir); scp -p -P 29418 <username>@gerrit.bbqdroid.org:hooks/commit-msg ${gitdir}/hooks/'
+    repo forall -c 'gitdir=$(git rev-parse --git-dir); scp -p -P 29418 <username>@gerrit.candyroms.org:hooks/commit-msg ${gitdir}/hooks/'
 
 You can send patches by using these commands:
 
     cd <project>
     git add .
     git commit
-    git push ssh://<username>@gerrit.bbqdroid.org:29418/CandyRoms/<project> HEAD:refs/for/<branch>
+    git push ssh://<username>@gerrit.candyroms.org:29418/CandyRoms/<project> HEAD:refs/for/<branch>
 
     OR
 
@@ -64,7 +64,7 @@ use
 
 Gerrit will recognize it as a new patchset.
 
-To view the status of your and others patches, visit [CandyRoms Code Review](http://gerrit.bbqdroid.org)
+To view the status of your and others patches, visit [CandyRoms Code Review](http://gerrit.candyroms.org)
 
 
 Official Device Support
