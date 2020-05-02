@@ -100,7 +100,8 @@
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="candy" />
 
   <!--prebuilts -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r370808" name="prebuilts_clang_host_linux-x86_clang-r370808" revision="c10" clone-depth="1" remote="gitlab" />
+  <!--<project path="prebuilts/clang/host/linux-x86/clang-r370808" name="prebuilts_clang_host_linux-x86_clang-r370808" revision="c10" clone-depth="1" remote="gitlab" />-->
+  <project path="prebuilts/clang/host/linux-x86" name="platform_prebuilts_clang_host_linux-x86" clone-depth="1" remote="gitlab" />
   <project path="prebuilts/tools-candy" name="prebuilts_tools-candy" clone-depth="1" remote="candy" />
 
   <!-- platform_testing -->
