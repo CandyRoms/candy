@@ -110,6 +110,7 @@
   <!-- system -->
   <project path="system/bt" name="system_bt" remote="candy"  />
   <project path="system/core" name="system_core" remote="candy"  />
+  <project path="system/netd" name="system_netd" groups="qcom" remote="candy" />
   <project path="system/qcom" name="system_qcom" groups="qcom" remote="candy" />
   <project path="system/sepolicy" name="system_sepolicy" remote="candy"  />
   <project path="system/update_engine" name="system_update_engine" groups="qcom" remote="candy" />
