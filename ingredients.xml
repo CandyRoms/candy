@@ -62,9 +62,9 @@
   <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" revision="lineage-17.1-caf-sdm845" remote="los" />
   <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" revision="lineage-17.1-caf-sdm845" remote="los" />
 
-  <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_sm8150_audio" revision="ten" remote="pex" />
-  <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_sm8150_display" revision="ten" remote="pex" />
-  <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom-caf_sm8150_media" revision="ten" remote="pex" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="lineage-17.1-caf-sm8150" remote="los" />
+  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="lineage-17.1-caf-sm8150" remote="los" />
+  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" revision="lineage-17.1-caf-sm8150" remote="los" />
 
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" revision="lineage-17.1" remote="los" >
     <!-- Add guard for AOSP hardware/qcom dir -->
