@@ -28,6 +28,7 @@
   <project path="external/connectivity" name="android_external_connectivity" remote="los" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="los" />
   <project path="external/exfat" name="android_external_exfat" remote="los" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="los" />
   <project path="external/json-c" name="android_external_json-c" remote="los" />
   <project path="external/htop" name="android_external_htop" remote="los" />
   <project path="external/libncurses" name="android_external_libncurses" remote="los" />
