@@ -20,6 +20,11 @@
           revision="c10"
           fetch="https://gitlab.com/CandyRoms" />
 
+  <!-- CandyRoms Staging -->
+  <remote  name="staging"
+           revision="refs/heads/c10"
+           fetch="https://github.com/CandyRoms-Staging" />
+
   <!-- Remove replaced/unnecessary AOSP repos-->
   <include name="remove.xml" />
 
