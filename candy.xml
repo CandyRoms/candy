@@ -36,7 +36,7 @@
   <project path="bionic" name="bionic" remote="candy" />
   <project path="candy" name="candy" remote="candy" />
   <project path="bootable/recovery" name="bootable_recovery" remote="candy" />
-  <project path="build/make" name="build" remote="staging" >
+  <project path="build/make" name="build" remote="candy" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -67,12 +67,12 @@
   <project path="external/tinycompress" name="external_tinycompress" remote="candy" />
 
   <!--frameworks -->
-  <project path="frameworks/av" name="frameworks_av" remote="staging" />
-  <project path="frameworks/base" name="frameworks_base" remote="staging" />
-  <project path="frameworks/native" name="frameworks_native" remote="staging" />
+  <project path="frameworks/av" name="frameworks_av" remote="candy" />
+  <project path="frameworks/base" name="frameworks_base" remote="candy" />
+  <project path="frameworks/native" name="frameworks_native" remote="candy" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="candy" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="candy" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="staging" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="candy" />
 
   <!--hardware -->
   <project path="hardware/candy/interfaces" name="hardware_candy_interfaces" remote="candy" />
@@ -92,14 +92,14 @@
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="candy" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="candy" />
   <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="candy" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="staging" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="candy" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="candy" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="candy" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="candy" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="candy" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="candy" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="staging" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="staging" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="candy" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="candy" />
 
   <!--Support -->
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="candy" />
@@ -113,11 +113,11 @@
   <project path="platform_testing" name="platform_testing" remote="candy" />
 
   <!-- system -->
-  <project path="system/bt" name="system_bt" remote="staging"  />
-  <project path="system/core" name="system_core" remote="staging"  />
+  <project path="system/bt" name="system_bt" remote="candy"  />
+  <project path="system/core" name="system_core" remote="candy"  />
   <project path="system/netd" name="system_netd" groups="qcom" remote="candy" />
   <project path="system/qcom" name="system_qcom" groups="qcom" remote="candy" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="staging"  />
+  <project path="system/sepolicy" name="system_sepolicy" remote="candy"  />
   <project path="system/update_engine" name="system_update_engine" groups="qcom" remote="candy" />
   <project path="system/vold" name="system_vold" groups="qcom" remote="candy" />
 
