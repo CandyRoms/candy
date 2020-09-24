@@ -40,6 +40,7 @@
   <project path="external/p7zip" name="android_external_p7zip" remote="los" />
   <project path="external/pigz" name="android_external_pigz" remote="los" />
   <project path="external/rsync" name="android_external_rsync" remote="los" />
+  <project path="external/sonivox" name="android_external_sonivox" remote="los" />
   <project path="external/unrar" name="android_external_unrar" remote="los" />
   <project path="external/vim" name="android_external_vim" remote="los" />
   <project path="external/zip" name="android_external_zip" remote="los" />
@@ -100,6 +101,7 @@
   <project path="hardware/ril" name="hardware_ril" revision="10.0" remote="gzosp" />
 
   <!-- packages -->
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" revision="lineage-17.1" remote="los" />
   <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" revision="lineage-17.1" remote="los" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" revision="ten" remote="pex" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" revision="ten" remote="pex" />
