@@ -67,8 +67,10 @@
 
   <!-- remove forked/cloned/tracked repos -->
   <remove-project name="platform/development" />
+  <remove-project name="platform/external/aac" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/libexif" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/openssh" />
   <remove-project name="platform/external/sonivox" />
