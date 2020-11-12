@@ -109,6 +109,7 @@
   <project path="packages/apps/Snap" name="packages_apps_Snap" revision="ten" remote="pex" />
 
   <!-- system -->
+  <project path="system/nfc" name="android_system_nfc" remote="los" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="los" />
 
   <!-- vendor -->
