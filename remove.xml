@@ -70,6 +70,7 @@
   <remove-project name="platform/external/aac" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/libaom" />
   <remove-project name="platform/external/libexif" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/openssh" />
@@ -81,6 +82,7 @@
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/hardware/nxp/nfc" />
   <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="platform/packages/apps/Car/Settings" />
   <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
   <remove-project name="platform/packages/apps/CertInstaller" />
   <remove-project name="platform/packages/apps/Contacts" />
