@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Github -->
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <!-- Rajat's Git for now-->
+  <remote  name="candy"
+           revision="refs/heads/c11"
+           fetch="https://github.com/rajatgupta1998" />
+
+  <!-- CandyDevices Git -->
+  <!-- <remote  name="CandyDevices"
+           fetch="https://github.com/CandyDevices"
+           revision="refs/heads/c10" /> -->
+
+  <!-- GitLab -->
+  <!-- <remote name="gitlab"
+          revision="c10"
+          fetch="https://gitlab.com/CandyRoms" /> -->
+
+  <!-- CandyRoms Staging -->
+  <!-- <remote  name="staging"
+           revision="refs/heads/c10"
+           fetch="https://github.com/CandyRoms-Staging" /> -->
+
+
+  <!-- Our Repos -->
+  <project path="candy" name="candy" remote="candy" />
+
+</manifest>
