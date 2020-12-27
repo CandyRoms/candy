@@ -15,7 +15,7 @@ You might want to take a look at @akhilnarang's scripts [here](https://github.co
 To initialize your local repository using the Candy c11 trees, use this command:
 
 
-    repo init -u git://github.com/rajatgupta1998/candy.git -b c11-staging
+    repo init -u git://github.com/rajatgupta1998/candy.git -b c11
 
 
 Then sync up with this command:
