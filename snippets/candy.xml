@@ -28,5 +28,22 @@
 
   <!-- Our Repos -->
   <project path="candy" name="candy" remote="candy" />
-
+  <project path="build/blueprint" name="build_blueprint" remote="candy" />
+  <project path="build/make" name="build" remote="candy">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="candy">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="frameworks/av" name="frameworks_av" remote="candy" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="candy" />
+  <project path="tools/metalava" name="android_tools_metalava" remote="candy" />
+  <project path="vendor/candy" name="vendor_candy" remote="candy" />
 </manifest>

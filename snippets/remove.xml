@@ -1,3 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+<remove-project name="platform/build" />
+<remove-project name="platform/build/blueprint" />
+<remove-project name="platform/build/soong" />
+<remove-project name="platform/frameworks/av" />
+<remove-project name="platform/frameworks/native" />
+<remove-project name="platform/tools/metalava" />
+
 </manifest> 
