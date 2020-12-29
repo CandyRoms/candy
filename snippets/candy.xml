@@ -5,24 +5,24 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <!-- Rajat's Git for now-->
+  <!-- CandyRoms Git-->
   <remote  name="candy"
            revision="refs/heads/c11"
-           fetch="https://github.com/rajatgupta1998" />
+           fetch="https://github.com/CandyRoms-Staging" />
 
   <!-- CandyDevices Git -->
-  <!-- <remote  name="CandyDevices"
+  <remote  name="CandyDevices"
            fetch="https://github.com/CandyDevices"
-           revision="refs/heads/c10" /> -->
+           revision="refs/heads/c11" />
 
   <!-- GitLab -->
-  <!-- <remote name="gitlab"
-          revision="c10"
-          fetch="https://gitlab.com/CandyRoms" /> -->
+  <remote name="gitlab"
+          revision="c11"
+          fetch="https://gitlab.com/CandyRoms" />
 
   <!-- CandyRoms Staging -->
   <!-- <remote  name="staging"
-           revision="refs/heads/c10"
+           revision="refs/heads/c11"
            fetch="https://github.com/CandyRoms-Staging" /> -->
 
 
@@ -43,7 +43,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="frameworks/av" name="frameworks_av" remote="candy" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="candy" />
+  <project path="frameworks/native" name="frameworks_native" remote="candy" />
   <project path="tools/metalava" name="android_tools_metalava" remote="candy" />
   <project path="vendor/candy" name="vendor_candy" remote="candy" />
 </manifest>
