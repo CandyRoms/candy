@@ -837,4 +837,8 @@
 
   <!-- Add CandyROMs projects -->
   <include name="snippets/candy.xml" />
+
+  <!-- Add Ingredients -->
+  <include name="snippets/ingredients.xml" />
+
 </manifest>

@@ -25,7 +25,6 @@
            revision="refs/heads/c11"
            fetch="https://github.com/CandyRoms-Staging" /> -->
 
-
   <!-- Our Repos -->
   <project path="candy" name="candy" remote="candy" />
   <project path="build/blueprint" name="build_blueprint" remote="candy" />
@@ -42,8 +41,20 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+
   <project path="frameworks/av" name="frameworks_av" remote="candy" />
+  <project path="frameworks/base" name="frameworks_base" remote="candy" />
   <project path="frameworks/native" name="frameworks_native" remote="candy" />
   <project path="tools/metalava" name="android_tools_metalava" remote="candy" />
   <project path="vendor/candy" name="vendor_candy" remote="candy" />
+
+  <project path="hardware/candy/interfaces" name="hardware_candy_interfaces" remote="candy" />
+
+  <!-- SELinux -->
+  <project path="device/candy/sepolicy" name="device_candy_sepolicy" remote="candy" />
+  <!--  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="candy" />
+  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="candy" revision="c10-legacy" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="candy" revision="c10-legacy-um" />-->
+
+
 </manifest>
