@@ -47,6 +47,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="candy" />
   <project path="tools/metalava" name="android_tools_metalava" remote="candy" />
   <project path="vendor/candy" name="vendor_candy" remote="candy" />
+  <project path="vendor/support" name="vendor_support" remote="candy"  />
 
   <project path="hardware/candy/interfaces" name="hardware_candy_interfaces" remote="candy" />
 
