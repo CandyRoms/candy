@@ -49,7 +49,11 @@
   <project path="vendor/candy" name="vendor_candy" remote="candy" />
   <project path="vendor/support" name="vendor_support" remote="candy"  />
 
+  <!-- Hardware -->
   <project path="hardware/candy/interfaces" name="hardware_candy_interfaces" remote="candy" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/tools-candy" name="prebuilts_tools-candy" clone-depth="1" remote="candy" />
 
   <!-- SELinux -->
   <project path="device/candy/sepolicy" name="device_candy_sepolicy" remote="candy" />
