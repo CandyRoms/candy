@@ -26,6 +26,7 @@
            fetch="https://github.com/CandyRoms-Staging" /> -->
 
   <!-- Our Repos -->
+  <project path="bionic" name="bionic" remote="candy" />
   <project path="candy" name="candy" remote="candy" />
   <project path="build/blueprint" name="build_blueprint" remote="candy" />
   <project path="build/make" name="build" remote="candy">
