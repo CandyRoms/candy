@@ -44,6 +44,7 @@
 
   <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="los" />
 
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="los" />
 
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" revision="lineage-18.1" remote="los" >
     <!-- Add guard for AOSP hardware/qcom dir -->
