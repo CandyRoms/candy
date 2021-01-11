@@ -57,6 +57,7 @@
   <project path="hardware/interfaces" name="hardware_interfaces" remote="candy" />
 
   <!-- Prebuilts -->
+  <project path="prebuilts/extract-tools" name="prebuilts_extract-tools" remote="candy" />
   <project path="prebuilts/tools-candy" name="prebuilts_tools-candy" clone-depth="1" remote="candy" />
 
   <!-- SELinux -->
