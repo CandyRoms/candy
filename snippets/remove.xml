@@ -10,6 +10,6 @@
 <remove-project name="platform/frameworks/native" />
 <remove-project name="platform/hardware/interfaces" />
 <remove-project name="platform/hardware/libhardware" />
+<remove-project name="platform/system/core" />
 <remove-project name="platform/tools/metalava" />
-
 </manifest>
