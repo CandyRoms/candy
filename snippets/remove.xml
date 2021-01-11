@@ -4,6 +4,7 @@
 <remove-project name="platform/build" />
 <remove-project name="platform/build/blueprint" />
 <remove-project name="platform/build/soong" />
+<remove-project name="platform/development" />
 <remove-project name="platform/frameworks/av" />
 <remove-project name="platform/frameworks/base" />
 <remove-project name="platform/frameworks/native" />

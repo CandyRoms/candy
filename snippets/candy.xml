@@ -43,6 +43,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="development" name="development" remote="candy" />
   <project path="frameworks/av" name="frameworks_av" remote="candy" />
   <project path="frameworks/base" name="frameworks_base" remote="candy" />
   <project path="frameworks/native" name="frameworks_native" remote="candy" />
