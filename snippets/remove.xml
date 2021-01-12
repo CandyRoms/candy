@@ -12,5 +12,6 @@
 <remove-project name="platform/hardware/interfaces" />
 <remove-project name="platform/hardware/libhardware" />
 <remove-project name="platform/system/core" />
+<remove-project name="platform/system/sepolicy" />
 <remove-project name="platform/tools/metalava" />
 </manifest>

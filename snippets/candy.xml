@@ -48,6 +48,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="candy" />
   <project path="frameworks/native" name="frameworks_native" remote="candy" />
   <project path="system/core" name="system_core" remote="candy" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="candy" />
   <project path="tools/metalava" name="android_tools_metalava" remote="candy" />
   <project path="vendor/candy" name="vendor_candy" remote="candy" />
   <project path="vendor/support" name="vendor_support" remote="candy"  />
