@@ -8,7 +8,7 @@
   <!-- CandyRoms Git-->
   <remote  name="candy"
            revision="refs/heads/c11"
-           fetch="https://github.com/CandyRoms-Staging" />
+           fetch="https://github.com/CandyRoms" />
 
   <!-- CandyDevices Git -->
   <remote  name="CandyDevices"
@@ -21,9 +21,9 @@
           fetch="https://gitlab.com/CandyRoms" />
 
   <!-- CandyRoms Staging -->
-  <!-- <remote  name="staging"
+  <remote  name="staging"
            revision="refs/heads/c11"
-           fetch="https://github.com/CandyRoms-Staging" /> -->
+           fetch="https://github.com/CandyRoms-Staging" />
 
   <!-- Our Repos -->
   <project path="build/blueprint" name="build_blueprint" remote="candy" />
