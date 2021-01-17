@@ -51,6 +51,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="candy" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="candy" />
   <project path="packages/apps/Settings/CandyShop" name="packages_apps_CandyShop" remote="candy" />
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="candy" />
   <project path="platform_testing" name="platform_testing" remote="candy" />
   <project path="system/core" name="system_core" remote="candy" />
   <project path="system/sepolicy" name="system_sepolicy" remote="candy" />
