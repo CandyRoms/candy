@@ -17,6 +17,7 @@
 <remove-project name="platform/hardware/interfaces" />
 <remove-project name="platform/hardware/libhardware" />
 <remove-project name="platform/packages/apps/Settings" />
+<remove-project name="platform/platform_testing" />
 <remove-project name="platform/system/core" />
 <remove-project name="platform/system/incremental_delivery" />
 <remove-project name="platform/system/libufdt" />
