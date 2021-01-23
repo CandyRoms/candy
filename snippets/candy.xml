@@ -17,7 +17,7 @@
 
   <!-- GitLab -->
   <remote name="gitlab"
-          revision="c11"
+          revision="refs/heads/c11"
           fetch="https://gitlab.com/CandyRoms" />
 
   <!-- CandyRoms Staging -->

@@ -16,6 +16,7 @@
 <remove-project name="platform/frameworks/native" />
 <remove-project name="platform/hardware/interfaces" />
 <remove-project name="platform/hardware/libhardware" />
+<remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
 <remove-project name="platform/packages/apps/Settings" />
 <remove-project name="platform/platform_testing" />
 <remove-project name="platform/system/core" />

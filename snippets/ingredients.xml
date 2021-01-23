@@ -38,8 +38,8 @@
     <!-- Add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- For AOSP sdm845/sm8150, we override os_pickup.mk -->
-    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
+    <!--<linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />-->
+    <!--<linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />-->
     <!-- Add guards for CAF repositories -->
     <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" /> -->
     <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" /> -->
@@ -62,13 +62,18 @@
   </project>
 
   <!-- Platform HALs -->
-  <project name="android_hardware_qcom_bt" path="hardware/qcom-caf/bt" remote="los" revision="lineage-18.1-caf" />
+
   <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sdm845/audio" remote="los" revision="lineage-18.1-caf-sdm845" />
   <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sdm845/display" remote="los" revision="lineage-18.1-caf-sdm845" />
   <project name="android_hardware_qcom_media" path="hardware/qcom-caf/sdm845/media" remote="los" revision="lineage-18.1-caf-sdm845" />
+
   <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sm8150/audio" remote="los" revision="lineage-18.1-caf-sm8150" />
   <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="los" revision="lineage-18.1-caf-sm8150" />
   <project name="android_hardware_qcom_media" path="hardware/qcom-caf/sm8150/media" remote="los" revision="lineage-18.1-caf-sm8150" />
+
+  <!-- Common HALs -->
+  <project name="android_hardware_qcom_bt" path="hardware/qcom-caf/bt" remote="los" revision="lineage-18.1-caf" />
+  <project name="android_hardware_qcom_data_ipacfg-mgr" path="android/hardware/qcom/sm8150/data/ipacfg-mgr" remote="los" />
   <project name="android_hardware_qcom_thermal" path="hardware/qcom-caf/thermal" remote="los" />
   <project name="android_hardware_qcom_vr" path="hardware/qcom-caf/vr" remote="los" />
   <project name="android_hardware_qcom_wlan" path="hardware/qcom-caf/wlan" remote="los" groups="qcom_wlan,pdk-qcom" revision="lineage-18.1-caf" />
