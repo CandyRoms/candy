@@ -65,6 +65,8 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/extract-tools" name="prebuilts_extract-tools" remote="candy" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="candy" />
+
   <project path="prebuilts/tools-candy" name="prebuilts_tools-candy" clone-depth="1" remote="candy" />
 
   <!-- SELinux -->
