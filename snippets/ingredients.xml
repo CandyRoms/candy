@@ -86,6 +86,9 @@
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="los" revision="lineage-18.1-legacy-um" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="los" />
 
+  <!-- Packages -->
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="los" />
+
   <!-- System -->
   <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="los" />
   <project path="system/libufdt" name="android_system_libufdt" remote="los" />
