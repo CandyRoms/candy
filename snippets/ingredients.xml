@@ -72,8 +72,8 @@
   <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sm8150/audio" remote="los" revision="lineage-18.1-caf-sm8150" />
   <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="los" revision="lineage-18.1-caf-sm8150" />
   <project name="android_hardware_qcom_media" path="hardware/qcom-caf/sm8150/media" remote="los" revision="lineage-18.1-caf-sm8150" />
-  <project name="android_hardware_qcom_sm8150_data_ipacfg-mgr" path="hardware/qcom/sm8150/data/ipacfg-mgr" remote="los" />
-  <project name="android_hardware_qcom_sm8150_display" path="hardware/qcom/sm8150/display" remote="los" />
+  <!-- <project name="android_hardware_qcom_sm8150_data_ipacfg-mgr" path="hardware/qcom/sm8150/data/ipacfg-mgr" remote="los" />
+  <project name="android_hardware_qcom_sm8150_display" path="hardware/qcom/sm8150/display" remote="los" /> -->
 
   <!-- Common HALs -->
   <project name="android_hardware_qcom_bt" path="hardware/qcom-caf/bt" remote="los" revision="lineage-18.1-caf" />
@@ -106,8 +106,6 @@
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="los" />
   <project path="vendor/nxp/opensource/pn5xx/halimpl" name="android_vendor_nxp_opensource_halimpl" revision="lineage-18.1-pn5xx" remote="los" />
   <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" revision="lineage-18.1-pn5xx" remote="los" />
-  <!--<project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" revision="lineage-18.1-sn100x" remote="los" />
-  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" revision="lineage-18.1-sn100x" remote="los" />-->
 
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="los" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="los" />
