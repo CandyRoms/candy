@@ -25,6 +25,12 @@ Then sync up with this command:
 Additional flags which you can append to speedup the sync process are:
 
     repo sync --force-sync -c --no-tags --no-clone-bundle --optimized-fetch --prune -j$(nproc)
+    
+To make Candy:
+
+    source build/envsetup.sh
+    lunch candy_device-userdebug
+    make candy
 
 Submitting Patches
 ------------------
