@@ -46,6 +46,7 @@
   <project path="bootable/recovery" name="bootable_recovery" remote="candy" />
   <project path="candy" name="candy" remote="candy" />
   <project path="development" name="development" remote="candy" />
+  <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="candy" />
   <project path="frameworks/av" name="frameworks_av" remote="candy" />
   <project path="frameworks/base" name="frameworks_base" remote="candy" />
   <project path="frameworks/native" name="frameworks_native" remote="candy" />
