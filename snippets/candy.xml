@@ -68,6 +68,7 @@
 
   <!-- Hardware -->
   <project path="hardware/candy/interfaces" name="hardware_candy_interfaces" remote="candy" />
+  <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" remote="candy" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="candy" />
 
   <!-- Prebuilts -->
