@@ -41,6 +41,7 @@
   <remove-project name="device/google/fuchsia" />
   <remove-project name="device/google/redbull" />
   <remove-project name="device/google/redbull-sepolicy" />
+  <remove-project name="device/google/redfin-kernel" />
   <remove-project name="device/google/trout" />
   <remove-project name="device/google/vrservices" />
   <remove-project name="device/google_car" />
