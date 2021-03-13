@@ -54,6 +54,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="candy" />
   <project path="packages/apps/Settings/CandyShop" name="packages_apps_CandyShop" remote="candy" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="candy" />
+  <project path="packages/apps/Snap" name="packages_apps_Snap" remote="candy" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="candy" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="candy" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="candy" />
