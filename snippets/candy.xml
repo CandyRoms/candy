@@ -50,10 +50,12 @@
   <project path="frameworks/av" name="frameworks_av" remote="candy" />
   <project path="frameworks/base" name="frameworks_base" remote="candy" />
   <project path="frameworks/native" name="frameworks_native" remote="candy" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="candy" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="candy" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="candy" />
+  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="candy" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="candy" />
   <project path="packages/apps/Settings/CandyShop" name="packages_apps_CandyShop" remote="candy" />
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="candy" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" remote="candy" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="candy" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="candy" />
