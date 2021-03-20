@@ -36,7 +36,6 @@
   <project path="external/vim" name="android_external_vim" remote="los" />
   <project path="external/zip" name="android_external_zip" remote="los" />
 
-
   <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="los" />
 
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="los" />
@@ -77,20 +76,11 @@
   <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sm8150/audio" remote="los" revision="lineage-18.1-caf-sm8150" />
   <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="los" revision="lineage-18.1-caf-sm8150" />
   <project name="android_hardware_qcom_media" path="hardware/qcom-caf/sm8150/media" remote="los" revision="lineage-18.1-caf-sm8150" />
-  <!-- <project name="android_hardware_qcom_sm8150_data_ipacfg-mgr" path="hardware/qcom/sm8150/data/ipacfg-mgr" remote="los" />
-  <project name="android_hardware_qcom_sm8150_display" path="hardware/qcom/sm8150/display" remote="los" /> -->
 
   <!-- Common HALs -->
   <project name="android_hardware_qcom_bt" path="hardware/qcom-caf/bt" remote="los" revision="lineage-18.1-caf" />
   <project name="android_hardware_qcom_thermal" path="hardware/qcom-caf/thermal" remote="los" />
   <project name="android_hardware_qcom_vr" path="hardware/qcom-caf/vr" remote="los" />
-  <project name="android_hardware_qcom_wlan" path="hardware/qcom-caf/wlan" remote="los" groups="qcom_wlan,pdk-qcom" revision="lineage-18.1-caf" />
-
-  <!-- SELinux -->
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="los" />
-  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" remote="los" revision="lineage-18.1-legacy" />
-  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="los" revision="lineage-18.1-legacy-um" />
-  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="los" />
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="los" />

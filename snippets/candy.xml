@@ -25,7 +25,10 @@
            revision="refs/heads/c11"
            fetch="https://github.com/CandyRoms-Staging" />
 
-  <!-- Our Repos -->
+  <!-- Candy Repos -->
+  <project path="art" name="art" remote="candy" />
+  <project path="bionic" name="bionic" remote="candy" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="candy" />
   <project path="build/blueprint" name="build_blueprint" remote="candy" />
   <project path="build/make" name="build" remote="candy">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -40,19 +43,30 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-
-  <project path="art" name="art" remote="candy" />
-  <project path="bionic" name="bionic" remote="candy" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="candy" />
   <project path="candy" name="candy" remote="candy" />
   <project path="development" name="development" remote="candy" />
+
+  <project path="device/candy/sepolicy" name="device_candy_sepolicy" remote="candy" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="candy" />
+  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" remote="candy" revision="c11-legacy" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="candy" revision="c11-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="candy" />
+
   <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="candy" />
   <project path="external/pulse" name="external_pulse" remote="candy" />
+
   <project path="frameworks/av" name="frameworks_av" remote="candy" />
   <project path="frameworks/base" name="frameworks_base" remote="candy" />
   <project path="frameworks/native" name="frameworks_native" remote="candy" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="candy" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="candy" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="candy" />
+
+  <project path="hardware/candy/interfaces" name="hardware_candy_interfaces" remote="candy" />
+  <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" remote="candy" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="candy" />
+  <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" remote="candy" revision="c11-caf" />
+
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="candy" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="candy" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="candy" />
@@ -64,30 +78,20 @@
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="candy" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="candy" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="candy" />
+
   <project path="platform_testing" name="platform_testing" remote="candy" />
+
+  <project path="prebuilts/extract-tools" name="prebuilts_extract-tools" remote="candy" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="candy" />
+  <project path="prebuilts/tools-candy" name="prebuilts_tools-candy" clone-depth="1" remote="candy" />
+
   <project path="system/core" name="system_core" remote="candy" />
   <project path="system/sepolicy" name="system_sepolicy" remote="candy" />
   <project path="system/update_engine" name="system_update_engine" remote="candy" />
+
   <project path="tools/metalava" name="tools_metalava" remote="candy" />
+
   <project path="vendor/candy" name="vendor_candy" remote="candy" />
   <project path="vendor/support" name="vendor_support" remote="candy"  />
-
-  <!-- Hardware -->
-  <project path="hardware/candy/interfaces" name="hardware_candy_interfaces" remote="candy" />
-  <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" remote="candy" />
-  <project path="hardware/interfaces" name="hardware_interfaces" remote="candy" />
-
-  <!-- Prebuilts -->
-  <project path="prebuilts/extract-tools" name="prebuilts_extract-tools" remote="candy" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="candy" />
-
-  <project path="prebuilts/tools-candy" name="prebuilts_tools-candy" clone-depth="1" remote="candy" />
-
-  <!-- SELinux -->
-  <project path="device/candy/sepolicy" name="device_candy_sepolicy" remote="candy" />
-  <!--  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="candy" />
-  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="candy" revision="c10-legacy" />
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="candy" revision="c10-legacy-um" />-->
-
 
 </manifest>
