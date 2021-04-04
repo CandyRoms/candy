@@ -87,6 +87,7 @@
   <project path="prebuilts/tools-candy" name="prebuilts_tools-candy" clone-depth="1" remote="candy" />
 
   <project path="system/core" name="system_core" remote="candy" />
+  <project path="system/netd" name="system_netd" remote="candy" />
   <project path="system/sepolicy" name="system_sepolicy" remote="candy" />
   <project path="system/update_engine" name="system_update_engine" remote="candy" />
 
