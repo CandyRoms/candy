@@ -75,6 +75,7 @@
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/ti/am57x" />
   <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/PhoneCommon" />
