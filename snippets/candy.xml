@@ -93,6 +93,7 @@
   <project path="system/security" name="system_security" remote="candy" />
   <project path="system/sepolicy" name="system_sepolicy" remote="candy" />
   <project path="system/update_engine" name="system_update_engine" remote="candy" />
+  <project path="system/vold" name="system_vold" remote="candy" />
 
   <project path="tools/metalava" name="tools_metalava" remote="candy" />
 
