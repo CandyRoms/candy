@@ -53,6 +53,7 @@
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="candy" revision="c11" />
 
   <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="candy" />
+  <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="candy" />
   <project path="external/faceunlock" name="external_faceunlock" remote="gitlab" />
   <project path="external/pulse" name="external_pulse" remote="candy" />
 
