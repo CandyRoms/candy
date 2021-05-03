@@ -53,6 +53,7 @@
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="candy" revision="c11" />
 
   <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="candy" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="gitlab" />
   <project path="external/pulse" name="external_pulse" remote="candy" />
 
   <project path="frameworks/av" name="frameworks_av" remote="candy" />
@@ -68,6 +69,7 @@
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" remote="candy" revision="c11-caf" />
 
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="candy" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="gitlab" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="candy" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="candy" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="candy" />
