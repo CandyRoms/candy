@@ -81,6 +81,7 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="candy" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="candy" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="candy" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="candy" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="candy" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="candy" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="candy" />
