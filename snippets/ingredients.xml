@@ -87,7 +87,7 @@
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="los" />
 
   <!-- Prebuilts -->
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="kdrag0n/clang-proton" remote="github" revision="master" clone-depth="1" />
 
   <!-- System -->
   <project path="system/bt" name="android_system_bt" remote="los" />
